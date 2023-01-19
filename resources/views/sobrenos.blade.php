@@ -69,18 +69,22 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <div class="rd-navbar-brand">
-                                    <!--Brand--><a class="brand" href="/"><img src="img/home/7onda-logo.png" alt=""
-                                            width="112.5" height="9" /></a>
-                                </div>
+
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">
                                     <li>
                                         <div class="unit unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon fa fa-map-marker "></span></div>
+                                            <div class="unit-body"><a class="link-phone">Praia dos Pescadores, 8365-114
+                                                    Armação de Pêra</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                             <div class="unit-body">
-                                                <p>david.g.leal00@gmail.com</p>
+                                                <p>info@setimaondaboattrips.com</p>
                                             </div>
                                         </div>
                                     </li>
@@ -91,8 +95,7 @@
                                                     href="tel:+351 926 461 342">+351 926 461 342</a></div>
                                         </div>
                                     </li>
-                                </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Book
-                                    now</a>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -100,13 +103,17 @@
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
                                     <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
+
                                 </ul>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
+                                    <div class="rd-nav-item">
+                                        <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
+                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                    </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">About</a>
@@ -384,61 +391,9 @@
                 </div>
             </div>
         </section>
-        <!-- What people Say-->
-        <section class="section section-sm section-last bg-default">
-            <div class="container">
-                <h3>What People Say</h3>
-                <!-- Owl Carousel-->
-                <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30"
-                    data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-16-100x100.jpg" alt="" width="100" height="100" /></a>
-                            <div class="quote-lisa-text">
-                                <p class="q">Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Diam phasellus
-                                    vestibulum lorem sed risus ultricies. Aenean et tortor at risus viverra adipiscing.
-                                    Aliquet enim tortor at auctor urna. Tortor aliquam nulla facilisi cras fermentum.
-                                    Malesuada pellentesque elit eget gravida cum sociis natoque.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Catherine Williams</a></h5>
-                            <p class="quote-lisa-status">Regular Client</p>
-                        </div>
-                    </article>
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-17-100x100.jpg" alt="" width="100" height="100" /></a>
-                            <div class="quote-lisa-text">
-                                <p class="q">Sodales ut etiam sit amet nisl purus. Maecenas accumsan lacus vel facilisis
-                                    volutpat est. Suscipit adipiscing bibendum est ultricies integer quis auctor.
-                                    Viverra aliquet eget sit amet tellus cras adipiscing. Posuere ac ut consequat semper
-                                    viverra nam libero justo laoreet. Iaculis eu non diam phasellus vestibulum lorem sed
-                                    risus ultricies.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Rupert Wood</a></h5>
-                            <p class="quote-lisa-status">Regular Client</p>
-                        </div>
-                    </article>
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-18-100x100.jpg" alt="" width="100" height="100" /></a>
-                            <div class="quote-lisa-text">
-                                <p class="q">Lacus vestibulum sed arcu non odio euismod lacinia. Pellentesque elit
-                                    ullamcorper dignissim cras. Ultrices eros in cursus turpis massa tincidunt dui. Nunc
-                                    pulvinar sapien et ligula ullamcorper malesuada proin. Commodo odio aenean sed
-                                    adipiscing diam. Sed euismod nisi porta lorem mollis aliquam.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Samantha Brown</a></h5>
-                            <p class="quote-lisa-status">Regular Client</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+      
         <!--Counters-->
-        <!-- Counter Classic-->
+        <!-- Counter Classic
         <section class="section section-fluid bg-default">
             <div class="parallax-container" data-parallax-img="images/bg-counter-2.jpg">
                 <div class="parallax-content section-xl context-dark bg-overlay-26">
@@ -478,7 +433,7 @@
                 </div>
             </div>
         </section>
-
+-->
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">

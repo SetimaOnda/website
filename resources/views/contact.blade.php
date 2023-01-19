@@ -70,18 +70,22 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <div class="rd-navbar-brand">
-                                    <!--Brand--><a class="brand" href="index.html"><img src="img/home/7onda-logo.png"
-                                            alt="" width="112.5" height="9" /></a>
-                                </div>
+
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">
                                     <li>
                                         <div class="unit unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon fa fa-map-marker "></span></div>
+                                            <div class="unit-body"><a class="link-phone">Praia dos Pescadores, 8365-114
+                                                    Armação de Pêra</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                             <div class="unit-body">
-                                                <p>david.g.leal00@gmail.com</p>
+                                                <p>info@setimaondaboattrips.com</p>
                                             </div>
                                         </div>
                                     </li>
@@ -92,8 +96,7 @@
                                                     href="tel:+351 926 461 342">+351 926 461 342</a></div>
                                         </div>
                                     </li>
-                                </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Book
-                                    now</a>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -101,13 +104,17 @@
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
                                     <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
+
                                 </ul>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
+                                    <div class="rd-nav-item">
+                                        <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
+                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                    </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
@@ -120,7 +127,7 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="tours">Tradicional Benagil Cave</a></li>
+                                                    href="/tours">Tradicional Benagil Cave</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
                                                     href="#">Private Benagil Cave</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
@@ -129,11 +136,6 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
-                                    <style>
-                                    ul.nav li.dropdown:hover ul.dropdown-menu {
-                                        display: block;
-                                    }
-                                    </style>
                                     <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
@@ -174,7 +176,8 @@
                             <div class="box-contacts-body">
                                 <div class="box-contacts-icon fa-envelope-o"></div>
                                 <div class="box-contacts-decor"></div>
-                                <p class="box-contacts-link"><a href="mailto:info@setimaonda.com">info@setimaonda.com</a></p>
+                                <p class="box-contacts-link"><a
+                                        href="mailto:info@setimaonda.com">info@setimaonda.com</a></p>
                             </div>
                         </article>
                     </div>
