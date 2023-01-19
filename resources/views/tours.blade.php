@@ -70,18 +70,22 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <div class="rd-navbar-brand">
-                                    <!--Brand--><a class="brand" href="index.html"><img src="img/home/7onda-logo.png"
-                                            alt="" width="112.5" height="9" /></a>
-                                </div>
+
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">
                                     <li>
                                         <div class="unit unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon fa fa-map-marker "></span></div>
+                                            <div class="unit-body"><a class="link-phone">Praia dos Pescadores, 8365-114
+                                                    Armação de Pêra</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                             <div class="unit-body">
-                                                <p>david.g.leal00@gmail.com</p>
+                                                <p>info@setimaondaboattrips.com</p>
                                             </div>
                                         </div>
                                     </li>
@@ -92,8 +96,7 @@
                                                     href="tel:+351 926 461 342">+351 926 461 342</a></div>
                                         </div>
                                     </li>
-                                </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Book
-                                    now</a>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -101,18 +104,22 @@
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
                                     <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
+
                                 </ul>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
+                                    <div class="rd-nav-item">
+                                        <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
+                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                    </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
                                     </li>
-                                    <li class="rd-nav-item dropdown active">
+                                    <li class="rd-nav-item active dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Tours
@@ -120,7 +127,7 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Tradicional Benagil Cave</a></li>
+                                                    href="/tours">Tradicional Benagil Cave</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
                                                     href="#">Private Benagil Cave</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
@@ -129,11 +136,6 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
-                                    <style>
-                                    ul.nav li.dropdown:hover ul.dropdown-menu {
-                                        display: block;
-                                    }
-                                    </style>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
@@ -225,7 +227,7 @@
 
 
         <!-- Why choose us-->
-        <section class="section section-sm section-first bg-default text-md-left">
+        <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
                     <div class="col-md-10 col-lg-5 col-xl-6"><img src="img/benagil3.png" alt="" width="519"
@@ -239,9 +241,9 @@
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
                                         data-toggle="tab">Included</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2"
+                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link" href="#tabs-4-2"
                                         data-toggle="tab">OTHER THINGS TO NOTE</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3"
+                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link" href="#tabs-4-3"
                                         data-toggle="tab">CONDITIONS</a></li>
                             </ul>
                             <!-- Tab panes-->
@@ -370,9 +372,10 @@
             </div>
         </section>
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728.816993318273!2d-8.370378814550111!3d37.10025527820381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ad170452385d5%3A0x45d5823c5ee6bde2!2zUHJhaWEgZGUgQXJtYcOnw6NvIGRlIFDDqnJh!5e0!3m2!1spt-PT!2spt!4v1673324876577!5m2!1spt-PT!2spt"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.1862751680337!2d-8.359489484743065!3d37.10068315842714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ad16db0fe8341%3A0x1d8ef3c2656c86c0!2sBarcos%20S%C3%A9tima%20Onda!5e0!3m2!1spt-PT!2spt!4v1674148492448!5m2!1spt-PT!2spt"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">

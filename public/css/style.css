@@ -10135,9 +10135,23 @@ h5 + .list-popular-product {
 	width: 100%;
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: 8%;
+	bottom: 70%;
 	color: #ffffff;
 	letter-spacing: normal;
+	background-color: rgba(128,128,128,0.5);
+    border-radius: 15px;
+}
+.cta-box-wrap .list-marked-2 li .box-categories-button {
+	position: absolute;
+	font-weight: 700;
+	max-width: 94%;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 6%;
+	color: #ffffff;
+	letter-spacing: normal;
+
 }
 
 @media (min-width: 1200px) {
@@ -16832,7 +16846,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-creative-2.rd-navbar-static .rd-navbar-aside-outer {
-	color: #ffffff;
+	color: #162e44;
 	background: #303233;
 }
 
@@ -17031,6 +17045,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
+	background-color:#162e44;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside,
@@ -17075,7 +17090,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #ffffff;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -17140,7 +17155,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-nav-item.active .rd-nav-link {
-	color: #ffffff;
+	color: #01b3a7;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-nav-item.active .rd-nav-link::before {
@@ -17156,7 +17171,7 @@ html.rd-navbar-fixed-linked .page {
 	font-size: 16px;
 	letter-spacing: .05em;
 	font-family: "Montserrat", sans-serif, Arial, sans-serif;
-	color: #ffffff;
+	color: #01b3a7;
 	z-index: 1;
 }
 
@@ -17177,7 +17192,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-nav-link:hover {
-	color: #ffffff;
+	color: rgba(1,179,167,0.5);
 	background: rgba(255, 255, 255, 0.11);
 	transition: all ease 0.35s;
 }
@@ -17232,7 +17247,7 @@ html.rd-navbar-fixed-linked .page {
 	font-family: "Montserrat", sans-serif, Arial, sans-serif;
 	text-transform: uppercase;
 	max-width: 100%;
-	color: #151515;
+	color: #ffffff;
 	flex: 0 0 auto;
 }
 
@@ -17263,7 +17278,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate-contacts a, .rd-navbar-corporate-contacts a:focus, .rd-navbar-corporate-contacts a:active {
-	color: #151515;
+	color: #ffffff;
 }
 
 .rd-navbar-corporate-contacts a:hover {
@@ -19742,7 +19757,7 @@ h1 + .tabs-line {
 		border: 1px solid #e1e1e1;
 	}
 	.tabs-horizontal.tabs-line .nav-tabs {
-		justify-content: space-between;
+		justify-content: unset;
 		border-bottom: 3px solid #e1e1e1;
 	}
 	.tabs-horizontal.tabs-line .nav-item {

@@ -70,18 +70,22 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <div class="rd-navbar-brand">
-                                    <!--Brand--><a class="brand" href="/"><img src="img/home/7onda-logo.png"
-                                            alt="" width="112.5" height="9" /></a>
-                                </div>
+
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">
                                     <li>
                                         <div class="unit unit-spacing-xs">
+                                            <div class="unit-left"><span class="icon fa fa-map-marker "></span></div>
+                                            <div class="unit-body"><a class="link-phone">Praia dos Pescadores, 8365-114
+                                                    Armação de Pêra</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                             <div class="unit-body">
-                                                <p>david.g.leal00@gmail.com</p>
+                                                <p>info@setimaondaboattrips.com</p>
                                             </div>
                                         </div>
                                     </li>
@@ -92,8 +96,7 @@
                                                     href="tel:+351 926 461 342">+351 926 461 342</a></div>
                                         </div>
                                     </li>
-                                </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Book
-                                    now</a>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -101,13 +104,17 @@
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
                                     <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
+
                                 </ul>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
+                                    <div class="rd-nav-item">
+                                        <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
+                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                    </div>
                                     <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
@@ -204,13 +211,19 @@
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
+                                        <a class="box-categories-button button button-default-outline button-ujarak"
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                            now</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/home/tour2.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour</h5>
+                                        <a class="box-categories-button button button-default-outline button-ujarak"
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                            now</a>
                                     </li>
                                 </ul>
                             </div>
@@ -218,14 +231,19 @@
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Sunset Benagil Cave Tour</h5>
+                                        <a class="box-categories-button button button-default-outline button-ujarak"
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                            now</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368"
-                                                height="420" /></a>
+                                    <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="568" /></a>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
+                                        <a class="box-categories-button button button-default-outline button-ujarak"
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                            now</a>
                                     </li>
                                 </ul>
                             </div>
@@ -252,10 +270,11 @@
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
                                             data-toggle="tab">About us</a></li>
-                                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2"
-                                            data-toggle="tab">Why choose us</a></li>
-                                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3"
-                                            data-toggle="tab">Our mission</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link"
+                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">Our
+                                            Philosphy</a></li>
+
+
                                 </ul>
                                 <!-- Tab panes-->
                                 <div class="tab-content">
@@ -279,16 +298,7 @@
                                                 class="button button-black-outline button-md" href="about.html">Read
                                                 More</a></div>
                                     </div>
-                                    <div class="tab-pane fade" id="tabs-7-3">
-                                        <p>Our mission is to provide the ultimate travel planning experience while
-                                            becoming a one-stop shop for every travel service available in the industry.
-                                        </p>
-                                        <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Read
-                                                More</a></div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -296,149 +306,22 @@
                 </div>
             </div>
         </section>
-        <!--	Our Services-->
-        <section class="section section-sm">
-            <div class="container">
-                <h3>Our Services</h3>
-                <div class="row row-30">
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-equalization3"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">Personalized Matching</a></h5>
-                                    <p class="box-icon-classic-text">Our unique matching system lets you find just the
-                                        tour you want for your next holiday.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-circular220"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">Wide Variety of Tours</a></h5>
-                                    <p class="box-icon-classic-text">We offer a wide variety of personally picked tours
-                                        with destinations all over the globe.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-favourites5"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">Highly Qualified Service</a></h5>
-                                    <p class="box-icon-classic-text">Our tour managers are qualified, skilled, and
-                                        friendly to bring you the best service.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-headphones32"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">24/7 Support</a></h5>
-                                    <p class="box-icon-classic-text">You can always get professional support from our
-                                        staff 24/7 and ask any question you have.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-hot67"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">Handpicked Boats</a></h5>
-                                    <p class="box-icon-classic-text">Our team offers only the best selection of
-                                        affordable and boats to our clients.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <article class="box-icon-classic">
-                            <div
-                                class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                                <div class="unit-left">
-                                    <div class="box-icon-classic-icon fl-bigmug-line-wallet26"></div>
-                                </div>
-                                <div class="unit-body">
-                                    <h5 class="box-icon-classic-title"><a href="#">Best Price Guarantee</a></h5>
-                                    <p class="box-icon-classic-text">If you find tours that are cheaper than ours, we
-                                        will compensate the difference.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- Hot tours-->
         <section class="section section-sm bg-default">
             <div class="container">
                 <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tours</span></h3>
                 <div class="row row-sm row-40 row-md-50">
-                    <div class="col-sm-6 col-md-12 wow fadeInRight">
-                        <!-- Product Big-->
-                        <article class="product-big">
-                            <div class="unit flex-column flex-md-row align-items-md-stretch">
-                                <div class="unit-left"><a class="product-big-figure" href="#"><img
-                                            src="images/product-big-1-600x366.jpg" alt="" width="600"
-                                            height="366" /></a></div>
-                                <div class="unit-body">
-                                    <div class="product-big-body">
-                                        <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
-                                        <div class="group-sm group-middle justify-content-start">
-                                            <div class="product-big-rating"><span
-                                                    class="icon material-icons-star"></span><span
-                                                    class="icon material-icons-star"></span><span
-                                                    class="icon material-icons-star"></span><span
-                                                    class="icon material-icons-star"></span><span
-                                                    class="icon material-icons-star_half"></span></div><a
-                                                class="product-big-reviews" href="#">4 customer reviews</a>
-                                        </div>
-                                        <p class="product-big-text">Benidorm is a buzzing resort with a big reputation
-                                            for beach holidays. Situated in sunny Costa Blanca, the town is one of the
-                                            original Spanish beach resorts...</p><a
-                                            class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                                        <div class="product-big-price-wrap"><span class="product-big-price">$790</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+
                     <div class="col-sm-6 col-md-12 wow fadeInLeft">
                         <!-- Product Big-->
                         <article class="product-big">
                             <div class="unit flex-column flex-md-row align-items-md-stretch">
                                 <div class="unit-left"><a class="product-big-figure" href="#"><img
-                                            src="images/product-big-2-600x366.jpg" alt="" width="600"
-                                            height="366" /></a></div>
+                                            src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
                                 <div class="unit-body">
                                     <div class="product-big-body">
-                                        <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
+                                        <h5 class="product-big-title"><a href="#">Private Cave Tour Special</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <div class="product-big-rating"><span
                                                     class="icon material-icons-star"></span><span
@@ -452,7 +335,7 @@
                                             Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari.
                                             Indulge in the delightful scents of the fragrant...</p><a
                                             class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                                        <div class="product-big-price-wrap"><span class="product-big-price">$890</span>
+                                        <div class="product-big-price-wrap"><span class="product-big-price">€350</span>
                                         </div>
                                     </div>
                                 </div>
@@ -462,103 +345,7 @@
                 </div>
             </div>
         </section>
-        <!-- Different People-->
-        <!--<section class="section section-sm">
-            <div class="container">
-                <h3 class="title-block find-car oh"><span class="d-inline-block wow slideInUp">Different People — One
-                        Mission</span></h3>
-                <div class="row row-30 justify-content-center box-ordered">
-                    <div class="col-sm-6 col-md-5 col-lg-3">
-                    
-                        <article class="team-modern">
-                            <div class="team-modern-header"><a class="team-modern-figure" href="#"><img
-                                        class="img-circles" src="images/user-1-118x118.jpg" alt="" width="118"
-                                        height="118" /></a>
-                                <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70"
-                                    enable-background="new 0 0 270 70" xml:space="preserve">
-                                    <g>
-                                        <path fill="#161616"
-                                            d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
-                                        </path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="team-modern-caption">
-                                <h6 class="team-modern-name"><a href="#">Diana Robinson</a></h6>
-                                <p class="team-modern-status">Founder, Owner</p>
-                                <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-3">
-                     
-                        <article class="team-modern">
-                            <div class="team-modern-header"><a class="team-modern-figure" href="#"><img
-                                        class="img-circles" src="images/user-2-118x118.jpg" alt="" width="118"
-                                        height="118" /></a>
-                                <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70"
-                                    enable-background="new 0 0 270 70" xml:space="preserve">
-                                    <g>
-                                        <path fill="#161616"
-                                            d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
-                                        </path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="team-modern-caption">
-                                <h6 class="team-modern-name"><a href="#">Peter McMillan</a></h6>
-                                <p class="team-modern-status">Travel Agent</p>
-                                <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-3">
-                  
-                        <article class="team-modern">
-                            <div class="team-modern-header"><a class="team-modern-figure" href="#"><img
-                                        class="img-circles" src="images/user-3-118x118.jpg" alt="" width="118"
-                                        height="118" /></a>
-                                <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70"
-                                    enable-background="new 0 0 270 70" xml:space="preserve">
-                                    <g>
-                                        <path fill="#161616"
-                                            d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
-                                        </path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="team-modern-caption">
-                                <h6 class="team-modern-name"><a href="#">Jill Peterson</a></h6>
-                                <p class="team-modern-status">Tour Consultant</p>
-                                <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-3">
-                 
-                        <article class="team-modern">
-                            <div class="team-modern-header"><a class="team-modern-figure" href="#"><img
-                                        class="img-circles" src="images/user-4-118x118.jpg" alt="" width="118"
-                                        height="118" /></a>
-                                <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70"
-                                    enable-background="new 0 0 270 70" xml:space="preserve">
-                                    <g>
-                                        <path fill="#161616"
-                                            d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
-                                        </path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="team-modern-caption">
-                                <h6 class="team-modern-name"><a href="#">James Smith</a></h6>
-                                <p class="team-modern-status">PR Manager</p>
-                                <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>-->
+
         <!-- Section Subscribe-->
         <section class="section bg-default text-center offset-top-50">
             <div class="parallax-container" data-parallax-img="img/home/foto2.jpeg">
@@ -676,6 +463,61 @@
             });
             </script>
         </section>
+
+        <!-- What people Say-->
+        <section class="section section-sm section-last bg-default">
+            <div class="container">
+                <h3>What People Say</h3>
+                <!-- Owl Carousel-->
+                <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30"
+                    data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
+                    <!-- Quote Lisa-->
+                    <article class="quote-lisa">
+                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
+                                    src="images/user-16-100x100.jpg" alt="" width="100" height="100" /></a>
+                            <div class="quote-lisa-text">
+                                <p class="q">Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Diam phasellus
+                                    vestibulum lorem sed risus ultricies. Aenean et tortor at risus viverra adipiscing.
+                                    Aliquet enim tortor at auctor urna. Tortor aliquam nulla facilisi cras fermentum.
+                                    Malesuada pellentesque elit eget gravida cum sociis natoque.</p>
+                            </div>
+                            <h5 class="quote-lisa-cite"><a href="#">Catherine Williams</a></h5>
+                            <p class="quote-lisa-status">Regular Client</p>
+                        </div>
+                    </article>
+                    <!-- Quote Lisa-->
+                    <article class="quote-lisa">
+                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
+                                    src="images/user-17-100x100.jpg" alt="" width="100" height="100" /></a>
+                            <div class="quote-lisa-text">
+                                <p class="q">Sodales ut etiam sit amet nisl purus. Maecenas accumsan lacus vel facilisis
+                                    volutpat est. Suscipit adipiscing bibendum est ultricies integer quis auctor.
+                                    Viverra aliquet eget sit amet tellus cras adipiscing. Posuere ac ut consequat semper
+                                    viverra nam libero justo laoreet. Iaculis eu non diam phasellus vestibulum lorem sed
+                                    risus ultricies.</p>
+                            </div>
+                            <h5 class="quote-lisa-cite"><a href="#">Rupert Wood</a></h5>
+                            <p class="quote-lisa-status">Regular Client</p>
+                        </div>
+                    </article>
+                    <!-- Quote Lisa-->
+                    <article class="quote-lisa">
+                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
+                                    src="images/user-18-100x100.jpg" alt="" width="100" height="100" /></a>
+                            <div class="quote-lisa-text">
+                                <p class="q">Lacus vestibulum sed arcu non odio euismod lacinia. Pellentesque elit
+                                    ullamcorper dignissim cras. Ultrices eros in cursus turpis massa tincidunt dui. Nunc
+                                    pulvinar sapien et ligula ullamcorper malesuada proin. Commodo odio aenean sed
+                                    adipiscing diam. Sed euismod nisi porta lorem mollis aliquam.</p>
+                            </div>
+                            <h5 class="quote-lisa-cite"><a href="#">Samantha Brown</a></h5>
+                            <p class="quote-lisa-status">Regular Client</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
         <!--	Instagrram wondertour-->
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
