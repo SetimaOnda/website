@@ -3655,19 +3655,19 @@ hr {
 }
 
 .button-default-outline, .button-default-outline:focus {
-	color: #ffffff;
+
 	background-color: transparent;
-	border-color: #ffffff;
+
 }
 
 .button-default-outline:hover, .button-default-outline:active {
 	color: #ffffff;
-	background-color: #50ba87;
-	border-color: #50ba87;
+	background-color: #01b3a7;
+	border-color: #01b3a7;
 }
 
 .button-default-outline.button-ujarak::before {
-	background: #50ba87;
+	
 }
 
 .button-default-outline.button-pipaluk, .button-default-outline.button-pipaluk:focus {
@@ -4053,7 +4053,7 @@ hr {
 	left: 0;
 	width: 101%;
 	height: 101%;
-	background: #50ba87;
+	background: #27beb4;
 	z-index: -1;
 	opacity: 0;
 	transform: scale3d(0.7, 1, 1);
@@ -15132,12 +15132,12 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-collapse {
-	background-color: #ffffff;
+	background-color: #162e44;
 	box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
 .rd-navbar-fixed .rd-navbar-collapse {
-	color: #151515;
+	color: #000000;
 }
 
 html.rd-navbar-fixed-linked .page {
@@ -17056,9 +17056,6 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	font-size: 12px;
 	line-height: 2;
 	font-weight: 500;
@@ -17178,12 +17175,12 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-nav-link::before {
 	position: absolute;
 	content: '';
-	top: 0;
+	bottom: 0;
 	left: 0;
 	height: 0;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.11);
-	border-top: 3px solid #01b3a7;
+	border-bottom: 3px solid #01b3a7;
 	transform: translate3d(-100%, 0, 0);
 	transition: all 0.35s cubic-bezier(0.05, 0.29, 0.11, 1.54), height 0.3s ease;
 	visibility: hidden;
@@ -17254,7 +17251,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate-contacts .icon {
 	vertical-align: middle;
 	text-align: center;
-	font-size: 24px;
+	font-size: 15px;
 	line-height: 1;
 	color: #01b3a7;
 }
@@ -17262,7 +17259,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate-contacts p,
 .rd-navbar-corporate-contacts a {
 	margin-top: 2px;
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 1;
 	font-weight: 500;
 	letter-spacing: .075em;
@@ -17304,7 +17301,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate-list-social .icon {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 /*

@@ -97,18 +97,21 @@
                                         </div>
                                     </li>
                                 </ul>
+                                <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
+                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: flex-end;">
+                                    <li><a class=" icon fa fa-instagram" href="http://instagram.com/setimaondaboattrips"></a></li>
+                                    <li><a class="icon fa fa-facebook"
+                                            href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
+                                    <li><a class="icon fa fa-youtube" href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g"></a></li>
+
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div class="rd-navbar-main-outer">
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
-                                <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-instagram" href="#"></a></li>
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
 
-                                </ul>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
@@ -116,8 +119,6 @@
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
                                     <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
-                                    </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
@@ -136,7 +137,18 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    </li>
+
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
+                                    </li>
+
+
+                                </ul>
+                                <ul style="list-style: none;justify-content: flex-end;">
+                                    <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                            now</a>
                                     </li>
                                 </ul>
                             </div>
@@ -147,40 +159,10 @@
         </header>
         <!-- Swiper-->
         <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2"
-            data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
+            data-loop="false" data-autoplay="5000" data-simulate-touch="false" data-nav="false"
+            data-direction="vertical">
             <div class="swiper-wrapper text-left">
-                <div class="swiper-slide context-dark" data-slide-bg="img/home/foto4.png">
-                    <div class="swiper-slide-caption section-md">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h6 class="text-uppercase" data-caption-animate="fadeInRight"
-                                        data-caption-delay="0">Enjoy the Best Destinations with Our Travel Agency</h6>
-                                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp"
-                                        data-caption-delay="100"><span>Explore</span><span class="font-weight-bold"> The
-                                            World</span></h2><a class="button button-default-outline button-ujarak"
-                                        href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide context-dark" data-slide-bg="img/home/foto5.png">
-                    <div class="swiper-slide-caption section-md">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h6 class="text-uppercase" data-caption-animate="fadeInRight"
-                                        data-caption-delay="0">A team of professional Travel Experts</h6>
-                                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp"
-                                        data-caption-delay="100"><span>Trust</span><span class="font-weight-bold"> Our
-                                            Experience</span></h2><a class="button button-default-outline button-ujarak"
-                                        href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="swiper-slide context-dark" data-slide-bg="img/home/foto2.jpeg">
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
@@ -190,8 +172,11 @@
                                         data-caption-delay="0">Build your Next Holiday Trip with Us</h6>
                                     <h2 class="oh font-weight-light" data-caption-animate="slideInUp"
                                         data-caption-delay="100"><span>Create</span><span class="font-weight-bold"> Your
-                                            Tour</span></h2><a class="button button-default-outline button-ujarak"
-                                        href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book now</a>
+                                            Tour</span></h2><a
+                                        class="box-categories-button button button-default-outline"
+                                        style="border-color:white !important;color:white !important" href="#"
+                                        data-caption-animate="fadeInLeft" data-caption-delay="0">Book
+                                        now</a>
                                 </div>
                             </div>
                         </div>
@@ -199,10 +184,30 @@
                 </div>
             </div>
             <!-- Swiper Pagination-->
-            <div class="swiper-pagination"></div>
         </section>
         <!-- Section Box Categories-->
-        <section class="section section-lg section-top-1 bg-gray-4">
+        <style>
+        .box-categories-list {
+            -webkit-box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
+            -moz-box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
+            box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
+        }
+
+        .box-categories-title2 {
+            position: absolute;
+            font-weight: 700;
+            max-width: 94%;
+            width: 35%;
+            left: 80%;
+            transform: translateX(-50%);
+            bottom: 92%;
+            color: #ffffff;
+            letter-spacing: normal;
+            background-color: rgb(21 36 58 / 50%);
+            border-radius: 15px;
+        }
+        </style>
+        <section class="section section-lg section-top-1 bg-default">
             <div class="container offset-negative-1">
                 <div class="box-categories cta-box-wrap">
                     <div class="box-categories-content">
@@ -210,6 +215,7 @@
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
+                                        <p class="box-categories-title2">From €25</p>
                                         <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
@@ -220,6 +226,7 @@
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
+                                        <p class="box-categories-title2">From €250</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
@@ -230,6 +237,7 @@
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="420" /></a>
+                                        <p class="box-categories-title2">From €30</p>
                                         <h5 class="box-categories-title">Sunset Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
@@ -240,6 +248,7 @@
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="#"><img src="img/home/tour1.png" alt="" width="368" height="568" /></a>
+                                        <p class="box-categories-title2">From €350</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
@@ -254,7 +263,7 @@
             </div>
         </section>
         <!-- Discover New Horizons-->
-        <section class="section section-sm section-first bg-default text-md-left">
+        <section class="section section-sm section-first bg-gray-4  text-md-left">
             <div class="container">
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
                     <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png" alt="" width="556"
@@ -279,9 +288,12 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p>Wonder Tour is committed to bringing our clients the best in value and
-                                            quality travel arrangements. We are passionate about travel and sharing the
-                                            world's wonders with you.</p>
+                                        <p>A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
+                                            várias embarcações comandadas por profissionais certificados. Temos como
+                                            principal objetivo, proporcionar a todos os nossos clientes uma experiência
+                                            única através das vistas deslumbrantes que projetamos nos nossos Passeios,
+                                            bem como, a história de cada gruta que os nossos antepassados nos contam.
+                                        </p>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
                                                 href="contact-us.html">Book now</a><a
@@ -306,14 +318,14 @@
                 </div>
             </div>
         </section>
-       
+
         <!-- Hot tours-->
         <section class="section section-sm bg-default">
             <div class="container">
-                <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tours</span></h3>
+                <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tour</span></h3>
                 <div class="row row-sm row-40 row-md-50">
 
-                    <div class="col-sm-6 col-md-12 wow fadeInLeft">
+                    <div class="col-sm-12 col-md-12 wow fadeInLeft">
                         <!-- Product Big-->
                         <article class="product-big">
                             <div class="unit flex-column flex-md-row align-items-md-stretch">
@@ -321,7 +333,7 @@
                                             src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
                                 <div class="unit-body">
                                     <div class="product-big-body">
-                                        <h5 class="product-big-title"><a href="#">Private Cave Tour Special</a></h5>
+                                        <h5 class="product-big-title"><a href="#">Private Benagil Cave Tour</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <div class="product-big-rating"><span
                                                     class="icon material-icons-star"></span><span
@@ -331,11 +343,14 @@
                                                     class="icon material-icons-star_half"></span></div><a
                                                 class="product-big-reviews" href="#">5 customer reviews</a>
                                         </div>
-                                        <p class="product-big-text">The beautiful and inviting island nation of
-                                            Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari.
-                                            Indulge in the delightful scents of the fragrant...</p><a
+                                        <p class="product-big-text">Passeios guiados para onde desejar pelo tempo que
+                                            desejar.
+                                            Tenha um barco de 10 lugares com um capitão à sua disposição para várias
+                                            atividades ou eventos. Passeio pela caverna, snorkeling, proposta de
+                                            casamento, sessões de fotos, celebrações ou puro lazer familiar.</p><a
                                             class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                                        <div class="product-big-price-wrap"><span class="product-big-price">€350</span>
+                                        <div class="product-big-price-wrap"><span
+                                                class="product-big-price"><span>from</span> €250</span>
                                         </div>
                                     </div>
                                 </div>
@@ -347,25 +362,34 @@
         </section>
 
         <!-- Section Subscribe-->
-        <section class="section bg-default text-center offset-top-50">
+        <section class="section bg-default text-center offset-top-50" style="height:20rem;">
             <div class="parallax-container" data-parallax-img="img/home/foto2.jpeg">
-                <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
+                <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21"
+                    style="height: 23rem;">
                     <div class="container">
-                        <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
-                                class="d-block font-weight-semi-bold">Come discover the </span><span
-                                class="d-block font-weight-light">Algarvian coast!</span></h2>
-
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=pBFQdxA-apI">
-                            <div class="wrapper">
-                                <div class="circle pulse"></div>
-                                <div class="circle">
-                                    <svg style="color:white !important" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 100 100">
-                                        <polygon points="40,30 65,50 40,70"></polygon>
-                                    </svg>
-                                </div>
+                        <div class="row row-sm row-40 row-md-50">
+                            <div class="col-sm-12 col-md-7 wow fadeInLeft">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=pBFQdxA-apI">
+                                    <div class="wrapper"
+                                        style="width:0 !important;height:0 !important;    margin-left: 177px;">
+                                        <div class="circle"
+                                            style="background-color:0 !important;width:none !important;left:-234px !important">
+                                            <iframe width="500" height="250"
+                                                src="https://www.youtube.com/embed/WnZTMX9HFhw?autoplay=1&mute=1">
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div class="col-sm-12 col-md-5 wow fadeInLeft">
+                                <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
+                                        class="d-block font-weight-semi-bold">Come discover the </span><span
+                                        class="d-block font-weight-light">Algarvian coast!</span></h2>
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
             </div>
@@ -465,7 +489,7 @@
         </section>
 
         <!-- What people Say-->
-        <section class="section section-sm section-last bg-default">
+        <section class="section section-sm section-last bg-default" style="margin-top:2rem;">
             <div class="container">
                 <h3>What People Say</h3>
                 <!-- Owl Carousel-->
@@ -473,8 +497,7 @@
                     data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
                     <!-- Quote Lisa-->
                     <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-16-100x100.jpg" alt="" width="100" height="100" /></a>
+                        <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
                                 <p class="q">Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Diam phasellus
                                     vestibulum lorem sed risus ultricies. Aenean et tortor at risus viverra adipiscing.
@@ -487,8 +510,7 @@
                     </article>
                     <!-- Quote Lisa-->
                     <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-17-100x100.jpg" alt="" width="100" height="100" /></a>
+                        <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
                                 <p class="q">Sodales ut etiam sit amet nisl purus. Maecenas accumsan lacus vel facilisis
                                     volutpat est. Suscipit adipiscing bibendum est ultricies integer quis auctor.
@@ -502,8 +524,7 @@
                     </article>
                     <!-- Quote Lisa-->
                     <article class="quote-lisa">
-                        <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles"
-                                    src="images/user-18-100x100.jpg" alt="" width="100" height="100" /></a>
+                        <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
                                 <p class="q">Lacus vestibulum sed arcu non odio euismod lacinia. Pellentesque elit
                                     ullamcorper dignissim cras. Ultrices eros in cursus turpis massa tincidunt dui. Nunc

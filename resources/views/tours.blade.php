@@ -117,8 +117,6 @@
                                     </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
-                                    </li>
                                     <li class="rd-nav-item active dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -136,6 +134,9 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    </li>
+
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
@@ -241,10 +242,10 @@
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
                                         data-toggle="tab">Included</a></li>
-                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link" href="#tabs-4-2"
-                                        data-toggle="tab">OTHER THINGS TO NOTE</a></li>
-                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link" href="#tabs-4-3"
-                                        data-toggle="tab">CONDITIONS</a></li>
+                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
+                                        href="#tabs-4-2" data-toggle="tab">OTHER THINGS TO NOTE</a></li>
+                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
+                                        href="#tabs-4-3" data-toggle="tab">CONDITIONS</a></li>
                             </ul>
                             <!-- Tab panes-->
                             <div class="tab-content">
@@ -375,7 +376,7 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.1862751680337!2d-8.359489484743065!3d37.10068315842714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ad16db0fe8341%3A0x1d8ef3c2656c86c0!2sBarcos%20S%C3%A9tima%20Onda!5e0!3m2!1spt-PT!2spt!4v1674148492448!5m2!1spt-PT!2spt"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
+
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">

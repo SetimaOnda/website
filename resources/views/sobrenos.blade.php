@@ -116,8 +116,6 @@
                                     </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">About</a>
-                                    </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -135,6 +133,9 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    </li>
+
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
@@ -154,118 +155,61 @@
                         <li class="active">About</li>
                     </ul>
                 </div>
-                <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
+                <div class="box-position" style="background-image: url(images/equipa.jpeg);"></div>
             </div>
         </section>
         <!-- Why choose us-->
         <section class="section section-sm section-first bg-default text-md-left">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
-                    <div class="col-md-10 col-lg-5 col-xl-6"><img src="images/about-1-519x564.jpg" alt="" width="519"
+                    <div class="col-md-10 col-lg-5 col-xl-6"><img src="img/benagil3.png" alt="" width="519"
                             height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6">
-                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9">Why choose us</h1>
+                        <h1 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Why choose us</h1>
                         <!-- Bootstrap tabs-->
-                        <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
-                            <!-- Nav tabs-->
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
-                                        data-toggle="tab">Experience</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2"
-                                        data-toggle="tab">Skills</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3"
-                                        data-toggle="tab">Mission</a></li>
-                            </ul>
-                            <!-- Tab panes-->
-                            <div class="tab-content">
-                                <div class="tab-pane fade show active" id="tabs-4-1">
-                                    <p>Aliquam malesuada bibendum arcu vitae elementum curabitur. A erat nam at lectus
-                                        urna duis convallis convallis tellus. Sit amet consectetur adipiscing elit
-                                        pellentesque.</p>
-                                    <!-- Linear progress bar-->
-                                    <article class="progress-linear progress-secondary">
-                                        <div class="progress-header">
-                                            <p>Tours</p>
-                                        </div>
-                                        <div class="progress-bar-linear-wrap">
-                                            <div class="progress-bar-linear" data-gradient=""><span
-                                                    class="progress-value">79</span><span
-                                                    class="progress-marker"></span></div>
-                                        </div>
-                                    </article>
-                                    <!-- Linear progress bar-->
-                                    <article class="progress-linear progress-orange">
-                                        <div class="progress-header">
-                                            <p>Excursions</p>
-                                        </div>
-                                        <div class="progress-bar-linear-wrap">
-                                            <div class="progress-bar-linear" data-gradient=""><span
-                                                    class="progress-value">72</span><span
-                                                    class="progress-marker"></span></div>
-                                        </div>
-                                    </article>
-                                    <!-- Linear progress bar-->
-                                    <article class="progress-linear">
-                                        <div class="progress-header">
-                                            <p>Hotel Bookings</p>
-                                        </div>
-                                        <div class="progress-bar-linear-wrap">
-                                            <div class="progress-bar-linear" data-gradient=""><span
-                                                    class="progress-value">88</span><span
-                                                    class="progress-marker"></span></div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="tab-pane fade" id="tabs-4-2">
-                                    <div class="row row-40 justify-content-center text-center inset-top-10">
-                                        <div class="col-sm-4">
-                                            <!-- Circle Progress Bar-->
-                                            <div class="progress-bar-circle" data-value="0.87" data-gradient="#01b3a7"
-                                                data-empty-fill="transparent" data-size="150" data-thickness="12"
-                                                data-reverse="true"><span></span></div>
-                                            <p class="progress-bar-circle-title">Tours</p>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <!-- Circle Progress Bar-->
-                                            <div class="progress-bar-circle" data-value="0.74" data-gradient="#01b3a7"
-                                                data-empty-fill="transparent" data-size="150" data-thickness="12"
-                                                data-reverse="true"><span></span></div>
-                                            <p class="progress-bar-circle-title">Excursions</p>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <!-- Circle Progress Bar-->
-                                            <div class="progress-bar-circle" data-value="0.99" data-gradient="#01b3a7"
-                                                data-empty-fill="transparent" data-size="150" data-thickness="12"
-                                                data-reverse="true"><span></span></div>
-                                            <p class="progress-bar-circle-title">Hotel Bookings</p>
+                        <div class="box-width-lg-470">
+                            <!-- Bootstrap tabs-->
+                            <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left"
+                                id="tabs-7">
+                                <!-- Nav tabs-->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
+                                            data-toggle="tab">About us</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link"
+                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">Our
+                                            Philosphy</a></li>
+
+
+                                </ul>
+                                <!-- Tab panes-->
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="tabs-7-1">
+                                        <p>A Sétima Onda é uma empresa familiar com experiência nesta atividade e
+                                            com
+                                            várias embarcações comandadas por profissionais certificados. Temos como
+                                            principal objetivo, proporcionar a todos os nossos clientes uma
+                                            experiência
+                                            única através das vistas deslumbrantes que projetamos nos nossos
+                                            Passeios,
+                                            bem como, a história de cada gruta que os nossos antepassados nos
+                                            contam.
+                                        </p>
+                                        <div class="group-md group-middle"><a
+                                                class="button button-secondary button-pipaluk"
+                                                href="contact-us.html">Book now</a>
                                         </div>
                                     </div>
-                                    <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Get in touch</a><a
-                                            class="button button-black-outline button-width-xl-230" href="#">Read
-                                            more</a></div>
-                                </div>
-                                <div class="tab-pane fade" id="tabs-4-3">
-                                    <p>Orci nulla pellentesque dignissim enim sit. Elit ullamcorper dignissim cras
-                                        tincidunt lobortis feugiat vivamus. Nibh mauris cursus mattis molestie a iaculis
-                                        at erat pellentesque.</p>
-                                    <div class="text-center text-sm-left offset-top-30 tab-height">
-                                        <ul
-                                            class="row-16 list-0 list-custom list-marked list-marked-sm list-marked-secondary">
-                                            <li>Lorem ipsum</li>
-                                            <li>Consectetur adipiscing</li>
-                                            <li>Sed do eiusmod</li>
-                                            <li>Tempor incididunt</li>
-                                            <li>Sem fringilla</li>
-                                            <li>Ut venenatis</li>
-                                        </ul>
+                                    <div class="tab-pane fade" id="tabs-7-2">
+                                        <p>We are proud to offer excellent quality and value for money in our tours,
+                                            which give you the chance to experience your chosen destination in an
+                                            authentic and exciting way.</p>
+                                        <div class="group-md group-middle"><a
+                                                class="button button-secondary button-pipaluk"
+                                                href="contact-us.html">Book now</a>
+                                        </div>
                                     </div>
-                                    <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Get in touch</a><a class="button button-black-outline button-md"
-                                            href="#">Download presentation</a></div>
+
                                 </div>
                             </div>
                         </div>
@@ -276,7 +220,7 @@
         <!-- Latest Projects-->
         <section class="section section-sm section-fluid bg-default">
             <div class="container">
-                <h3>Destinations</h3>
+                <h3>Os Nossos Destinos</h3>
             </div>
             <!-- Owl Carousel-->
             <div class="owl-carousel owl-classic owl-timeline" data-items="1" data-md-items="2" data-lg-items="3"
@@ -293,7 +237,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">France</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">Tradicional Benagil Cave Tour</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -311,7 +255,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Italy</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">Private Benagil Cave Tour</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -329,7 +273,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Egypt</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">Sunset Benagil Cave Tour</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -347,51 +291,16 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Dubai</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">Private Benagil Cave Tour Special</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
                     </div>
                 </div>
-                <div class="owl-item">
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-15-420x308.jpg" alt=""
-                                width="420" height="308" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-15-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-15-420x308.jpg" alt="" width="420" height="308" /></a>
-                        </div>
-                    </article>
-                    <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Spain</a></h5><span
-                            class="thumbnail-mary-decor"></span>
-                        <h5 class="thumbnail-mary-time">
-                        </h5>
-                    </div>
-                </div>
-                <div class="owl-item">
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-16-420x308.jpg" alt=""
-                                width="420" height="308" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-16-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-16-420x308.jpg" alt="" width="420" height="308" /></a>
-                        </div>
-                    </article>
-                    <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Africa</a></h5><span
-                            class="thumbnail-mary-decor"></span>
-                        <h5 class="thumbnail-mary-time">
-                        </h5>
-                    </div>
-                </div>
+
             </div>
         </section>
-      
+
         <!--Counters-->
         <!-- Counter Classic
         <section class="section section-fluid bg-default">

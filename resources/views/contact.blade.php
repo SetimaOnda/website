@@ -117,8 +117,6 @@
                                     </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
-                                    </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -136,6 +134,9 @@
                                                     href="#">Private Benagil Cave Special</a></li>
                                         </ul>
                                     </li>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    </li>
+
                                     <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
