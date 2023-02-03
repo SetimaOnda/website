@@ -417,7 +417,7 @@
                                 <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
                                         class="d-block font-weight-semi-bold">Venha descobrir a </span><span
                                         class="d-block font-weight-light">Costa Algarvia!</span></h2>
-                                <a class="button button-secondary button-pipaluk" href="contact-us.html">Ver Mais</a>
+                                <a class="button button-secondary button-pipaluk" href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">Ver Mais</a>
 
                             </div>
                         </div>
