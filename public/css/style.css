@@ -1110,7 +1110,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 310px;
+	
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
 	transition: all .3s ease;
 }
@@ -1120,21 +1120,21 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-contacts-icon {
-	font-size: 60px;
+	font-size: 2rem;
 	line-height: 1;
 	color: #01b3a7;
 }
 
 .box-contacts-decor {
 	margin: 30px auto;
-	height: 2px;
+	height: 1px;
 	max-width: 100px;
 	background: #01b3a7;
 	transition: all .3s ease-in-out;
 }
 
 .box-contacts-link {
-	font-size: 18px;
+	font-size: 0.8rem;
 	line-height: 1.67;
 	letter-spacing: .025em;
 }
@@ -10130,12 +10130,11 @@ h5 + .list-popular-product {
 
 .cta-box-wrap .list-marked-2 li .box-categories-title {
 	position: absolute;
-	font-weight: 700;
 	max-width: 94%;
 	width: 100%;
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: 70%;
+	bottom: 80%;
 	color: #ffffff;
 	letter-spacing: normal;
 	background-color: rgba(128,128,128,0.5);
