@@ -24,6 +24,12 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/politica', function () {
+    return view('politica');
+});
+Route::get('/termos', function () {
+    return view('termos');
+});
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

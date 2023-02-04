@@ -2,20 +2,19 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-    <title>Home</title>
+    <title>Contact Us</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
     .ie-panel {
         display: none;
@@ -121,7 +120,7 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
@@ -143,10 +142,8 @@
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contactos</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">Contactos</a>
                                     </li>
-
-
                                 </ul>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
@@ -160,500 +157,11 @@
                 </nav>
             </div>
         </header>
-        <!-- Swiper-->
-        <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2"
-            data-loop="false" data-autoplay="5000" data-simulate-touch="false" data-nav="false"
-            data-direction="vertical" style="min-height:90vh !important">
-            <div class="swiper-wrapper text-left">
+        <!-- RD Google Map-->
+        <div class="container" style="text-align:left; margin-top:3rem;margin-bottom:3rem;" >
+<h2><span style="color: rgb(68, 68, 68);">Política Privacidade</span></h2><p><span style="color: rgb(68, 68, 68);">A sua privacidade é importante para nós. É política do Sétima Onda respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="https://www.setimaondaboattrips.com">Sétima Onda</a>, e outros sites que possuímos e operamos.</span></p><p><span style="color: rgb(68, 68, 68);">Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</span></p><p><span style="color: rgb(68, 68, 68);">Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</span></p><p><span style="color: rgb(68, 68, 68);">Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</span></p><p><span style="color: rgb(68, 68, 68);">O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas&nbsp;</span><a href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank" style="background-color: transparent; color: rgb(68, 68, 68);">políticas de privacidade</a><span style="color: rgb(68, 68, 68);">.</span></p><p><span style="color: rgb(68, 68, 68);">Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</span></p><p><span style="color: rgb(68, 68, 68);">O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</span></p><p><span style="color: rgb(68, 68, 68);"></span></p><h3><span style="color: rgb(68, 68, 68);">Compromisso do Usuário</span></h3><p><span style="color: rgb(68, 68, 68);">O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Sétima Onda oferece no site e com caráter enunciativo, mas não limitativo:</span></p><ul><li><span style="color: rgb(68, 68, 68);">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</span></li><li><span style="color: rgb(68, 68, 68);">B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, </span><span style="color: rgb(33, 37, 41);"><a href='https://apostasonline.guru/bet365-apostas/' style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>bet</a></span><span style="color: rgb(68, 68, 68);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</span></li><li><span style="color: rgb(68, 68, 68);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Sétima Onda, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</span></li></ul><h3><span style="color: rgb(68, 68, 68);">Mais informações</span></h3><p><span style="color: rgb(68, 68, 68);">Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</span></p><p><span style="color: rgb(68, 68, 68);">Esta política é efetiva a partir de&nbsp;4 February 2023 02:55</span></p>
 
-                <div class="swiper-slide " style="background-image: url('img/img/home.jpeg');background-size: cover;">
-                    <div class="swiper-slide-caption section-md">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10">
-
-                                    <h2 class="oh font-weight-light"
-                                        style="color:white;font-family:'Cormorant Garamond', serif;"
-                                        data-caption-animate="slideInUp" data-caption-delay="100"><span
-                                            class="font-weight-bold"> Bem vindo à Sétima Onda</span></h2>
-                                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"
-                                        style="font-family:'Cormorant Garamond', serif;">Navegue connosco na experiência
-                                        inesquecível que é
-                                        conhecer a famosa Gruta de Benagil e as demais praias selvagens</h6>
-                                    <a class="box-categories-button button button-default-outline"
-                                        style="border-color:white !important;color:white !important" href="#"
-                                        data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Swiper Pagination-->
-        </section>
-        <!-- Section Box Categories-->
-        <style>
-        .box-categories-list {
-            -webkit-box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
-            -moz-box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
-            box-shadow: 0px 0px 25px -1px rgba(133, 133, 133, 1);
-        }
-
-        .box-categories-title2 {
-            position: absolute;
-            max-width: 94%;
-            width: 25%;
-            left: 50%;
-            font-size: 0.75rem;
-            transform: translateX(-50%);
-            bottom: 73%;
-            color: #ffffff;
-            letter-spacing: normal;
-            background-color: rgb(21 36 58 / 50%);
-            border-radius: 15px;
-        }
-        </style>
-        <section class="section section-lg section-top-1 bg-default">
-            <div class="container offset-negative-1">
-                <div class="box-categories cta-box-wrap">
-                    <div class="box-categories-content">
-                        <div class="row justify-content-center">
-                            <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
-                                <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour1.png" alt="" width="368" height="420" /></a>
-                                        <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
-                                        <p class="box-categories-title2">From €30</p>
-                                        <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
-                                <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour2.png" alt="" width="368" height="420" /></a>
-                                        <p class="box-categories-title2">From €250</p>
-                                        <h5 class="box-categories-title">Private Benagil Cave Tour</h5>
-                                        <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
-                                <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour3.png" alt="" width="368" height="420" /></a>
-                                        <p class="box-categories-title2">From €30</p>
-                                        <h5 class="box-categories-title">Sunset Benagil Cave Tour</h5>
-                                        <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
-                                <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour4.png" alt="" width="368" height="568" /></a>
-                                        <p class="box-categories-title2">From €30</p>
-                                        <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
-                                        <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Owl Carousel-->
-            </div>
-        </section>
-        <!-- Discover New Horizons-->
-        <section class="section section-sm section-first bg-gray-4  text-md-left">
-            <div class="container">
-                <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-                    <div style="height:24rem;" class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
-                            alt="" width="556" height="382" />
-                    </div>
-                    <div class="col-lg-6 wow fadeInRight" style="height:24rem;" data-wow-delay=".1s">
-                        <div class="box-width-lg-470">
-
-                            <!-- Bootstrap tabs-->
-                            <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left"
-                                id="tabs-7">
-                                <!-- Nav tabs-->
-                                <ul class="nav nav-tabs">
-                                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
-                                            data-toggle="tab">Sobre nós</a></li>
-                                    <li class="nav-item" role="presentation"><a class="nav-link"
-                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">Nossa
-                                            Filosofia</a></li>
-
-
-                                </ul>
-                                <!-- Tab panes-->
-                                <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p>A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
-                                            várias embarcações comandadas por profissionais certificados. Uma fusão
-                                            entre a ambição de elevar o nome de Armação de Pêra, com o conhecimento de
-                                            quem fez isto durante toda a vida. Temos como principal objetivo,
-                                            proporcionar a todos os nossos clientes uma experiência única através das
-                                            vistas deslumbrantes que projetamos nos nossos Passeios, bem como, a
-                                            história de cada gruta que os nossos antepassados nos contam, para isso,
-                                            operamos em grupos de tamanho reduzido. A Sétima Onda dispõe de todas as
-                                            licenças e seguros para as experiências que oferece.
-                                        </p>
-                                        <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Read
-                                                More</a></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="tabs-7-2">
-                                        <div class="row">
-                                            <div class="col-6 text-center">
-                                                <div class="shadow"
-                                                    style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="">
-                                                </div>
-                                                <h5 style="margin-top:0.6rem">Prática</h5>
-                                            </div>
-                                            <div class="col-6 text-center">
-                                                <div class="shadow"
-                                                    style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="">
-                                                </div>
-                                                <h5 style="margin-top:0.6rem">Conhecimento</h5>
-                                            </div>
-                                            <div class="col-6 text-center" style="margin-top:1.5rem;">
-                                                <div class="shadow"
-                                                    style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto;">
-                                                    <img style="width:2.8rem;" src="img/img/shield.png" alt="">
-                                                </div>
-                                                <h5 style="margin-top:0.6rem">Segurança</h5>
-                                            </div>
-                                            <div class="col-6 text-center" style="margin-top:1.5rem;">
-                                                <div class="shadow"
-                                                    style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="">
-                                                </div>
-                                                <h5 style="margin-top:0.6rem">Lazer</h5>
-                                            </div>
-                                        </div>
-                                        <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Read
-                                                More</a></div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Hot tours-->
-        <section class="section section-sm bg-default">
-            <div class="container">
-                <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tour</span></h3>
-                <div class="row row-sm row-40 row-md-50">
-
-                    <div class="col-sm-12 col-md-12 wow fadeInLeft">
-                        <!-- Product Big-->
-                        <article class="product-big">
-                            <div class="unit flex-column flex-md-row align-items-md-stretch">
-                                <div class="unit-left"><a class="product-big-figure" href="#"><img
-                                            src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
-                                <div class="unit-body">
-                                    <div class="product-big-body">
-                                        <h5 class="product-big-title"><a href="#">Private Benagil Cave Tour</a></h5>
-                                        <div class="group-sm group-middle justify-content-start">
-                                            <br>
-                                        </div>
-                                        <p class="product-big-text">Junte-se a nós e descubra os segredos da nossa costa
-                                            desde Armação até à mundialmente famosa Gruta de Benagil, num barco
-                                            exclusivo para o seu grupo, onde pode levar até 10 pessoas, contando
-                                            consigo. <br>
-                                            Iremos visitar cerca de 10 grutas e 15 praias, escondidas e selvagens.
-                                            Prepare a sua câmara, pois este passeio privado com acesso exclusivo às
-                                            grutas é perfeito para fotos memoráveis.</p><a
-                                            class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section Subscribe-->
-        <section class="section bg-default text-center offset-top-50" style="height:20rem;">
-            <div class="parallax-container" data-parallax-img="img/home/foto2.jpeg">
-                <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21"
-                    style="height: 23rem;">
-                    <div class="container">
-                        <div class="row row-sm row-40 row-md-50">
-                            <div class="col-sm-12 col-md-7 wow fadeInLeft">
-                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=pBFQdxA-apI">
-                                    <div class="wrapper"
-                                        style="width:0 !important;height:0 !important;    margin-left: 177px;">
-                                        <div class="circle"
-                                            style="background-color:0 !important;width:none !important;left:-234px !important">
-                                            <iframe width="500" height="250"
-                                                src="https://www.youtube.com/embed/WnZTMX9HFhw?autoplay=1&mute=1">
-                                            </iframe>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-12 col-md-5 wow fadeInLeft">
-                                <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
-                                        class="d-block font-weight-semi-bold">Venha descobrir a </span><span
-                                        class="d-block font-weight-light">Costa Algarvia!</span></h2>
-                                <a class="button button-secondary button-pipaluk" href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">Ver Mais</a>
-
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-            <style>
-            .wrapper {
-                position: relative;
-                width: 150px;
-                height: 150px;
-                margin: 0 auto;
-            }
-
-            .wrapper .circle {
-                width: 100px;
-                height: 100px;
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                border-radius: 50%;
-                background-color: white;
-                margin: auto;
-                transform: scale(1, 1);
-            }
-
-            .wrapper .circle.pulse {
-                -webkit-animation-timing-function: ease;
-                animation-timing-function: ease;
-                -webkit-animation: pulse 2s infinite;
-                animation: pulse 2s infinite;
-                background-color: #64abb4;
-            }
-
-            .wrapper svg {
-                fill: #64abb4;
-                stroke: #177483;
-                stroke-linejoin: round;
-                stroke-width: 5;
-                transition: all 0.3s;
-            }
-
-            .wrapper svg:hover {
-                cursor: pointer;
-                fill: #177483;
-                stroke: #64abb4;
-                transform: scale(1.2, 1.2);
-            }
-
-            @-webkit-keyframes pulse {
-                0% {
-                    transform: scale(1, 1);
-                }
-
-                25% {
-                    transform: scale(1, 1);
-                }
-
-                50% {
-                    transform: scale(1.2, 1.2);
-                }
-
-                100% {
-                    transform: scale(1, 1);
-                }
-            }
-
-            @keyframes pulse {
-                0% {
-                    transform: scale(1, 1);
-                }
-
-                25% {
-                    transform: scale(1, 1);
-                }
-
-                50% {
-                    transform: scale(1.2, 1.2);
-                }
-
-                100% {
-                    transform: scale(1, 1);
-                }
-            }
-            </style>
-            <script>
-            $(function() {
-                $('.popup-youtube, .popup-vimeo').magnificPopup({
-                    disableOn: 700,
-                    type: 'iframe',
-                    mainClass: 'mfp-fade',
-                    removalDelay: 160,
-                    preloader: false,
-                    fixedContentPos: false
-                });
-            });
-            </script>
-        </section>
-
-        <!-- What people Say-->
-        <section class="section section-sm section-last bg-default" style="margin-top:2rem;">
-            <div class="container">
-                <h3>O que as pessoas dizem sobre nós</h3>
-                <!-- Owl Carousel-->
-                <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30"
-                    data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body">
-                            <div class="quote-lisa-text">
-                                <p class="q">Um autêntico privilégio ter a oportunidade de embarcar no "Sétima Onda"
-                                    para conhecer alguns dos recantos mais escondidos e bonitos da nossa costa. <br>
-                                    O "Sétima Onda" faz uma ligação perfeita entre o melhor que a nossa costa tem para
-                                    oferecer e o profissionalismo/simpatia de todo o seu staff.
-                                    Adoramos e recomendamos a 110%.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Vicente Silva</a></h5>
-                            <p class="quote-lisa-status">Cliente</p>
-                        </div>
-                    </article>
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body">
-                            <div class="quote-lisa-text">
-                                <p class="q">De mi visita en todo el Algarve, esta experiencia ha sido la más agradable,
-                                    divertida y gratificante. El paseo es una gozada. Los capitanes son encantadores y
-                                    entrañables. Las explicaciones muy bien y el dominio de las lanchas es increíble.
-                                    Seguridad ante todo, pero te meten por sitios que parece imposible que entre un
-                                    barco. 100% recomendable.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Elena Torronteras</a></h5>
-                            <p class="quote-lisa-status">Cliente</p>
-                        </div>
-                    </article>
-                    <!-- Quote Lisa-->
-                    <article class="quote-lisa">
-                        <div class="quote-lisa-body">
-                            <div class="quote-lisa-text">
-                                <p class="q">Highly recommend this boat trip..... stunning scenery, breathtaking caves
-                                    and first class captain skills.</p>
-                            </div>
-                            <h5 class="quote-lisa-cite"><a href="#">Alison Sime</a></h5>
-                            <p class="quote-lisa-status">Cliente</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!--	Instagrram wondertour-->
-        <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
-            <div class="container-fluid">
-                <h6 class="gallery-title">Galeria</h6>
-                <!-- Owl Carousel-->
-                <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
-                    data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
-                    data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto1.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto1.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto1.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto2.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto2.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto2.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto3.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto3.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto3.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto4.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto4.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto4.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto5.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto5.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto5.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto6.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto6.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto6.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto7.png" alt="" width="270"
-                                height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="img/img/galeria/foto7.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto7.png" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
+    </div> 
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">
@@ -662,30 +170,28 @@
                         <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInRight" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Contactos</h6>
+                                    <h6 class="text-spacing-100 text-uppercase">Contact us</h6>
                                     <ul class="footer-contacts d-inline-block d-sm-block">
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:#">+1
-                                                        323-913-4688</a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351 926 461 342">+351 926 461 342</a></div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                                 <div class="unit-body"><a class="link-aemail"
-                                                        href="mailto:info@setimaondaboattrips.com">info@setimaondaboattrips.com</a>
-                                                </div>
+                                                        href="mailto:#">info@demolink.org</a></div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-location-arrow"></span>
                                                 </div>
-                                                <div class="unit-body"><a class="link-location">PRAIA DOS
-                                                        PESCADORES, 8365-114 ARMAÇÃO DE PÊRA
-                                                    </a></div>
+                                                <div class="unit-body"><a class="link-location" href="#">4730 Crystal
+                                                        Springs Dr, Los Angeles, CA 90027</a></div>
                                             </div>
                                         </li>
                                     </ul>
@@ -695,19 +201,22 @@
                         <div class="col-sm-6 col-md-5 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInDown" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase"></h6>
+                                    <h6 class="text-spacing-100 text-uppercase">Popular news</h6>
                                     <!-- Post Minimal 2-->
                                     <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="img/home/livro_reclamacoes.png" alt=""></a></p>
-
+                                        <p class="post-minimal-2-title"><a href="#">Your Personal Guide to 5 Best Places
+                                                to Visit on Earth</a></p>
+                                        <div class="post-minimal-2-time">
+                                            <time datetime="2019-05-04">May 04, 2019</time>
+                                        </div>
                                     </article>
                                     <!-- Post Minimal 2-->
                                     <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
-
+                                        <p class="post-minimal-2-title"><a href="#">Top 10 Hotels: Rating by Wonder Tour
+                                                Travel Experts</a></p>
+                                        <div class="post-minimal-2-time">
+                                            <time datetime="2019-05-04">May 04, 2019</time>
+                                        </div>
                                     </article>
                                 </div>
                             </div>
@@ -715,16 +224,18 @@
                         <div class="col-sm-11 col-md-7 col-lg-5 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase"></h6>
+                                    <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
                                     <ul
                                         class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                                        <li><a href="/sobre-nos">Sobre Nós</a></li>
-                                        <li><a href="/contactos">Contactos</a></li>
-                                        <li><a href="/">Home</a></li>
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="#">Our Tours</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
                                     </ul>
                                     <div class="group-md group-middle justify-content-sm-start"><a
-                                            class="button button-lg button-primary button-ujarak" href="#">Book now</a>
-                                    </div>
+                                            class="button button-lg button-primary button-ujarak" href="#">Get in
+                                            touch</a></div>
                                 </div>
                             </div>
                         </div>
@@ -734,7 +245,7 @@
             <div class="footer-corporate-bottom-panel">
                 <div class="container">
                     <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
-                        <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
+                        <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
                                     <li><a class="icon fa fa-facebook" href="#"></a></li>
@@ -744,25 +255,21 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-3 order-sm-first">
+                        <div class="col-sm-6 col-md-4 order-sm-first">
                             <!-- Rights-->
-                            <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Trip Boat</span>.
-                                <br>All Rights Reserved.
+                            <p class="rights"><span>&copy;&nbsp;</span><span
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Wonder Tour</span>. All
+                                Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a>
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-3 text-md-right">
-                            <p class="rights"><a href="/termos">Termos e condições</a></p>
-                        </div>
-                        <div class="col-sm-6 col-md-3 text-md-right">
-                            <p class="rights"><a href="/politica">Politica de Privacidade</a></p>
+                        <div class="col-sm-6 col-md-4 text-md-right">
+                            <p class="rights"><a href="#">Privacy Policy</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
-
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
@@ -781,8 +288,7 @@
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
                     style="all:revert;"> <span style="all:revert;">Se tens alguma questão, precisas de ajuda ou
-                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span>
-                </div>
+                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span></div>
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=351926461342"
