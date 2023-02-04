@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-    <title>Tour</title>
+    <title>{{$tours->nome}}</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -12,9 +12,9 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css"
         href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/fonts.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
 
     <style>
     .ie-panel {
@@ -123,7 +123,8 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                                src="{{ asset('img/home/7onda-logo.png')}}" alt="" width="112.5"
+                                                height="9" /></a>
                                     </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
@@ -135,19 +136,19 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours">Tradicional Benagil Cave</a></li>
+                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Private Benagil Cave</a></li>
+                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Sunset Benagil Cave</a></li>
+                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Private Benagil Cave Special</a></li>
+                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contactos</a>
                                     </li>
                                 </ul>
                                 <ul style="list-style: none;justify-content: flex-end;">
@@ -166,13 +167,13 @@
         <section class="breadcrumbs-custom-inset">
             <div class="breadcrumbs-custom context-dark bg-overlay-60">
                 <div class="container">
-                    <h2 class="breadcrumbs-custom-title">Tradicional Benagil Cave Tour</h2>
+                    <h2 class="breadcrumbs-custom-title">{{$tours->nome}}</h2>
                     <ul class="breadcrumbs-custom-path">
                         <li><a href="/">Home</a></li>
                         <li class="active">Tours</li>
                     </ul>
                 </div>
-                <div class="box-position" style="background-image: url(img/benagil2.jpg);"></div>
+                <div class="box-position" style="background-image: url({{ asset($image1->avatar)}});"></div>
             </div>
         </section>
         <!-- Why choose us-->
@@ -181,30 +182,19 @@
                 <div class="row row-50 justify-content-center align-items-xl-center">
 
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h1 class="text-spacing-25 font-weight-normal title-opacity-9">Why explore benagil cave tour?
-                        </h1>
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê explorar a Benagil Cave
+                            Tour?
+                        </h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
                             <!-- Tab panes-->
                             <div class="tab-content">
                                 <div>
-                                    <p style="font-size:1rem;color:#162e44;text-align:justify;"> <b>Explore através de
-                                            visita guiada as 10 melhores grutas entre Armação de Pêra
-                                            e
-                                            Benagil.</b> <br><br>Descubra as mais belas praias selvagens do concelho de
-                                        Lagoa. Incríveis
-                                        formações rochosas, locais curiosos como a Capela da Senhora da Rocha e o Túnel
-                                        da Praia Nova. <br><br> <b>Conheça lugares icónicos</b> como a <b>Praia da Cova
-                                            Redonda</b> e a <b>Praia
-                                            da Marinha</b>. Nesta excursão fazemos uma pausa para admirar os Arcos da
-                                        Marinha, o
-                                        “Submarino Amarelo” e o Arco de Albandeira. <br><br>Entramos em 10 grutas
-                                        destacando-se
-                                        a fantástica Gruta dos Capitães e o famoso Algar de Benagil. Este passeio
-                                        condensa o melhor da nossa costa no espaço de uma hora.</p>
+                                    <p style="font-size:1rem;color:#162e44;text-align:justify;"> {!!$tours->descricao!!}
+                                    </p>
 
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col-md-4">
                                             <p style="font-size:1.1rem; color:#162e44"><b>PREÇO ADULTO:</b>
                                                 <br>
@@ -225,9 +215,9 @@
                                                 <b style="margin-left:0.8rem;font-size:1rem; color:#162e44">1H15MIN</b>
                                             </p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="group-md group-middle"
-                                        style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:5rem;">
+                                        style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
                                         <a class="button button-width-xl-230 button-primary button-pipaluk"
                                             href="#">Book Now</a>
                                     </div>
@@ -247,37 +237,29 @@
         <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
-                    <div class="col-md-10 col-lg-5 col-xl-6"><img src="img/benagil3.png" alt="" width="519"
-                            height="564" />
+                    <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt="" width="419"
+                             />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">More Information</h2>
+                    <div class="col-md-10 col-lg-7 col-xl-6" style="height:35rem;">
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
-                                        data-toggle="tab">Included</a></li>
+                                        data-toggle="tab">Incluido</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-2" data-toggle="tab">OTHER THINGS TO NOTE</a></li>
-                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-3" data-toggle="tab">CONDITIONS</a></li>
+                                        href="#tabs-4-2" data-toggle="tab">Outras coisas</a></li>
+
                             </ul>
                             <!-- Tab panes-->
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="tabs-4-1">
-                                    <p>Orci nulla pellentesque dignissim enim sit. Elit ullamcorper dignissim cras
-                                        tincidunt lobortis feugiat vivamus. Nibh mauris cursus mattis molestie a iaculis
-                                        at erat pellentesque.</p>
+
                                     <div class="text-center text-sm-left offset-top-30 tab-height">
                                         <ul
                                             class="row-16 list-0 list-custom list-marked list-marked-sm list-marked-secondary">
-                                            <li>Lorem ipsum</li>
-                                            <li>Consectetur adipiscing</li>
-                                            <li>Sed do eiusmod</li>
-                                            <li>Tempor incididunt</li>
-                                            <li>Sem fringilla</li>
-                                            <li>Ut venenatis</li>
+                                            {!!$tours->included!!}
                                         </ul>
                                     </div>
                                     <div class="group-md group-middle"><a
@@ -286,22 +268,12 @@
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
-                                    <p>Orci nulla pellentesque dignissim enim sit. Elit ullamcorper dignissim cras
-                                        tincidunt lobortis feugiat vivamus. Nibh mauris cursus mattis molestie a iaculis
-                                        at erat pellentesque.</p>
+                                    <p> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
                                             href="#">Book Now</a></div>
                                 </div>
-                                <div class="tab-pane fade" id="tabs-4-3">
-                                    <p>Aliquam malesuada bibendum arcu vitae elementum curabitur. A erat nam at lectus
-                                        urna duis convallis convallis tellus. Sit amet consectetur adipiscing elit
-                                        pellentesque.</p>
-                                    <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a></div>
 
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -310,81 +282,23 @@
         </section>
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
-                <h6 class="gallery-title">Gallery</h6>
+                <h6 class="gallery-title">Galeria</h6>
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
                     data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
                     data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
                     <!-- Thumbnail Classic-->
+                    @foreach ($galeria as $gale)
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-1-270x195.jpg" alt=""
-                                width="270" height="195" />
+                        <div class="thumbnail-mary-figure"><img src="{{ asset($gale->avatar)}}" alt="" width="270"
+                                height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" /></a>
+                                href="{{ asset($gale->avatar)}}" data-lightgallery="item"><img
+                                    src="{{ asset($gale->avatar)}}" alt="" width="270" height="195" /></a>
                         </div>
                     </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-2-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-2-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-3-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-3-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-4-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-4-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-4-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-5-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-5-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-5-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-6-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-6-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-6-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
-                    <!-- Thumbnail Classic-->
-                    <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="images/gallery-image-7-270x195.jpg" alt=""
-                                width="270" height="195" />
-                        </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
-                                href="images/gallery-image-7-1200x800-original.jpg" data-lightgallery="item"><img
-                                    src="images/gallery-image-7-270x195.jpg" alt="" width="270" height="195" /></a>
-                        </div>
-                    </article>
+                    @endforeach
                 </div>
             </div>
         </section>
@@ -504,11 +418,11 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="{{ asset('js/core.min.js')}}"></script>
+    <script src="{{ asset('js/script.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
     </script>
-    
+
     <div id="whatswidget-pre-wrapper" class="">
         <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
             <div id="whatswidget-conversation" class="whatswidget-conversation"
@@ -519,7 +433,8 @@
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
                     style="all:revert;"> <span style="all:revert;">Se tens alguma questão, precisas de ajuda ou
-                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span></div>
+                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span>
+                </div>
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=351926461342"

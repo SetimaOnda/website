@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,9 +18,7 @@ Route::get('/', function () {
 Route::get('/sobre-nos', function () {
     return view('sobrenos');
 });
-Route::get('/tours', function () {
-    return view('tours');
-});
+Route::get('/tours/{id}', [App\Http\Controllers\PageController::class, 'tours'])->name('tours');
 
 Route::get('/contact', function () {
     return view('contact');

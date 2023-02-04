@@ -131,19 +131,19 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours">Tradicional Benagil Cave</a></li>
+                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Private Benagil Cave</a></li>
+                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Sunset Benagil Cave</a></li>
+                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="#">Private Benagil Cave Special</a></li>
+                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">About</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact Us</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contactos</a>
                                     </li>
 
 
