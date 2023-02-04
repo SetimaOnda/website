@@ -19,7 +19,7 @@ Route::get('/sobre-nos', function () {
     return view('sobrenos');
 });
 Route::get('/tours/{id}', [App\Http\Controllers\PageController::class, 'tours'])->name('tours');
-
+Route::get('/contactoy', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 Route::get('/contact', function () {
     return view('contact');
 });

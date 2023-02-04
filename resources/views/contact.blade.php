@@ -199,24 +199,48 @@
 
                             </div>
                         </div>
-                        <form style="margin-top:4rem;">
+                        @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <button type="button" class="close" data-dismiss="alert">+</button>
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endif
+                @if (Session::get('erro'))
+                <div class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="alert">+</button>
+                    <strong>{{Session::get('erro')}}</strong>
+                </div>
+                @endif
+                @if (Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <button type="button" class="close" data-dismiss="alert">+</button>
+                    <strong>{{Session::get('success')}}</strong>
+                </div>
+                @endif
+                        <form action="/contactoy" style="margin-top:4rem;">
+               
+                        @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Primeiro Nome</label>
-                                    <input type="text" class="form-control" id="inputEmail4">
+                                    <label for="inputEmail4">Primeiro Nome<span style="color:red">*</span></label>
+                                    <input type="text" required name="first_name" class="form-control" id="inputEmail4">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">Último Nome</label>
-                                    <input type="text" class="form-control" id="inputPassword4">
+                                    <label for="inputPassword4">Último Nome<span style="color:red">*</span></label>
+                                    <input type="text" required name="last_name" class="form-control" id="inputPassword4">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">Email</label>
-                                <input type="email" class="form-control" id="inputAddress">
+                                <label for="inputAddress">Email<span style="color:red">*</span></label>
+                                <input type="email" required name="email" class="form-control" id="inputAddress">
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1"> Assunto</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="exampleFormControlTextarea1"> Assunto<span style="color:red">*</span></label>
+                                <textarea name="assunto" required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
