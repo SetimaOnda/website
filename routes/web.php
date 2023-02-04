@@ -23,3 +23,7 @@ Route::get('/contactoy', [App\Http\Controllers\PageController::class, 'contact']
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
