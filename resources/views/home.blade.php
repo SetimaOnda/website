@@ -221,7 +221,7 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour1.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
                                         <p class="box-categories-title2">From €30</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -232,7 +232,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour2.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="" width="368" height="420" /></a>
                                         <p class="box-categories-title2">From €250</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -243,7 +243,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour3.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="" width="368" height="420" /></a>
                                         <p class="box-categories-title2">From €30</p>
                                         <h5 class="box-categories-title">Sunset Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -254,7 +254,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="#"><img src="img/img/tour4.png" alt="" width="368" height="568" /></a>
+                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="" width="368" height="568" /></a>
                                         <p class="box-categories-title2">From €30</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
