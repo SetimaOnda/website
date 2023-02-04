@@ -142,7 +142,7 @@
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
                                     </li>
 
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">Contactos</a>
+                                    <li class="rd-nav-item "><a class="rd-nav-link" href="/contact">Contactos</a>
                                     </li>
                                 </ul>
                                 <ul style="list-style: none;justify-content: flex-end;">
