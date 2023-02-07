@@ -170,28 +170,29 @@
                         <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInRight" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Contact us</h6>
+                                    <h6 class="text-spacing-100 text-uppercase">Contactos</h6>
                                     <ul class="footer-contacts d-inline-block d-sm-block">
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone"
-                                                        href="tel:+351 926 461 342">+351 926 461 342</a></div>
+                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
                                                 <div class="unit-body"><a class="link-aemail"
-                                                        href="mailto:#">info@demolink.org</a></div>
+                                                        href="mailto:info@setimaondaboattrips.com">info@setimaondaboattrips.com</a>
+                                                </div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-location-arrow"></span>
                                                 </div>
-                                                <div class="unit-body"><a class="link-location" href="#">4730 Crystal
-                                                        Springs Dr, Los Angeles, CA 90027</a></div>
+                                                <div class="unit-body"><a class="link-location">PRAIA DOS
+                                                        PESCADORES, 8365-114 ARMAÇÃO DE PÊRA
+                                                    </a></div>
                                             </div>
                                         </li>
                                     </ul>
@@ -201,41 +202,42 @@
                         <div class="col-sm-6 col-md-5 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInDown" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Popular news</h6>
+                                    <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
                                     <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#">Your Personal Guide to 5 Best Places
-                                                to Visit on Earth</a></p>
-                                        <div class="post-minimal-2-time">
-                                            <time datetime="2019-05-04">May 04, 2019</time>
-                                        </div>
+                                        <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
+                                                    src="img/home/livro_reclamacoes.png" alt=""></a></p>
+
                                     </article>
+                                    <div class="row"> 
+                                    <div class="col">    <article class="post post-minimal-2">
+                                        <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                alt=""></p>
+
+                                    </article> </div>
+                                    <div class="col"> <article class="post post-minimal-2">
+                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
+
+                                    </article></div>
+                                    
+                                    </div>
+                                   
+                                   
                                     <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#">Top 10 Hotels: Rating by Wonder Tour
-                                                Travel Experts</a></p>
-                                        <div class="post-minimal-2-time">
-                                            <time datetime="2019-05-04">May 04, 2019</time>
-                                        </div>
-                                    </article>
+                                 
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-11 col-md-7 col-lg-5 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
-                                    <ul
-                                        class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="#">Our Tours</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Gallery</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                    </ul>
-                                    <div class="group-md group-middle justify-content-sm-start"><a
-                                            class="button button-lg button-primary button-ujarak" href="#">Get in
-                                            touch</a></div>
+                                    <h6 class="text-spacing-100 text-uppercase"></h6>
+                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+
+<br><br>RNAAT nº: 73/2023 </p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -245,25 +247,30 @@
             <div class="footer-corporate-bottom-panel">
                 <div class="container">
                     <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
-                        <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
+                        <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                <li><a class=" icon fa fa-instagram"
+                                            href="http://instagram.com/setimaondaboattrips"></a></li>
+                                    <li><a class="icon fa fa-facebook"
+                                            href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
+                                    <li><a class="icon fa fa-youtube"
+                                            href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g"></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 order-sm-first">
+                        <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
-                            <p class="rights"><span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Wonder Tour</span>. All
-                                Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a>
+                            <p class="rights">Copyright<span>&copy;&nbsp;</span><span
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                <br>All Rights Reserved.
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-md-right">
-                            <p class="rights"><a href="#">Privacy Policy</a></p>
+                        <div class="col-sm-6 col-md-3 text-md-right">
+                            <p class="rights"><a href="/termos">Termos e condições</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 text-md-right">
+                            <p class="rights"><a href="/politica">Politica de Privacidade</a></p>
                         </div>
                     </div>
                 </div>

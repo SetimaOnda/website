@@ -411,7 +411,7 @@ a[href*='tel'], a[href*='mailto'] {
 	padding: 8px 40px 10px;
 	font-weight: 400;
 	letter-spacing: .05em;
-	background: #ffffff;
+	background: #f7f7f7;
 }
 
 .gallery-title a, .gallery-title a:focus, .gallery-title a:active,
@@ -2010,11 +2010,7 @@ html .group-middle {
 	justify-content: center;
 }
 
-@media (min-width: 768px) {
-	html .group-middle {
-		justify-content: flex-start;
-	}
-}
+
 
 * + .group-sm {
 	margin-top: 40px;
@@ -10389,7 +10385,7 @@ h2.title-modern > span {
 
 .title-opacity-9 {
 	text-align: center;
-	color: rgba(21, 21, 21, 0.20);
+	color: rgba(1,179,167,0.6);
 }
 
 * + .heading-panel-subtitle {
@@ -12093,7 +12089,7 @@ h4 + .instafeed {
 }
 
 .section-sm.section-first {
-	padding-top: 60px;
+	padding-top: 5px;
 }
 
 .section-sm.section-last {
@@ -12147,10 +12143,10 @@ html [class*='section-'].section-top-0 {
 		padding: 50px 0;
 	}
 	.section-sm.section-first {
-		padding-top: 100px;
+		padding-top: 10px;
 	}
 	.section-sm.section-last {
-		padding-bottom: 100px;
+		padding-bottom: 10px;
 	}
 	.section-md {
 		padding: 80px 0;
@@ -13490,7 +13486,7 @@ html:not(.lt-ie10) .not-animated {
 */
 .ui-to-top {
 	position: fixed;
-	right: 15px;
+	left: 15px;
 	bottom: 15px;
 	z-index: 100;
 	width: 40px;
@@ -19754,7 +19750,7 @@ h1 + .tabs-line {
 		border: 1px solid #e1e1e1;
 	}
 	.tabs-horizontal.tabs-line .nav-tabs {
-		justify-content: unset;
+		
 		border-bottom: 3px solid #e1e1e1;
 	}
 	.tabs-horizontal.tabs-line .nav-item {

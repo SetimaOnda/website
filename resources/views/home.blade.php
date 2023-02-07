@@ -94,7 +94,7 @@
                                         <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                             <div class="unit-body"><a class="link-phone"
-                                                    href="tel:+351 926 461 342">+351 926 461 342</a></div>
+                                                    href="tel:+351 966 940 015">+351 966 940 015</a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -223,7 +223,7 @@
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/1"><img src="img/img/tour1.png" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
-                                        <p class="box-categories-title2">From €30</p>
+                                        <p class="box-categories-title2">From €25</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
                                             now</a>
@@ -255,7 +255,7 @@
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/4"><img src="img/img/tour4.png" alt="" width="368" height="568" /></a>
-                                        <p class="box-categories-title2">From €30</p>
+                                        <p class="box-categories-title2">From €350</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
@@ -278,7 +278,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInRight" style="height:24rem;" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
-
+                        <!--<h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Porquê escolher-nos?-->
+                        </h2>
                             <!-- Bootstrap tabs-->
                             <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left"
                                 id="tabs-7">
@@ -295,7 +296,7 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p>A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
+                                        <p style="text-align:justify;">A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
                                             várias embarcações comandadas por profissionais certificados. Uma fusão
                                             entre a ambição de elevar o nome de Armação de Pêra, com o conhecimento de
                                             quem fez isto durante toda a vida. Temos como principal objetivo,
@@ -308,8 +309,7 @@
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
                                                 href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Read
-                                                More</a></div>
+                                                class="button button-black-outline button-md" href="about.html">Saber Mais</a></div>
                                     </div>
                                     <div class="tab-pane fade" id="tabs-7-2">
                                         <div class="row">
@@ -370,12 +370,12 @@
                                 <div class="unit-left"><a class="product-big-figure" href="#"><img
                                             src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
                                 <div class="unit-body">
-                                    <div class="product-big-body">
-                                        <h5 class="product-big-title"><a href="#">Private Benagil Cave Tour</a></h5>
+                                    <div class="product-big-body" style="    text-align: center;">
+                                        <h5 class="product-big-title" style="text-align: center;"><a href="/tours/3">Private Benagil Cave Tour</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
                                         </div>
-                                        <p class="product-big-text">Junte-se a nós e descubra os segredos da nossa costa
+                                        <p class="product-big-text" style="text-align: justify;">Junte-se a nós e descubra os segredos da nossa costa
                                             desde Armação até à mundialmente famosa Gruta de Benagil, num barco
                                             exclusivo para o seu grupo, onde pode levar até 10 pessoas, contando
                                             consigo. <br>
@@ -413,7 +413,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-12 col-md-5 wow fadeInLeft">
+                            <div class="col-sm-12 col-md-5 wow fadeInLeft" style="margin-top: -3rem;">
                                 <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
                                         class="d-block font-weight-semi-bold">Venha descobrir a </span><span
                                         class="d-block font-weight-light">Costa Algarvia!</span></h2>
@@ -575,7 +575,7 @@
         <!--	Instagrram wondertour-->
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
-                <h6 class="gallery-title">Galeria</h6>
+                <h6 class="gallery-title"></h6>
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
                     data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
@@ -667,8 +667,7 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:#">+1
-                                                        323-913-4688</a></div>
+                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -699,16 +698,27 @@
                                     <!-- Post Minimal 2-->
                                     <article class="post post-minimal-2">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="img/home/livro_reclamacoes.png" alt=""></a></p>
+                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
 
                                     </article>
-                                    <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
+                                    <div class="row"> 
+                                    <div class="col">    <article class="post post-minimal-2">
                                         <p class="post-minimal-2-title"><img style="height:4rem;"
                                                 src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
                                                 alt=""></p>
 
-                                    </article>
+                                    </article> </div>
+                                    <div class="col"> <article class="post post-minimal-2">
+                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
+
+                                    </article></div>
+                                    
+                                    </div>
+                                   
+                                   
+                                    <!-- Post Minimal 2-->
+                                 
                                 </div>
                             </div>
                         </div>
@@ -716,15 +726,10 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <ul
-                                        class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                                        <li><a href="/sobre-nos">Sobre Nós</a></li>
-                                        <li><a href="/contactos">Contactos</a></li>
-                                        <li><a href="/">Home</a></li>
-                                    </ul>
-                                    <div class="group-md group-middle justify-content-sm-start"><a
-                                            class="button button-lg button-primary button-ujarak" href="#">Book now</a>
-                                    </div>
+                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+
+<br><br>RNAAT nº: 73/2023 </p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -737,17 +742,19 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                                <li><a class=" icon fa fa-instagram"
+                                            href="http://instagram.com/setimaondaboattrips"></a></li>
+                                    <li><a class="icon fa fa-facebook"
+                                            href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
+                                    <li><a class="icon fa fa-youtube"
+                                            href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g"></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Trip Boat</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>
