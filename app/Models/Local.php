@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Local extends Model
 {
     use HasFactory;
-    protected $table = 'localizazao';
+    protected $table = 'localizacao';
     protected $fillable = [
         'ip',
         'countryName',
