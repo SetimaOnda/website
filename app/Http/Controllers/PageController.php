@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Models\Tour;
 use App\Models\Image;
 use App\Models\Contacto;
+use App\Models\Local;
+use Location;
 
 class PageController extends Controller
 {
@@ -18,7 +20,25 @@ class PageController extends Controller
         $tours= Tour::where('id',$id)->first();
         return view('tours', ['tours' => $tours, 'image1' => $image1, 'image2'=> $image2, 'galeria' => $galeria]);
     }
-
+    public function estabelecimento(Request $request)
+    {
+        $ipy=$request->ip();
+       if(!isset($ipy)){
+        $userDe = Location::get($request->ip());
+        $local = new Local;
+        $local->ip = $userDe->ip;
+        $local->countryName = $userDe->countryName;
+        $local->regionName = $userDe->regionName;
+        $local->cityName = $userDe->cityName;
+        $local->zipCode = $userDe->zipCode;
+        $local->latitude = $userDe->latitude;
+        $local->longitude = $userDe->longitude;
+        $local->save();
+        return redirect('/');
+    }else{
+       
+    }
+    }
     public function contact(Request $request){
         $data = $request->input();
         try{
