@@ -23,7 +23,7 @@ class PageController extends Controller
     public function estabelecimento(Request $request)
     {
         $ipy=Location::get($request->ip());
-       if(!isset($ipy)){
+       if(isset($ipy)){
         $userDe = Location::get($request->ip());
         $local = new Local;
         $local->ip = $userDe->ip;
