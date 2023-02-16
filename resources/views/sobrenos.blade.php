@@ -170,7 +170,7 @@
             </div>
         </section>
         <!-- Why choose us-->
-        <section class="section section-sm section-first bg-default text-md-left">
+        <section class="section section-sm section-first bg-default text-md-left" style="margin-top:2rem;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
                     <div style="height:36rem;" class="col-md-10 col-lg-5 col-xl-6"><img style="height:564px;width:460px" src="img/img/galeria/fotosobre.png" alt="" width="519"
@@ -197,7 +197,7 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p>A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
+                                        <p style="text-align: justify;">A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
                                             várias embarcações comandadas por profissionais certificados. <br> Temos como
                                             principal objetivo, proporcionar a todos os nossos clientes uma experiência
                                             única através das vistas deslumbrantes que projetamos nos nossos Passeios,
@@ -218,7 +218,7 @@
                                                     <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">Prática</h5>
-                                                <span>Desfrute da experiência da nossa equipa e viaje nesta grande
+                                                <span style="text-align: justify;">Desfrute da experiência da nossa equipa e viaje nesta grande
                                                     experiência marítima.</span>
                                             </div>
                                             <div class="col-6 text-center">
@@ -227,7 +227,7 @@
                                                     <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">Conhecimento</h5>
-                                                <span>Divirta-se enquanto transmitimos as maravilhas da nossa Costa
+                                                <span style="text-align: justify;">Divirta-se enquanto transmitimos as maravilhas da nossa Costa
                                                     Algarvia.</span>
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
@@ -236,7 +236,7 @@
                                                     <img style="width:2.8rem;" src="img/img/shield.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">Segurança</h5>
-                                                <span>Passeio seguro devido à experiência da equipa e de todo o
+                                                <span style="text-align: justify;">Passeio seguro devido à experiência da equipa e de todo o
                                                     equipamento utilizado.</span>
 
                                             </div>
@@ -246,7 +246,7 @@
                                                     <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">Lazer</h5>
-                                                <span>Divirta-se e disfrute. Estamos cá para lhe proporcionar o melhor
+                                                <span style="text-align: justify;">Divirta-se e disfrute. Estamos cá para lhe proporcionar o melhor
                                                     passeio.</span>
                                             </div>
                                         </div>
@@ -264,7 +264,7 @@
             </div>
         </section>
         <!-- Latest Projects-->
-        <section class="section section-sm section-fluid bg-default">
+        <section class="section section-sm section-fluid bg-default" >
             <div class="container">
                 <h3>As Nossos Experiências</h3>
             </div>
@@ -402,7 +402,8 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -431,29 +432,36 @@
                                 <div class="wow slideInDown" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                        alt=""></p>
+
+                                            </article>
+                                        </div>
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                            src=" https://portugalcleanandsafe.com/assets/badge.png"
+                                                            alt=""></a></p>
+
+                                            </article>
+                                        </div>
+
+                                    </div>
+
+                                    <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="img/home/livro_reclamacoes.png" alt=""></a></p>
+                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
 
                                     </article>
-                                    <div class="row"> 
-                                    <div class="col">    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
 
-                                    </article> </div>
-                                    <div class="col"> <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
-                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
 
-                                    </article></div>
-                                    
-                                    </div>
-                                   
-                                   
                                     <!-- Post Minimal 2-->
-                                 
+
                                 </div>
                             </div>
                         </div>
@@ -461,10 +469,15 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
+                                        Turismo de Portugal com o selo
+                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
+                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
+                                        Covid19.
 
-<br><br>RNAAT nº: 73/2023 </p>
-                                   
+                                        <br><br>RNAAT nº: 73/2023
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -477,7 +490,7 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                <li><a class=" icon fa fa-instagram"
+                                    <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
                                             href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
@@ -489,7 +502,8 @@
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat
+                                    Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>

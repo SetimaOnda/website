@@ -238,9 +238,9 @@
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
                     <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt=""
-                            width="219" />
+                            width="319" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6" style="height:35rem;">
+                    <div class="col-md-10 col-lg-7 col-xl-6" style="height:30rem;">
                         <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -268,7 +268,7 @@
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
-                                    <p> {!!$tours->other_things!!}</p>
+                                    <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
                                             href="#">Book Now</a></div>

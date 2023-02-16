@@ -2212,7 +2212,7 @@ html .list-inline-md > * {
 
 .list-marked-sm > li {
 	text-indent: -15px;
-	padding-left: 15px;
+	padding-left: 30px;
 }
 
 .list-marked-sm > li::before {
@@ -2407,7 +2407,7 @@ p + .list-marked {
 
 @media (min-width: 1200px) {
 	.list-custom {
-		columns: 3;
+		columns: 2;
 	}
 }
 

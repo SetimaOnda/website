@@ -367,11 +367,7 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
                                 <div class="wow slideInDown" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="img/home/livro_reclamacoes.png" alt=""></a></p>
 
-                                    </article>
                                     <div class="row">
                                         <div class="col">
                                             <article class="post post-minimal-2">
@@ -392,6 +388,12 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
 
                                     </div>
 
+                                    <article class="post post-minimal-2" style="text-align: end;">
+                                        <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
+                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
+
+                                    </article>
+
 
                                     <!-- Post Minimal 2-->
 
@@ -402,7 +404,8 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo
+                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
+                                        Turismo de Portugal com o selo
                                         Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
                                         cumprimento dos padrões de segurança recomendados para mitigar o efeito da
                                         Covid19.
