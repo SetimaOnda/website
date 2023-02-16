@@ -35,7 +35,7 @@
 </head>
 
 <body>
-   <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
+    <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
     </div>
@@ -93,7 +93,7 @@
                                         <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                             <div class="unit-body"><a class="link-phone"
-                                                    href="tel:+351 926 461 342">+351 926 461 342</a></div>
+                                                    href="tel:+351 966 940 015">+351 966 940 015</a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -188,10 +188,10 @@
                                 <div>
                                     <p style="font-size:1rem;color:#162e44;text-align:justify;"> Se tens alguma questão,
                                         precisas de ajuda ou simplesmente queres deixar um comentário, fica à vontade
-                                        para nos deixar uma mensagem pelo Whatsapp, Instagram, email ou se preferires
-                                        faz uma chamada! <br><br>
-                                    <div style="margin-bottom:2rem;"><a  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="button button-secondary button-pipaluk"
-                                            >Meeting Point</a></div>
+                                        para nos deixar uma mensagem! <br><br>
+                                    <div style="margin-bottom:2rem;"><a data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop"
+                                            class="button button-secondary button-pipaluk">Meeting Point</a></div>
                                     Não te esqueças de fazer uma avaliação após o passeio 🙂</p>
 
 
@@ -207,18 +207,23 @@
                                                         data-bs-dismiss="modal">Close</button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p>Na Praia do Pescador de Armacao de Pera, junto ao Bar de Pedro. Encontrará uma grande bandeira negra na areia e também um membro do pessoal com uma t-shirt a dizer Sétima Onda Boat Trips. Contacte os nossos colegas para fazer o check-in.
-<br><br>
-Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / todos os dias).</p>
+                                                    <p style="text-align: justify;">Na Praia dos Pescadores de Armação
+                                                        de Pera, junto ao Pedro´s Bar.
+                                                        Encontrará uma grande bandeira negra na areia e também um membro
+                                                        do pessoal com uma t-shirt a dizer Sétima Onda Boat Trips.
+                                                        Contacte os nossos colegas para fazer o check-in.<br><br>
+                                                        Se precisar, há um grande parque de estacionamento ao lado da
+                                                        praia (2,5 euros / todos os dias).</p>
 
-<section class="section section-fluid" style="margin-top:3rem;">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.186275167964!2d-8.359489485632354!3d37.10068315842879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ad16db0fe8341%3A0x1d8ef3c2656c86c0!2sBarcos%20S%C3%A9tima%20Onda!5e0!3m2!1spt-PT!2spt!4v1675399971103!5m2!1spt-PT!2spt"
-                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+                                                    <section class="section section-fluid" style="margin-top:3rem;">
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.186275167964!2d-8.359489485632354!3d37.10068315842879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ad16db0fe8341%3A0x1d8ef3c2656c86c0!2sBarcos%20S%C3%A9tima%20Onda!5e0!3m2!1spt-PT!2spt!4v1675399971103!5m2!1spt-PT!2spt"
+                                                            width="100%" height="250" style="border:0;"
+                                                            allowfullscreen="" loading="lazy"
+                                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                    </section>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
@@ -287,7 +292,7 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-phone"></div>
                                     <div class="box-contacts-decor"></div>
-                                    <p class="box-contacts-link"><a href="tel:+351 926 461 342">+351 926 461 342</a>
+                                    <p class="box-contacts-link"><a href="tel:+351 966 940 015">+351 966 940 015</a>
                                     </p>
                                     <!-- <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>-->
                                 </div>
@@ -310,7 +315,8 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
                                     <div class="box-contacts-icon fa-envelope-o"></div>
                                     <div class="box-contacts-decor"></div>
                                     <p class="box-contacts-link"><a
-                                            href="mailto:info@setimaonda.com">info@setimaonda.com</a></p>
+                                            href="mailto:info@setimaondaboattrips.com">info@setimaondaboattrips.com</a>
+                                    </p>
                                 </div>
                             </article>
                         </div>
@@ -322,7 +328,7 @@ Se precisar, há um grande lugar de estacionamento ao lado da praia (2 euros / t
             </div>
         </section>
 
-      <!--  -->
+        <!--  -->
 
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">

@@ -93,7 +93,7 @@
                                         <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                             <div class="unit-body"><a class="link-phone"
-                                                    href="tel:+351 926 461 342">+351 926 461 342</a></div>
+                                                    href="tel:+351 966 940 015">+351 966 940 015</a></div>
                                         </div>
                                     </li>
                                 </ul>
