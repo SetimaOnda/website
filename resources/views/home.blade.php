@@ -276,7 +276,8 @@
         <!-- Discover New Horizons-->
         <section class="section section-sm section-first bg-gray-4  text-md-left">
             <div class="container">
-                <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">Sobre Nós</span></h3>
+                <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">Sobre
+                        Nós</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
                     <div style="height:24rem;" class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
                             alt="" width="556" height="382" />
@@ -309,12 +310,12 @@
                                             proporcionar a todos os nossos clientes uma experiência única através das
                                             vistas deslumbrantes que projetamos nos nossos Passeios, bem como, a
                                             história de cada gruta que os nossos antepassados nos contam, para isso,
-                                            operamos em grupos de tamanho reduzido. <br> A Sétima Onda dispõe de todas as
+                                            operamos em grupos de tamanho reduzido. <br> A Sétima Onda dispõe de todas
+                                            as
                                             licenças e seguros para as experiências que oferece.
                                         </p>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="">Book now</a><a
+                                                class="button button-secondary button-pipaluk" href="">Book now</a><a
                                                 class="button button-black-outline button-md" href="/sobre-nos">Saber
                                                 Mais</a></div>
                                     </div>
@@ -350,8 +351,7 @@
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="">Book now</a><a
+                                                class="button button-secondary button-pipaluk" href="">Book now</a><a
                                                 class="button button-black-outline button-md" href="/sobre-nos">Read
                                                 More</a></div>
                                     </div>
@@ -543,7 +543,8 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q" style="text-align: justify;">Um autêntico privilégio ter a oportunidade de embarcar no "Sétima Onda"
+                                <p class="q" style="text-align: justify;">Um autêntico privilégio ter a oportunidade de
+                                    embarcar no "Sétima Onda"
                                     para conhecer alguns dos recantos mais escondidos e bonitos da nossa costa. <br>
                                     O "Sétima Onda" faz uma ligação perfeita entre o melhor que a nossa costa tem para
                                     oferecer e o profissionalismo/simpatia de todo o seu staff.
@@ -557,7 +558,8 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q" style="text-align: justify;">De mi visita en todo el Algarve, esta experiencia ha sido la más agradable,
+                                <p class="q" style="text-align: justify;">De mi visita en todo el Algarve, esta
+                                    experiencia ha sido la más agradable,
                                     divertida y gratificante. El paseo es una gozada. Los capitanes son encantadores y
                                     entrañables. Las explicaciones muy bien y el dominio de las lanchas es increíble.
                                     Seguridad ante todo, pero te meten por sitios que parece imposible que entre un
@@ -571,7 +573,8 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q" style="text-align: justify;">Highly recommend this boat trip..... stunning scenery, breathtaking caves
+                                <p class="q" style="text-align: justify;">Highly recommend this boat trip..... stunning
+                                    scenery, breathtaking caves
                                     and first class captain skills.</p>
                             </div>
                             <h5 class="quote-lisa-cite"><a href="#">Alison Sime</a></h5>
@@ -707,7 +710,7 @@
                                 <div class="wow slideInDown" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
-                                   
+
                                     <div class="row">
                                         <div class="col">
                                             <article class="post post-minimal-2">
@@ -727,7 +730,7 @@
                                         </div>
 
                                     </div>
-                                    
+
                                     <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
                                                     src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
@@ -744,7 +747,8 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo
+                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
+                                        Turismo de Portugal com o selo
                                         Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
                                         cumprimento dos padrões de segurança recomendados para mitigar o efeito da
                                         Covid19.
@@ -800,7 +804,7 @@
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
     </script>
-
+<!--
     <div id="whatswidget-pre-wrapper" class="">
         <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
             <div id="whatswidget-conversation" class="whatswidget-conversation"
@@ -1020,7 +1024,10 @@
             opacity: 0.5 !important
         }
         </style>
-    </div>
+    </div> -->
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-ae2d48ee-b505-4355-8700-fa8035647d31"></div>
 </body>
 
 </html>
