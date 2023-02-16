@@ -221,7 +221,8 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="" width="368"
+                                                height="420" /></a>
                                         <h5 class="box-categories-title">Tradicional Benagil Cave Tour</h5>
                                         <p class="box-categories-title2">From €25</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -232,7 +233,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="" width="368"
+                                                height="420" /></a>
                                         <p class="box-categories-title2">From €250</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -243,7 +245,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="" width="368" height="420" /></a>
+                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="" width="368"
+                                                height="420" /></a>
                                         <p class="box-categories-title2">From €30</p>
                                         <h5 class="box-categories-title">Sunset Benagil Cave Tour</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -254,7 +257,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="" width="368" height="568" /></a>
+                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="" width="368"
+                                                height="568" /></a>
                                         <p class="box-categories-title2">From €350</p>
                                         <h5 class="box-categories-title">Private Benagil Cave Tour Special</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -272,14 +276,15 @@
         <!-- Discover New Horizons-->
         <section class="section section-sm section-first bg-gray-4  text-md-left">
             <div class="container">
+                <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">Sobre Nós</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
                     <div style="height:24rem;" class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
                             alt="" width="556" height="382" />
                     </div>
                     <div class="col-lg-6 wow fadeInRight" style="height:24rem;" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
-                        <!--<h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Porquê escolher-nos?-->
-                        </h2>
+                            <!--<h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Porquê escolher-nos?-->
+                            </h2>
                             <!-- Bootstrap tabs-->
                             <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left"
                                 id="tabs-7">
@@ -296,20 +301,22 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p style="text-align:justify;">A Sétima Onda é uma empresa familiar com experiência nesta atividade e com
+                                        <p style="text-align:justify;">A Sétima Onda é uma empresa familiar com
+                                            experiência nesta atividade e com
                                             várias embarcações comandadas por profissionais certificados. Uma fusão
                                             entre a ambição de elevar o nome de Armação de Pêra, com o conhecimento de
-                                            quem fez isto durante toda a vida. Temos como principal objetivo,
+                                            quem fez isto durante toda a vida. <br> Temos como principal objetivo,
                                             proporcionar a todos os nossos clientes uma experiência única através das
                                             vistas deslumbrantes que projetamos nos nossos Passeios, bem como, a
                                             história de cada gruta que os nossos antepassados nos contam, para isso,
-                                            operamos em grupos de tamanho reduzido. A Sétima Onda dispõe de todas as
+                                            operamos em grupos de tamanho reduzido. <br> A Sétima Onda dispõe de todas as
                                             licenças e seguros para as experiências que oferece.
                                         </p>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Saber Mais</a></div>
+                                                href="">Book now</a><a
+                                                class="button button-black-outline button-md" href="/sobre-nos">Saber
+                                                Mais</a></div>
                                     </div>
                                     <div class="tab-pane fade" id="tabs-7-2">
                                         <div class="row">
@@ -344,8 +351,8 @@
                                         </div>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a><a
-                                                class="button button-black-outline button-md" href="about.html">Read
+                                                href="">Book now</a><a
+                                                class="button button-black-outline button-md" href="/sobre-nos">Read
                                                 More</a></div>
                                     </div>
 
@@ -371,11 +378,13 @@
                                             src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
                                 <div class="unit-body">
                                     <div class="product-big-body" style="    text-align: center;">
-                                        <h5 class="product-big-title" style="text-align: center;"><a href="/tours/3">Private Benagil Cave Tour</a></h5>
+                                        <h5 class="product-big-title" style="text-align: center;"><a
+                                                href="/tours/3">Private Benagil Cave Tour</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
                                         </div>
-                                        <p class="product-big-text" style="text-align: justify;">Junte-se a nós e descubra os segredos da nossa costa
+                                        <p class="product-big-text" style="text-align: justify;">Junte-se a nós e
+                                            descubra os segredos da nossa costa
                                             desde Armação até à mundialmente famosa Gruta de Benagil, num barco
                                             exclusivo para o seu grupo, onde pode levar até 10 pessoas, contando
                                             consigo. <br>
@@ -400,7 +409,7 @@
                     style="height: 23rem;">
                     <div class="container">
                         <div class="row row-sm row-40 row-md-50">
-                            <div class="col-sm-12 col-md-7 wow fadeInLeft">
+                            <!--<div class="col-sm-12 col-md-7 wow fadeInLeft">
                                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=pBFQdxA-apI">
                                     <div class="wrapper"
                                         style="width:0 !important;height:0 !important;    margin-left: 177px;">
@@ -412,12 +421,13 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="col-sm-12 col-md-5 wow fadeInLeft" style="margin-top: -3rem;">
+                            </div>-->
+                            <div class="col-sm-12 col-md-12 wow fadeInLeft" style="margin-top: -3rem;">
                                 <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span
                                         class="d-block font-weight-semi-bold">Venha descobrir a </span><span
                                         class="d-block font-weight-light">Costa Algarvia!</span></h2>
-                                <a class="button button-secondary button-pipaluk" href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">Ver Mais</a>
+                                <a class="button button-secondary button-pipaluk"
+                                    href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">Ver Mais</a>
 
                             </div>
                         </div>
@@ -533,7 +543,7 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q">Um autêntico privilégio ter a oportunidade de embarcar no "Sétima Onda"
+                                <p class="q" style="text-align: justify;">Um autêntico privilégio ter a oportunidade de embarcar no "Sétima Onda"
                                     para conhecer alguns dos recantos mais escondidos e bonitos da nossa costa. <br>
                                     O "Sétima Onda" faz uma ligação perfeita entre o melhor que a nossa costa tem para
                                     oferecer e o profissionalismo/simpatia de todo o seu staff.
@@ -547,7 +557,7 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q">De mi visita en todo el Algarve, esta experiencia ha sido la más agradable,
+                                <p class="q" style="text-align: justify;">De mi visita en todo el Algarve, esta experiencia ha sido la más agradable,
                                     divertida y gratificante. El paseo es una gozada. Los capitanes son encantadores y
                                     entrañables. Las explicaciones muy bien y el dominio de las lanchas es increíble.
                                     Seguridad ante todo, pero te meten por sitios que parece imposible que entre un
@@ -561,7 +571,7 @@
                     <article class="quote-lisa">
                         <div class="quote-lisa-body">
                             <div class="quote-lisa-text">
-                                <p class="q">Highly recommend this boat trip..... stunning scenery, breathtaking caves
+                                <p class="q" style="text-align: justify;">Highly recommend this boat trip..... stunning scenery, breathtaking caves
                                     and first class captain skills.</p>
                             </div>
                             <h5 class="quote-lisa-cite"><a href="#">Alison Sime</a></h5>
@@ -667,7 +677,8 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -696,29 +707,36 @@
                                 <div class="wow slideInDown" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
+                                   
+                                    <div class="row">
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                        alt=""></p>
+
+                                            </article>
+                                        </div>
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                            src=" https://portugalcleanandsafe.com/assets/badge.png"
+                                                            alt=""></a></p>
+
+                                            </article>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
                                                     src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
 
                                     </article>
-                                    <div class="row"> 
-                                    <div class="col">    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
 
-                                    </article> </div>
-                                    <div class="col"> <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
-                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
 
-                                    </article></div>
-                                    
-                                    </div>
-                                   
-                                   
                                     <!-- Post Minimal 2-->
-                                 
+
                                 </div>
                             </div>
                         </div>
@@ -726,10 +744,14 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo
+                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
+                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
+                                        Covid19.
 
-<br><br>RNAAT nº: 73/2023 </p>
-                                   
+                                        <br><br>RNAAT nº: 73/2023
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -742,7 +764,7 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                <li><a class=" icon fa fa-instagram"
+                                    <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
                                             href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
@@ -754,7 +776,8 @@
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat
+                                    Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>

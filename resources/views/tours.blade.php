@@ -182,7 +182,8 @@
                 <div class="row row-50 justify-content-center align-items-xl-center">
 
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê optar por esta experiência?
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê optar por esta
+                            experiência?
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -236,8 +237,8 @@
         <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
-                    <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt="" width="419"
-                             />
+                    <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt=""
+                            width="219" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6" style="height:35rem;">
                         <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
@@ -319,7 +320,8 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -348,29 +350,36 @@
                                 <div class="wow slideInDown" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
                                     <!-- Post Minimal 2-->
-                                    <article class="post post-minimal-2">
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                        alt=""></p>
+
+                                            </article>
+                                        </div>
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                            src=" https://portugalcleanandsafe.com/assets/badge.png"
+                                                            alt=""></a></p>
+
+                                            </article>
+                                        </div>
+
+                                    </div>
+
+                                    <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
                                                     src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
 
                                     </article>
-                                    <div class="row"> 
-                                    <div class="col">    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
 
-                                    </article> </div>
-                                    <div class="col"> <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
-                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
 
-                                    </article></div>
-                                    
-                                    </div>
-                                   
-                                   
                                     <!-- Post Minimal 2-->
-                                 
+
                                 </div>
                             </div>
                         </div>
@@ -378,10 +387,15 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
+                                        Turismo de Portugal com o selo
+                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
+                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
+                                        Covid19.
 
-<br><br>RNAAT nº: 73/2023 </p>
-                                   
+                                        <br><br>RNAAT nº: 73/2023
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -394,7 +408,7 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                <li><a class=" icon fa fa-instagram"
+                                    <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
                                             href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
@@ -406,7 +420,8 @@
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat
+                                    Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>
