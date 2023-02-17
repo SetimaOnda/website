@@ -119,36 +119,49 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                            href="/">{{__('messages.home_navbar')}}</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Tours
+                                            {{__('messages.tours_navbar')}}
                                         </a>
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
+                                                    href="/tours/1">{{__('messages.trad_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
+                                                    href="/tours/2">{{__('messages.priv_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
+                                                    href="/tours/3">{{__('messages.sunset_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
+                                                    href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">Sobre
-                                            nós</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contactos</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
+
+
                                 </ul>
+                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês" style="width:1.3rem;"> </a>
+                                  
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português" style="width:1.5rem;"></a>
+
+
+                                </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -161,10 +174,10 @@
         <section class="breadcrumbs-custom-inset">
             <div class="breadcrumbs-custom context-dark bg-overlay-60">
                 <div class="container">
-                    <h2 class="breadcrumbs-custom-title">Sobre nós</h2>
+                    <h2 class="breadcrumbs-custom-title">{{__('messages.about_navbar')}}</h2>
                     <ul class="breadcrumbs-custom-path">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Sobre nós</li>
+                        <li><a href="index.html">{{__('messages.home_navbar')}}</a></li>
+                        <li class="active">{{__('messages.about_navbar')}}</li>
                     </ul>
                 </div>
                 <div class="box-position" style="background-image: url(images/equipa.jpeg);"></div>
@@ -178,7 +191,7 @@
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6" style="height:36rem;">
-                        <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Porquê escolher-nos?
+                        <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">{{__('messages.why_us')}}
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="box-width-lg-470">
@@ -188,30 +201,20 @@
                                 <!-- Nav tabs-->
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
-                                            data-toggle="tab">Sobre nós</a></li>
+                                            data-toggle="tab">{{__('messages.about_navbar')}}</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link"
-                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">Nossa
-                                            Filosofia</a></li>
+                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">{{__('messages.philosophy')}}</a></li>
 
 
                                 </ul>
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p style="text-align: justify;">A Sétima Onda é uma empresa familiar com
-                                            experiência nesta atividade e com
-                                            várias embarcações comandadas por profissionais certificados. <br> Temos
-                                            como
-                                            principal objetivo, proporcionar a todos os nossos clientes uma experiência
-                                            única através das vistas deslumbrantes que projetamos nos nossos Passeios,
-                                            bem como, a história de cada gruta que os nossos antepassados nos contam,
-                                            para isso, operamos em grupos de tamanho reduzido. <br> A Sétima Onda dispõe
-                                            de
-                                            todas as licenças e seguros para as experiências que oferece.
+                                        <p style="text-align: justify;">{{__('messages.about_desc')}}
                                         </p>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a>
+                                                href="">{{__('messages.book_button')}}</a>
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="tabs-7-2">
@@ -221,30 +224,24 @@
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
                                                     <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="">
                                                 </div>
-                                                <h5 style="margin-top:0.6rem">Prática</h5>
-                                                <span style="text-align: justify;">Desfrute da experiência da nossa
-                                                    equipa e viaje nesta grande
-                                                    experiência marítima.</span>
+                                                <h5 style="margin-top:0.6rem">{{__('messages.practice')}}</h5>
+                                                <span style="text-align: justify;">{{__('messages.practice_desc')}}</span>
                                             </div>
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
                                                     <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="">
                                                 </div>
-                                                <h5 style="margin-top:0.6rem">Conhecimento</h5>
-                                                <span style="text-align: justify;">Divirta-se enquanto transmitimos as
-                                                    maravilhas da nossa Costa
-                                                    Algarvia.</span>
+                                                <h5 style="margin-top:0.6rem">{{__('messages.knowledge')}}</h5>
+                                                <span style="text-align: justify;">{{__('messages.knowledge_desc')}}</span>
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto;">
                                                     <img style="width:2.8rem;" src="img/img/shield.png" alt="">
                                                 </div>
-                                                <h5 style="margin-top:0.6rem">Segurança</h5>
-                                                <span style="text-align: justify;">Passeio seguro devido à experiência
-                                                    da equipa e de todo o
-                                                    equipamento utilizado.</span>
+                                                <h5 style="margin-top:0.6rem">{{__('messages.security')}}</h5>
+                                                <span style="text-align: justify;">{{__('messages.security_desc')}}</span>
 
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
@@ -252,15 +249,13 @@
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
                                                     <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="">
                                                 </div>
-                                                <h5 style="margin-top:0.6rem">Lazer</h5>
-                                                <span style="text-align: justify;">Divirta-se e disfrute. Estamos cá
-                                                    para lhe proporcionar o melhor
-                                                    passeio.</span>
+                                                <h5 style="margin-top:0.6rem">{{__('messages.leisure')}}</h5>
+                                                <span style="text-align: justify;">{{__('messages.leisure_desc')}}</span>
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
-                                                href="contact-us.html">Book now</a>
+                                                href="contact-us.html">{{__('messages.book_button')}}</a>
                                         </div>
                                     </div>
 
@@ -274,7 +269,7 @@
         <!-- Latest Projects-->
         <section class="section section-sm section-fluid bg-default">
             <div class="container">
-                <h3>As Nossos Experiências</h3>
+                <h3>{{__('messages.our_exp')}}</h3>
             </div>
             <!-- Owl Carousel-->
             <div class="owl-carousel owl-classic owl-timeline" data-items="1" data-md-items="2" data-lg-items="3"
@@ -291,7 +286,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Tradicional Benagil Cave Tour</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">{{__('messages.trad_tour')}}</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -309,7 +304,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Private Benagil Cave Tour</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">{{__('messages.priv_tour')}}</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -327,7 +322,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Sunset Benagil Cave Tour</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">{{__('messages.sunset_tour')}}</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -345,7 +340,7 @@
                         </div>
                     </article>
                     <div class="thumbnail-mary-description">
-                        <h5 class="thumbnail-mary-project"><a href="#">Private Benagil Cave Tour Special</a></h5><span
+                        <h5 class="thumbnail-mary-project"><a href="#">{{__('messages.priv_special')}}</a></h5><span
                             class="thumbnail-mary-decor"></span>
                         <h5 class="thumbnail-mary-time">
                         </h5>
@@ -405,7 +400,7 @@
                         <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInRight" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Contactos</h6>
+                                    <h6 class="text-spacing-100 text-uppercase">{{__('messages.contacts_navbar')}}</h6>
                                     <ul class="footer-contacts d-inline-block d-sm-block">
                                         <li>
                                             <div class="unit">
@@ -477,11 +472,7 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
-                                        Turismo de Portugal com o selo
-                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
-                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
-                                        Covid19.
+                                    <p style="text-align: justify;"> {!!__('messages.footer_desc')!!}
 
                                         <br><br>RNAAT nº: 73/2023
                                     </p>
