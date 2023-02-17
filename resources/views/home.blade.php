@@ -374,7 +374,7 @@
                                                 href="/tours/3">{{__('messages.priv_tour')}}</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
-                                        </div>hot_tour_desc
+                                        </div>
                                         <p class="product-big-text" style="text-align: justify;">{{__('messages.hot_tour_desc')}}</p><a
                                             class="button button-black-outline button-ujarak" href="#">{{__('messages.book_button')}}</a>
 
