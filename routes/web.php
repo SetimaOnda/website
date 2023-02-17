@@ -31,6 +31,8 @@ Route::get('/politica', function () {
 Route::get('/termos', function () {
     return view('termos');
 });
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
