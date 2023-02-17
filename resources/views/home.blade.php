@@ -730,7 +730,7 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p style="text-align: justify;"> {{__('messages.footer_desc')}}
+                                    <p style="text-align: justify;"> {!!__('messages.footer_desc')!!}
 
                                         <br><br>RNAAT nº: 73/2023
                                     </p>
