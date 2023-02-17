@@ -320,7 +320,7 @@
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-envelope-o"></div>
                                     <div class="box-contacts-decor"></div>
-                                    <p class="box-contacts-link"><a
+                                    <p class="box-contacts-link" style="font-size:0.6rem"><a
                                             href="mailto:info@setimaondaboattrips.com">info@setimaondaboattrips.com</a>
                                     </p>
                                 </div>
