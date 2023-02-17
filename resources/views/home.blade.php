@@ -154,12 +154,11 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Ingles" style="width:2.5rem:"> </a>
-                                    <a class="nav-link"
-                                        style="padding-left:.08 !important;padding-right:.08 !important;">|&nbsp</a>
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Ingles" style="width:1.3rem;"> </a>
+                                  
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Potugues" style="width:2.5rem:">&nbsp</a>
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Potugues" style="width:1.5rem:"></a>
 
 
                                 </div>
