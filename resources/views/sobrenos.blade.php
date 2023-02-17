@@ -8,7 +8,7 @@
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css"
         href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
@@ -117,7 +117,7 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                                src="img/logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
                                     <li class="rd-nav-item "><a class="rd-nav-link"
                                             href="/">{{__('messages.home_navbar')}}</a>

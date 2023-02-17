@@ -8,7 +8,7 @@
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
     <!-- Stylesheets-->
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -120,7 +120,7 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
+                                                src="img/logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
                                     <li class="rd-nav-item active"><a class="rd-nav-link"
                                             href="/">{{__('messages.home_navbar')}}</a>
