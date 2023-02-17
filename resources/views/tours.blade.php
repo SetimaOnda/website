@@ -113,47 +113,57 @@
                     <div class="rd-navbar-main-outer">
                         <div class="rd-navbar-main">
                             <div class="rd-navbar-nav-wrap">
-                                <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                                    <li><a class="icon fa fa-instagram" href="#"></a></li>
-                                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                                    <li><a class="icon fa fa-youtube" href="#"></a></li>
-
-                                </ul>
-                                <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="{{ asset('img/logo.png')}}" alt="" style="width:4.8rem" /></a>
+                                                src="img/logo.png" alt="" style="width:4.8rem" /></a>
                                     </div>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
-                                    </li>
-                                    <li class="rd-nav-item active dropdown">
+
+                                    <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Tours
+                                            {{__('messages.tours_navbar')}}
                                         </a>
-                                        <ul class="dropdown-menu rd-megamenu-list"
+                                        <ul class="dropdown-menu rd-megamenu-list active"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
+                                                    href="/tours/1">{{__('messages.trad_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
+                                                    href="/tours/2">{{__('messages.priv_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
+                                                    href="/tours/3">{{__('messages.sunset_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
+                                                    href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contactos</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
+
+
                                 </ul>
+                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
+                                            style="width:1.3rem;"> </a>
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                            style="width:1.5rem;"></a>
+
+
+                                </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -168,8 +178,8 @@
                 <div class="container">
                     <h2 class="breadcrumbs-custom-title">{{$tours->nome}}</h2>
                     <ul class="breadcrumbs-custom-path">
-                        <li><a href="/">Home</a></li>
-                        <li class="active">Tours</li>
+                        <li><a href="/">{{__('messages.home_navbar')}}</a></li>
+                        <li class="active">{{__('messages.tours_navbar')}}</li>
                     </ul>
                 </div>
                 <div class="box-position" style="background-image: url({{ asset($image1->avatar)}});"></div>
@@ -181,8 +191,7 @@
                 <div class="row row-50 justify-content-center align-items-xl-center">
 
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê optar por esta
-                            experiência?
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.why_this')}}
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -218,7 +227,7 @@
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
                                         <a class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a>
+                                            href="#">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
@@ -240,15 +249,15 @@
                             width="319" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6" style="height:30rem;">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.more_info')}}</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
-                                        data-toggle="tab">Incluido</a></li>
+                                        data-toggle="tab">{{__('messages.included')}}</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-2" data-toggle="tab">Outras coisas</a></li>
+                                        href="#tabs-4-2" data-toggle="tab">{{__('messages.other')}}</a></li>
 
                             </ul>
                             <!-- Tab panes-->
@@ -263,14 +272,14 @@
                                     </div>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a></div>
+                                            href="#">{{__('messages.book_button')}}</a></div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a></div>
+                                            href="#">{{__('messages.book_button')}}/a></div>
                                 </div>
 
                             </div>
@@ -281,7 +290,7 @@
         </section>
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
-                <h6 class="gallery-title">Galeria</h6>
+                <h6 class="gallery-title"></h6>
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
                     data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
@@ -314,7 +323,7 @@
                         <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInRight" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Contactos</h6>
+                                    <h6 class="text-spacing-100 text-uppercase">{{__('messages.contacts_navbar')}}</h6>
                                     <ul class="footer-contacts d-inline-block d-sm-block">
                                         <li>
                                             <div class="unit">
@@ -386,11 +395,7 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
-                                        Turismo de Portugal com o selo
-                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
-                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
-                                        Covid19.
+                                    <p style="text-align: justify;"> {!!__('messages.footer_desc')!!}
 
                                         <br><br>RNAAT nº: 73/2023
                                     </p>
@@ -425,10 +430,10 @@
                             </p>
                         </div>
                         <div class="col-sm-6 col-md-3 text-md-right">
-                            <p class="rights"><a href="/termos">Termos e condições</a></p>
+                            <p class="rights"><a href="/termos">{{__('messages.footer_terms')}}</a></p>
                         </div>
                         <div class="col-sm-6 col-md-3 text-md-right">
-                            <p class="rights"><a href="/politica">Politica de Privacidade</a></p>
+                            <p class="rights"><a href="/politica">{{__('messages.footer_policy')}}</a></p>
                         </div>
                     </div>
                 </div>

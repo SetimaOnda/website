@@ -120,9 +120,7 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/logo.png" alt="" style="width:4.8rem"/></a>
                                     </div>
-                                    <li class="rd-nav-item"><a class="rd-nav-link"
-                                            href="/">{{__('messages.home_navbar')}}</a>
-                                    </li>
+                                   
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
