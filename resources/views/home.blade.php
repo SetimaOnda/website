@@ -158,7 +158,7 @@
                                   
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Potugues" style="width:1.5rem:"></a>
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Potugues" style="width:1.5rem;"></a>
 
 
                                 </div>
