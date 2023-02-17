@@ -153,13 +153,13 @@
                                 <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
 
                                     <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'pt') }}"> PT</a>
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Ingles" style="width:2.5rem:"> </a>
                                     <a class="nav-link"
                                         style="padding-left:.08 !important;padding-right:.08 !important;">|&nbsp</a>
                                     <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'en') }}"> EN &nbsp</a>
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Potugues" style="width:2.5rem:">&nbsp</a>
 
 
                                 </div>
