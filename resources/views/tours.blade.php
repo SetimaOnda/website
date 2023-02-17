@@ -123,8 +123,7 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="{{ asset('img/logo.png')}}" alt="" width="65.5"
-                                                height="9" /></a>
+                                                src="{{ asset('img/logo.png')}}" alt="" style="width:4.8rem" /></a>
                                     </div>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>

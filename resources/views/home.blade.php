@@ -120,7 +120,7 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/logo.png" alt="" width="65.5" height="9" /></a>
+                                                src="img/logo.png" alt="" style="width:4.8rem" /></a>
                                     </div>
                                     <li class="rd-nav-item active"><a class="rd-nav-link"
                                             href="/">{{__('messages.home_navbar')}}</a>
