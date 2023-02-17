@@ -98,19 +98,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
 
-                                    <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'pt') }}"> PT</a>
-                                    <a class="nav-link"
-                                        style="padding-left:.08 !important;padding-right:.08 !important;">|&nbsp</a>
-                                    <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'en') }}"> EN &nbsp</a>
-
-
-                                </div>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
                                     style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: flex-end;">
                                     <li><a class=" icon fa fa-instagram"
@@ -162,6 +150,19 @@
 
 
                                 </ul>
+                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'pt') }}"> PT</a>
+                                    <a class="nav-link"
+                                        style="padding-left:.08 !important;padding-right:.08 !important;">|&nbsp</a>
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'en') }}"> EN &nbsp</a>
+
+
+                                </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
                                             href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
