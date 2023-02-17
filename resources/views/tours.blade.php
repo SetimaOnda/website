@@ -178,8 +178,8 @@
                 <div class="container">
                     <h2 class="breadcrumbs-custom-title">{{$tours->nome}}</h2>
                     <ul class="breadcrumbs-custom-path">
-                        <li><a href="/">{{__('messages.home_navbar')}}</a></li>
-                        <li class="active">{{__('messages.tours_navbar')}}</li>
+                        <li><a href="/">Home</a></li>
+                        <li class="active">Tours</li>
                     </ul>
                 </div>
                 <div class="box-position" style="background-image: url({{ asset($image1->avatar)}});"></div>
@@ -191,7 +191,8 @@
                 <div class="row row-50 justify-content-center align-items-xl-center">
 
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.why_this')}}
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê optar por esta
+                            experiência?
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -227,7 +228,7 @@
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
                                         <a class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}</a>
+                                            href="#">Book Now</a>
                                     </div>
 
                                 </div>
@@ -249,15 +250,15 @@
                             width="319" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6" style="height:30rem;">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.more_info')}}</h2>
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
-                                        data-toggle="tab">{{__('messages.included')}}</a></li>
+                                        data-toggle="tab">Incluido</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-2" data-toggle="tab">{{__('messages.other')}}</a></li>
+                                        href="#tabs-4-2" data-toggle="tab">Outras coisas</a></li>
 
                             </ul>
                             <!-- Tab panes-->
@@ -272,14 +273,14 @@
                                     </div>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}</a></div>
+                                            href="#">Book Now</a></div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}/a></div>
+                                            href="#">Book Now</a></div>
                                 </div>
 
                             </div>
@@ -290,7 +291,7 @@
         </section>
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
-                <h6 class="gallery-title"></h6>
+                <h6 class="gallery-title">Galeria</h6>
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
                     data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
