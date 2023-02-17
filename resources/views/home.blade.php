@@ -306,7 +306,7 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p style="text-align:justify;">{{__('messages.about_desc')}}
+                                        <p style="text-align:justify;">{!!__('messages.about_desc')!!}
                                         </p>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk" href="">{{__('messages.book_button')}}</a><a
@@ -371,7 +371,7 @@
                                 <div class="unit-body">
                                     <div class="product-big-body" style="    text-align: center;">
                                         <h5 class="product-big-title" style="text-align: center;"><a
-                                                href="/tours/3">{{__('messages.priv_tour')}}</a></h5>
+                                                href="/tours/3">{!!__('messages.priv_tour')!!}</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
                                         </div>
@@ -408,7 +408,7 @@
                                 </a>
                             </div>-->
                             <div class="col-sm-12 col-md-12 wow fadeInLeft" style="margin-top: -3rem;">
-                                <h2 class="heading-2 oh font-weight-normal wow slideInDown">{{__('messages.know_algarve')}}</h2>
+                                <h2 class="heading-2 oh font-weight-normal wow slideInDown">{!!__('messages.know_algarve')!!}</h2>
                                 <a class="button button-secondary button-pipaluk"
                                     href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">{{__('messages.see_more_button')}}</a>
 
