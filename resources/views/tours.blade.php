@@ -227,7 +227,7 @@
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
                                         <a class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a>
+                                            href="#">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
@@ -249,7 +249,7 @@
                             width="319" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6" style="height:30rem;">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Mais Informações</h2>
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.more_info')}}</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
@@ -272,14 +272,14 @@
                                     </div>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a></div>
+                                            href="#">{{__('messages.book_button')}}</a></div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">Book Now</a></div>
+                                            href="#">{{__('messages.book_button')}}</a></div>
                                 </div>
 
                             </div>
