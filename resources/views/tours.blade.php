@@ -191,8 +191,7 @@
                 <div class="row row-50 justify-content-center align-items-xl-center">
 
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">Porquê optar por esta
-                            experiência?
+                        <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.why_this')}}
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
