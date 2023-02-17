@@ -119,7 +119,7 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                    <li class="rd-nav-item "><a class="rd-nav-link"
                                             href="/">{{__('messages.home_navbar')}}</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
@@ -139,7 +139,7 @@
                                                     href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
