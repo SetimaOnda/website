@@ -120,35 +120,49 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                            href="/">{{__('messages.home_navbar')}}</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Tours
+                                            {{__('messages.tours_navbar')}}
                                         </a>
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
+                                                    href="/tours/1">{{__('messages.trad_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
+                                                    href="/tours/2">{{__('messages.priv_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
+                                                    href="/tours/3">{{__('messages.sunset_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
+                                                    href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">Contactos</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
+
+
                                 </ul>
+                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês" style="width:1.3rem;"> </a>
+                                  
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português" style="width:1.5rem;"></a>
+
+
+                                </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Book
-                                            now</a>
+                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -163,10 +177,10 @@
         <section class="breadcrumbs-custom-inset">
             <div class="breadcrumbs-custom context-dark bg-overlay-60">
                 <div class="container">
-                    <h2 class="breadcrumbs-custom-title">Contactos</h2>
+                    <h2 class="breadcrumbs-custom-title">{{__('messages.contacts_navbar')}}</h2>
                     <ul class="breadcrumbs-custom-path">
-                        <li><a href="/">Home</a></li>
-                        <li class="active">Conctactos</li>
+                        <li><a href="/">{{__('messages.home_navbar')}}</a></li>
+                        <li class="active">{{__('messages.contacts_navbar')}}</li>
                     </ul>
                 </div>
                 <div class="box-position" style="background-image: url(img/benagil2.jpg);"></div>
@@ -178,7 +192,7 @@
                 <div class="row">
                     <div class="col-md-8">
 
-                        <h3 class="text-spacing-25 font-weight-normal title-opacity-9">Precisa de ajuda?
+                        <h3 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.need_help_title')}}
                         </h3>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -186,13 +200,11 @@
                             <!-- Tab panes-->
                             <div class="tab-content">
                                 <div>
-                                    <p style="font-size:1rem;color:#162e44;text-align:justify;"> Se tens alguma questão,
-                                        precisas de ajuda ou simplesmente queres deixar um comentário, fica à vontade
-                                        para nos deixar uma mensagem! <br><br>
+                                    <p style="font-size:1rem;color:#162e44;text-align:justify;"> {{__('messages.need_help_desc')}} <br><br>
                                     <div style="margin-bottom:2rem;"><a data-bs-toggle="modal"
                                             data-bs-target="#staticBackdrop"
-                                            class="button button-secondary button-pipaluk">Meeting Point</a></div>
-                                    Não te esqueças de fazer uma avaliação após o passeio 🙂</p>
+                                            class="button button-secondary button-pipaluk">{{__('messages.meeting_button')}}</a></div>
+                                            {{__('messages.evaluation')}} 🙂</p>
 
 
                                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
@@ -201,19 +213,13 @@
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h3 class="modal-title fs-5" id="staticBackdropLabel">Meeting Point
+                                                    <h3 class="modal-title fs-5" id="staticBackdropLabel">{{__('messages.meeting_button')}}
                                                     </h3>
                                                     <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
+                                                        data-bs-dismiss="modal">{{__('messages.close_popup_button')}}</button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p style="text-align: justify;">Na Praia dos Pescadores de Armação
-                                                        de Pera, junto ao Pedro´s Bar.
-                                                        Encontrará uma grande bandeira negra na areia e também um membro
-                                                        do pessoal com uma t-shirt a dizer Sétima Onda Boat Trips.
-                                                        Contacte os nossos colegas para fazer o check-in.<br><br>
-                                                        Se precisar, há um grande parque de estacionamento ao lado da
-                                                        praia (2,5 euros / todos os dias).</p>
+                                                    <p style="text-align: justify;">{{__('messages.meeting_popup_desc')}}</p>
 
                                                     <section class="section section-fluid" style="margin-top:3rem;">
                                                         <iframe
@@ -260,26 +266,26 @@
                             @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Primeiro Nome<span style="color:red">*</span></label>
+                                    <label for="inputEmail4">{{__('messages.first_name')}}<span style="color:red">*</span></label>
                                     <input type="text" required name="first_name" class="form-control" id="inputEmail4">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">Último Nome<span style="color:red">*</span></label>
+                                    <label for="inputPassword4">{{__('messages.last_name')}}<span style="color:red">*</span></label>
                                     <input type="text" required name="last_name" class="form-control"
                                         id="inputPassword4">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">Email<span style="color:red">*</span></label>
+                                <label for="inputAddress">{{__('messages.email')}}<span style="color:red">*</span></label>
                                 <input type="email" required name="email" class="form-control" id="inputAddress">
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1"> Assunto<span
+                                <label for="exampleFormControlTextarea1"> {{__('messages.subject')}}<span
                                         style="color:red">*</span></label>
                                 <textarea name="assunto" required class="form-control" id="exampleFormControlTextarea1"
                                     rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="btn btn-primary">{{__('messages.send_button')}}</button>
                         </form>
                     </div>
 
@@ -338,7 +344,7 @@
                         <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
                             <div class="oh-desktop">
                                 <div class="wow slideInRight" data-wow-delay="0s">
-                                    <h6 class="text-spacing-100 text-uppercase">Contactos</h6>
+                                    <h6 class="text-spacing-100 text-uppercase">{{__('messages.contacts_navbar')}}</h6>
                                     <ul class="footer-contacts d-inline-block d-sm-block">
                                         <li>
                                             <div class="unit">
@@ -410,11 +416,7 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p style="text-align: justify;"> A Sétima Onda Boats Trips é certificada pelo
-                                        Turismo de Portugal com o selo
-                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
-                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
-                                        Covid19.
+                                    <p style="text-align: justify;"> {!!__('messages.footer_desc')!!}
 
                                         <br><br>RNAAT nº: 73/2023
                                     </p>
