@@ -98,6 +98,20 @@
                                         </div>
                                     </li>
                                 </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        {{ Config::get('languages')[App::getLocale()] }}
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        @foreach (Config::get('languages') as $lang => $language)
+                                        @if ($lang != App::getLocale())
+                                        <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}">
+                                            {{$language}}</a>
+                                        @endif
+                                        @endforeach
+                                    </div>
+                                </li>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
                                     style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: flex-end;">
                                     <li><a class=" icon fa fa-instagram"
@@ -121,7 +135,8 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/home/7onda-logo.png" alt="" width="112.5" height="9" /></a>
                                     </div>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/">{{__('messages.home_navbar')}}</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                            href="/">{{__('messages.home_navbar')}}</a>
                                     </li>
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
@@ -804,7 +819,7 @@
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
     </script>
-<!--
+    <!--
     <div id="whatswidget-pre-wrapper" class="">
         <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
             <div id="whatswidget-conversation" class="whatswidget-conversation"
