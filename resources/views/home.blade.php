@@ -98,20 +98,19 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        {{ Config::get('languages')[App::getLocale()] }}
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        @foreach (Config::get('languages') as $lang => $language)
-                                        @if ($lang != App::getLocale())
-                                        <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}">
-                                            {{$language}}</a>
-                                        @endif
-                                        @endforeach
-                                    </div>
-                                </li>
+                                <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
+
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        href="{{ route('lang.switch', 'pt') }}"> PT</a>
+                                    <a class="nav-link"
+                                        style="padding-left:.08 !important;padding-right:.08 !important;">|&nbsp</a>
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'en') }}"> EN &nbsp</a>
+
+
+                                </div>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
                                     style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: flex-end;">
                                     <li><a class=" icon fa fa-instagram"
