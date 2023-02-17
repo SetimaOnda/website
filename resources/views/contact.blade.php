@@ -219,7 +219,7 @@
                                                         data-bs-dismiss="modal">{{__('messages.close_popup_button')}}</button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p style="text-align: justify;">{{__('messages.meeting_popup_desc')}}</p>
+                                                    <p style="text-align: justify;">{!!__('messages.meeting_popup_desc')!!}</p>
 
                                                     <section class="section section-fluid" style="margin-top:3rem;">
                                                         <iframe
