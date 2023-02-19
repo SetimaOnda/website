@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Tour;
+use App\Models\ToursEs;
 use App\Models\ToursEn;
 use App\Models\Image;
 use App\Models\Contacto;
@@ -21,13 +22,22 @@ class PageController extends Controller
         
         $tours= ToursEn::where('id',$id)->first();
         return view('tours', ['tours' => $tours, 'image1' => $image1, 'image2'=> $image2, 'galeria' => $galeria]);
-    }else{
+    }elseif(strcmp(session()->get('applocale'),"pt")==0){
         $image1= Image::where('id_tour',$id)->where('ordem',1)->first();
         $image2= Image::where('id_tour',$id)->where('ordem',2)->first();
         $galeria= Image::where('id_tour',$id)->where('ordem', '>', 2)->get();
         
         $tours= Tour::where('id',$id)->first();
         return view('tours', ['tours' => $tours, 'image1' => $image1, 'image2'=> $image2, 'galeria' => $galeria]);
+    
+    }elseif(strcmp(session()->get('applocale'),"es")==0){
+        $image1= Image::where('id_tour',$id)->where('ordem',1)->first();
+        $image2= Image::where('id_tour',$id)->where('ordem',2)->first();
+        $galeria= Image::where('id_tour',$id)->where('ordem', '>', 2)->get();
+        
+        $tours= ToursEs::where('id',$id)->first();
+        return view('tours', ['tours' => $tours, 'image1' => $image1, 'image2'=> $image2, 'galeria' => $galeria]);
+
     }
     }
     public function estabelecimento(Request $request)
