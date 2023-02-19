@@ -15864,18 +15864,20 @@ html.rd-navbar-fixed-linked .page {
 	.rd-navbar-classic-project {
 		width: 285px;
 	}
+
+}
+@media (max-width: 992px) {
 	.brand1{
-		display: block;
+		display: block !important;
 	}
+	
 }
 
 @media (min-width: 992px) {
 	.rd-navbar-classic-project-content {
 		height: calc(100vh - 205px);
 	}
-	.brand1{
-		display: block;
-	}
+	
 }
 
 @media (min-width: 1200px) {
