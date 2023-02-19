@@ -150,16 +150,16 @@
                                 <div class="nav-item" style="display:flex;margin-left:auto;margin-right:auto;">
 
                                     <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
+                                        style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
                                         href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
                                             style="width:1.3rem;"> </a>
 
                                     <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?>     margin: 0rem !important; padding-left: 0.58rem !important; padding-right: 0.68rem !important;"
                                         href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
                                             style="width:1.5rem;"></a>
                                     <a class="nav-link"
-                                        style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
                                         href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
                                             style="width:1.35rem;"></a>
 
