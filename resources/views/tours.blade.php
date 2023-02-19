@@ -255,9 +255,9 @@
                             <!-- Nav tabs-->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1"
-                                        data-toggle="tab">Incluido</a></li>
+                                        data-toggle="tab">{{__('messages.included')}}</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-2" data-toggle="tab">Outras coisas</a></li>
+                                        href="#tabs-4-2" data-toggle="tab">{{__('messages.other')}}</a></li>
 
                             </ul>
                             <!-- Tab panes-->
@@ -290,7 +290,7 @@
         </section>
         <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
             <div class="container-fluid">
-                <h6 class="gallery-title">Galeria</h6>
+                <h6 class="gallery-title"></h6>
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2"
                     data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15"
