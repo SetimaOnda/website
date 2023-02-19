@@ -282,10 +282,10 @@
             <div class="container">
                 <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">{{__('messages.about_navbar')}}</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-                    <div style="height:24rem;" class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
+                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
                             alt="" width="556" height="382" />
                     </div>
-                    <div class="col-lg-6 wow fadeInRight" style="height:24rem;" data-wow-delay=".1s">
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
                             <!--<h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">Porquê escolher-nos?-->
                             </h2>
