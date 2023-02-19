@@ -246,9 +246,9 @@
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
                     <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt=""
-                            width="319" />
+                            width="519" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6" style="height:30rem;">
+                    <div class="col-md-10 col-lg-7 col-xl-6">
                         <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.more_info')}}</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
