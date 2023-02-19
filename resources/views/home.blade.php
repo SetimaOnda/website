@@ -122,7 +122,7 @@
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
                                                 src="img/logo.png" alt="" style="width:4.8rem" /></a>
                                     </div>
-                                   
+
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -140,10 +140,12 @@
                                                     href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
 
 
@@ -152,17 +154,23 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês" style="width:1.3rem;"> </a>
-                                  
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
+                                            style="width:1.3rem;"> </a>
+
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português" style="width:1.5rem;"></a>
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                            style="width:1.5rem;"></a>
 
-
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
+                                            style="width:1.5rem;"></a>
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -188,10 +196,12 @@
                                         data-caption-animate="slideInUp" data-caption-delay="100"><span
                                             class="font-weight-bold"> {{__('messages.welcome')}}</span></h2>
                                     <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0"
-                                        style="font-family:'Cormorant Garamond', serif;">{{__('messages.welcome_desc')}}</h6>
+                                        style="font-family:'Cormorant Garamond', serif;">{{__('messages.welcome_desc')}}
+                                    </h6>
                                     <a class="box-categories-button button button-default-outline"
                                         style="border-color:white !important;color:white !important" href="#"
-                                        data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                        data-caption-animate="fadeInLeft"
+                                        data-caption-delay="0">{{__('messages.book_button')}}</a>
                                 </div>
                             </div>
                         </div>
@@ -234,7 +244,8 @@
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -245,7 +256,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_250')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -256,7 +268,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -267,7 +280,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_350')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -280,10 +294,11 @@
         <!-- Discover New Horizons-->
         <section class="section section-sm section-first bg-gray-4  text-md-left">
             <div class="container">
-                <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">{{__('messages.about_navbar')}}</span></h3>
+                <h3 class="oh-desktop" style="text-align:center;"><span
+                        class="d-inline-block wow slideInDown">{{__('messages.about_navbar')}}</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
-                            alt="" width="556" height="382" />
+                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png" alt="" width="556"
+                            height="382" />
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
@@ -297,7 +312,8 @@
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
                                             data-toggle="tab">{{__('messages.about_navbar')}}</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link"
-                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">{{__('messages.philosophy')}}</a></li>
+                                            style="margin-left: 1rem;" href="#tabs-7-2"
+                                            data-toggle="tab">{{__('messages.philosophy')}}</a></li>
 
 
                                 </ul>
@@ -307,8 +323,10 @@
                                         <p style="text-align:justify;">{!!__('messages.about_desc')!!}
                                         </p>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk" href="">{{__('messages.book_button')}}</a><a
-                                                class="button button-black-outline button-md" href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
+                                                class="button button-secondary button-pipaluk"
+                                                href="">{{__('messages.book_button')}}</a><a
+                                                class="button button-black-outline button-md"
+                                                href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
                                     <div class="tab-pane fade" id="tabs-7-2">
                                         <div class="row">
@@ -342,8 +360,10 @@
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk" href="">{{__('messages.book_button')}}</a><a
-                                                class="button button-black-outline button-md" href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
+                                                class="button button-secondary button-pipaluk"
+                                                href="">{{__('messages.book_button')}}</a><a
+                                                class="button button-black-outline button-md"
+                                                href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
 
                                 </div>
@@ -357,7 +377,8 @@
         <!-- Hot tours-->
         <section class="section section-sm bg-default">
             <div class="container">
-                <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">{{__('messages.hot_tour_title')}}</span></h3>
+                <h3 class="oh-desktop"><span
+                        class="d-inline-block wow slideInDown">{{__('messages.hot_tour_title')}}</span></h3>
                 <div class="row row-sm row-40 row-md-50">
 
                     <div class="col-sm-12 col-md-12 wow fadeInLeft">
@@ -373,8 +394,10 @@
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
                                         </div>
-                                        <p class="product-big-text" style="text-align: justify;">{!!__('messages.hot_tour_desc')!!}</p><a
-                                            class="button button-black-outline button-ujarak" href="#">{{__('messages.book_button')}}</a>
+                                        <p class="product-big-text" style="text-align: justify;">
+                                            {!!__('messages.hot_tour_desc')!!}</p><a
+                                            class="button button-black-outline button-ujarak"
+                                            href="#">{{__('messages.book_button')}}</a>
 
                                     </div>
                                 </div>
@@ -406,7 +429,8 @@
                                 </a>
                             </div>-->
                             <div class="col-sm-12 col-md-12 wow fadeInLeft" style="margin-top: -3rem;">
-                                <h2 class="heading-2 oh font-weight-normal wow slideInDown">{!!__('messages.know_algarve')!!}</h2>
+                                <h2 class="heading-2 oh font-weight-normal wow slideInDown">
+                                    {!!__('messages.know_algarve')!!}</h2>
                                 <a class="button button-secondary button-pipaluk"
                                     href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">{{__('messages.see_more_button')}}</a>
 
