@@ -14673,6 +14673,7 @@ html.tablet .ui-to-top {
 }
 
 @media (min-width: 576px) {
+	
 	.rd-navbar-fixed .rd-navbar-brand img {
 		max-width: 200px;
 	}
@@ -15863,11 +15864,17 @@ html.rd-navbar-fixed-linked .page {
 	.rd-navbar-classic-project {
 		width: 285px;
 	}
+	.brand1{
+		display: block;
+	}
 }
 
 @media (min-width: 992px) {
 	.rd-navbar-classic-project-content {
 		height: calc(100vh - 205px);
+	}
+	.brand1{
+		display: block;
 	}
 }
 

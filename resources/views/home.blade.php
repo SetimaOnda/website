@@ -71,7 +71,7 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <a class="brand" href="/" style="width: 80%;padding:0.5rem;"><img
+                                <a class="brand1" href="/" style="width: 80%;padding:0.5rem;display:none;"><img
                                         src="https://setimaondaboattrips.com/img/logo.png" alt=""
                                         style="width: 3rem;"></a>
                             </div>
