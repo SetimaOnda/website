@@ -70,7 +70,9 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-
+                                <a class="brand" href="/" style="width: 80%;padding:0.5rem;"><img
+                                        src="https://setimaondaboattrips.com/img/logo.png" alt=""
+                                        style="width: 3rem;"></a>
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">

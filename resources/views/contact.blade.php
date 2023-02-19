@@ -70,7 +70,9 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
-
+                                <a class="brand" href="/" style="width: 80%;padding:0.5rem;"><img
+                                        src="https://setimaondaboattrips.com/img/logo.png" alt=""
+                                        style="width: 3rem;"></a>
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
                                 <ul class="rd-navbar-corporate-contacts">
@@ -155,7 +157,9 @@
                                         href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
                                             style="width:1.3rem;"> </a>
 
-                                    <a class="nav-link" style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?>     margin: 0rem !important; padding-left: 0.58rem !important; padding-right: 0.68rem !important;" href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?>     margin: 0rem !important; padding-left: 0.58rem !important; padding-right: 0.68rem !important;"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
                                             style="width:1.5rem;"></a>
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
