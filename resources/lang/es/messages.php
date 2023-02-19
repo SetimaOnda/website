@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\Traduzir;
-$traduzir_pt=Traduzir::where('local','pt')->get();
+$traduzir_pt=Traduzir::where('local','es')->get();
 $array=[];
 
 foreach ($traduzir_pt as $pt) {
