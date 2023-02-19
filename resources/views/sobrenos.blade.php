@@ -185,10 +185,10 @@
         <section class="section section-sm section-first bg-default text-md-left" style="margin-top:2rem;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center">
-                    <div style="height:36rem;" class="col-md-10 col-lg-5 col-xl-6"><img style="height:564px;width:460px"
+                    <div class="col-md-10 col-lg-5 col-xl-6"><img style="height:564px;width:460px"
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6" style="height:36rem;">
+                    <div class="col-md-10 col-lg-7 col-xl-6">
                         <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">{!!__('messages.why_us')!!}
                         </h2>
                         <!-- Bootstrap tabs-->
