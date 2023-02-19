@@ -117,9 +117,9 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/logo.png" alt="" style="width:4.8rem"/></a>
+                                                src="img/logo.png" alt="" style="width:4.8rem" /></a>
                                     </div>
-                                   
+
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -137,10 +137,12 @@
                                                     href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                            href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
 
 
@@ -149,17 +151,23 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês" style="width:1.3rem;"> </a>
-                                  
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
+                                            style="width:1.3rem;"> </a>
+
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português" style="width:1.5rem;"></a>
-
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                            style="width:1.5rem;"></a>
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
+                                            style="width:1.35rem;"></a>
 
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -189,7 +197,8 @@
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6">
-                        <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">{!!__('messages.why_us')!!}
+                        <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">
+                            {!!__('messages.why_us')!!}
                         </h2>
                         <!-- Bootstrap tabs-->
                         <div class="box-width-lg-470">
@@ -201,7 +210,8 @@
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1"
                                             data-toggle="tab">{{__('messages.about_navbar')}}</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link"
-                                            style="margin-left: 1rem;" href="#tabs-7-2" data-toggle="tab">{{__('messages.philosophy')}}</a></li>
+                                            style="margin-left: 1rem;" href="#tabs-7-2"
+                                            data-toggle="tab">{{__('messages.philosophy')}}</a></li>
 
 
                                 </ul>
@@ -223,7 +233,8 @@
                                                     <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.practice')}}</h5>
-                                                <span style="text-align: justify;">{{__('messages.practice_desc')}}</span>
+                                                <span
+                                                    style="text-align: justify;">{{__('messages.practice_desc')}}</span>
                                             </div>
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
@@ -231,7 +242,8 @@
                                                     <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.knowledge')}}</h5>
-                                                <span style="text-align: justify;">{{__('messages.knowledge_desc')}}</span>
+                                                <span
+                                                    style="text-align: justify;">{{__('messages.knowledge_desc')}}</span>
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
                                                 <div class="shadow"
@@ -239,7 +251,8 @@
                                                     <img style="width:2.8rem;" src="img/img/shield.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.security')}}</h5>
-                                                <span style="text-align: justify;">{{__('messages.security_desc')}}</span>
+                                                <span
+                                                    style="text-align: justify;">{{__('messages.security_desc')}}</span>
 
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
@@ -248,7 +261,8 @@
                                                     <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.leisure')}}</h5>
-                                                <span style="text-align: justify;">{{__('messages.leisure_desc')}}</span>
+                                                <span
+                                                    style="text-align: justify;">{{__('messages.leisure_desc')}}</span>
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a

@@ -118,9 +118,9 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/logo.png" alt="" style="width:4.8rem"/></a>
+                                                src="img/logo.png" alt="" style="width:4.8rem" /></a>
                                     </div>
-                                   
+
                                     <li class="rd-nav-item dropdown">
                                         <a class="rd-nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -138,10 +138,12 @@
                                                     href="/tours/4">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">{{__('messages.about_navbar')}}</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link"
+                                            href="/sobre-nos">{{__('messages.about_navbar')}}</a>
                                     </li>
 
-                                    <li class="rd-nav-item active"><a class="rd-nav-link" href="/contact">{{__('messages.contacts_navbar')}}</a>
+                                    <li class="rd-nav-item active"><a class="rd-nav-link"
+                                            href="/contact">{{__('messages.contacts_navbar')}}</a>
                                     </li>
 
 
@@ -150,17 +152,23 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08 !important;padding-right:.08 !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês" style="width:1.3rem;"> </a>
-                                  
+                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
+                                            style="width:1.3rem;"> </a>
+
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português" style="width:1.5rem;"></a>
-
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                            style="width:1.5rem;"></a>
+                                    <a class="nav-link"
+                                        style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
+                                        href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
+                                            style="width:1.35rem;"></a>
 
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                            href="#" data-caption-animate="fadeInLeft"
+                                            data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -190,7 +198,8 @@
                 <div class="row">
                     <div class="col-md-8">
 
-                        <h3 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.need_help_title')}}
+                        <h3 class="text-spacing-25 font-weight-normal title-opacity-9">
+                            {{__('messages.need_help_title')}}
                         </h3>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
@@ -198,11 +207,13 @@
                             <!-- Tab panes-->
                             <div class="tab-content">
                                 <div>
-                                    <p style="font-size:1rem;color:#162e44;text-align:justify;"> {{__('messages.need_help_desc')}} <br><br>
+                                    <p style="font-size:1rem;color:#162e44;text-align:justify;">
+                                        {{__('messages.need_help_desc')}} <br><br>
                                     <div style="margin-bottom:2rem;"><a data-bs-toggle="modal"
                                             data-bs-target="#staticBackdrop"
-                                            class="button button-secondary button-pipaluk">{{__('messages.meeting_button')}}</a></div>
-                                            {{__('messages.evaluation')}} 🙂</p>
+                                            class="button button-secondary button-pipaluk">{{__('messages.meeting_button')}}</a>
+                                    </div>
+                                    {{__('messages.evaluation')}} 🙂</p>
 
 
                                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
@@ -211,13 +222,15 @@
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h3 class="modal-title fs-5" id="staticBackdropLabel">{{__('messages.meeting_button')}}
+                                                    <h3 class="modal-title fs-5" id="staticBackdropLabel">
+                                                        {{__('messages.meeting_button')}}
                                                     </h3>
                                                     <button type="button" class="btn btn-secondary"
                                                         data-bs-dismiss="modal">{{__('messages.close_popup_button')}}</button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p style="text-align: justify;">{!!__('messages.meeting_popup_desc')!!}</p>
+                                                    <p style="text-align: justify;">
+                                                        {!!__('messages.meeting_popup_desc')!!}</p>
 
                                                     <section class="section section-fluid" style="margin-top:3rem;">
                                                         <iframe
@@ -264,17 +277,20 @@
                             @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">{{__('messages.first_name')}}<span style="color:red">*</span></label>
+                                    <label for="inputEmail4">{{__('messages.first_name')}}<span
+                                            style="color:red">*</span></label>
                                     <input type="text" required name="first_name" class="form-control" id="inputEmail4">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">{{__('messages.last_name')}}<span style="color:red">*</span></label>
+                                    <label for="inputPassword4">{{__('messages.last_name')}}<span
+                                            style="color:red">*</span></label>
                                     <input type="text" required name="last_name" class="form-control"
                                         id="inputPassword4">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">{{__('messages.email')}}<span style="color:red">*</span></label>
+                                <label for="inputAddress">{{__('messages.email')}}<span
+                                        style="color:red">*</span></label>
                                 <input type="email" required name="email" class="form-control" id="inputAddress">
                             </div>
                             <div class="form-group">

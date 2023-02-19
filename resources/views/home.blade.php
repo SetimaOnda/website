@@ -165,7 +165,7 @@
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-right:0 !important;padding-left:0 !important;margin-right:1.5rem;"
                                         href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
-                                            style="width:1.5rem;"></a>
+                                            style="width:1.35rem;"></a>
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
