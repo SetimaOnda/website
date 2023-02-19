@@ -208,7 +208,7 @@
                                 <!-- Tab panes-->
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tabs-7-1">
-                                        <p style="text-align: justify;">{{__('messages.about_desc')}}
+                                        <p style="text-align: justify;">{!!__('messages.about_desc')!!}
                                         </p>
                                         <div class="group-md group-middle"><a
                                                 class="button button-secondary button-pipaluk"
