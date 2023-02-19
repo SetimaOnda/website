@@ -369,7 +369,7 @@
                                 <div class="unit-body">
                                     <div class="product-big-body" style="    text-align: center;">
                                         <h5 class="product-big-title" style="text-align: center;"><a
-                                                href="/tours/3">{!!__('messages.priv_tour')!!}</a></h5>
+                                                href="/tours/2">{!!__('messages.priv_tour')!!}</a></h5>
                                         <div class="group-sm group-middle justify-content-start">
                                             <br>
                                         </div>
