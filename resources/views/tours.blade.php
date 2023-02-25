@@ -32,6 +32,13 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
+    .rd-navbar-corporate-contacts p, .rd-navbar-corporate-contacts a {
+    margin-top: 2px;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .075em;
+}
     </style>
 </head>
 
@@ -152,16 +159,16 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="img/en.png" alt="Inglês"
+                                        href="{{ route('lang.switch', 'en') }}"><img src="{{ asset('img/en.png')}}" alt="Inglês"
                                             style="width:1.3rem;"> </a>
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?>     margin: 0rem !important; padding-left: 0.58rem !important; padding-right: 0.68rem !important;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="img/pt.png" alt="Português"
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="{{ asset('img/pt.png')}}" alt="Português"
                                             style="width:1.5rem;"></a>
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
-                                        href="{{ route('lang.switch', 'es') }}"> <img src="img/spain.png" alt="Espanhol"
+                                        href="{{ route('lang.switch', 'es') }}"> <img src="{{ asset('img/spain.png')}}" alt="Espanhol"
                                             style="width:1.35rem;"></a>
 
                                 </div>

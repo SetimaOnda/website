@@ -32,6 +32,13 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
+    .rd-navbar-corporate-contacts p, .rd-navbar-corporate-contacts a {
+    margin-top: 2px;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .075em;
+}
     </style>
 </head>
 
