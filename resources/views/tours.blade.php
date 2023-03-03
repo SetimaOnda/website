@@ -32,13 +32,15 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
-    .rd-navbar-corporate-contacts p, .rd-navbar-corporate-contacts a {
-    margin-top: 2px;
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 500;
-    letter-spacing: .075em;
-}
+
+    .rd-navbar-corporate-contacts p,
+    .rd-navbar-corporate-contacts a {
+        margin-top: 2px;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: .075em;
+    }
     </style>
 </head>
 
@@ -159,17 +161,17 @@
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"en")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
-                                        href="{{ route('lang.switch', 'en') }}"><img src="{{ asset('img/en.png')}}" alt="Inglês"
-                                            style="width:1.3rem;"> </a>
+                                        href="{{ route('lang.switch', 'en') }}"><img src="{{ asset('img/en.png')}}"
+                                            alt="Inglês" style="width:1.3rem;"> </a>
 
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"pt")==0){ ?> text-decoration: underline;<?php } ?>     margin: 0rem !important; padding-left: 0.58rem !important; padding-right: 0.68rem !important;"
-                                        href="{{ route('lang.switch', 'pt') }}"> <img src="{{ asset('img/pt.png')}}" alt="Português"
-                                            style="width:1.5rem;"></a>
+                                        href="{{ route('lang.switch', 'pt') }}"> <img src="{{ asset('img/pt.png')}}"
+                                            alt="Português" style="width:1.5rem;"></a>
                                     <a class="nav-link"
                                         style="<?php if(strcmp(session()->get('applocale'),"es")==0){ ?> text-decoration: underline;<?php } ?> padding-left:.08rem !important;padding-right:.08rem !important;"
-                                        href="{{ route('lang.switch', 'es') }}"> <img src="{{ asset('img/spain.png')}}" alt="Espanhol"
-                                            style="width:1.35rem;"></a>
+                                        href="{{ route('lang.switch', 'es') }}"> <img src="{{ asset('img/spain.png')}}"
+                                            alt="Espanhol" style="width:1.35rem;"></a>
 
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
@@ -251,7 +253,27 @@
                 </div>
             </div>
         </section>
+        <style>
+        @media(max-width: 449px) {
+            .image {
+                display: none;
+            }
 
+            .texto {
+                height: auto !important;
+            }
+        }
+
+        @media(min-width:450px) and (max-width: 730px) {
+            .image {
+                display: none;
+            }
+
+            .texto {
+                height: auto !important;
+            }
+        }
+        </style>
 
         <!-- Why choose us-->
         <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
@@ -260,7 +282,7 @@
                     <div class="col-md-10 col-lg-5 col-xl-6 text-center"><img src="{{ asset($image2->avatar)}}" alt=""
                             width="519" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6">
+                    <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height: 25rem;">
                         <h2 class="text-spacing-25 font-weight-normal title-opacity-9">{{__('messages.more_info')}}</h2>
                         <!-- Bootstrap tabs-->
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">

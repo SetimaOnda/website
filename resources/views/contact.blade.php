@@ -214,9 +214,9 @@
                         <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
                             <!-- Nav tabs-->
                             <!-- Tab panes-->
-                            <div class="tab-content">
+                            <div class="tab-content" style="text-align:center;">
                                 <div>
-                                    <p style="font-size:1rem;color:#162e44;text-align:justify;">
+                                    <p style="font-size:1.15rem;color:#162e44;text-align:justify;">
                                         {{__('messages.need_help_desc')}} <br><br>
                                     <div style="margin-bottom:2rem;"><a data-bs-toggle="modal"
                                             data-bs-target="#staticBackdrop"
@@ -314,10 +314,10 @@
 
 
 
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="margin-top:2rem;">
                         <div class="row justify-content-center">
 
-                            <article class="box-contacts" style="width: 10rem;    height: 10rem;">
+                            <article class="box-contacts" style="width: 17rem;    height: 10rem;">
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-phone"></div>
                                     <div class="box-contacts-decor"></div>
@@ -329,7 +329,7 @@
                         </div>
 
                         <div class="row justify-content-center">
-                            <article class="box-contacts" style="width: 10rem;    height: 10rem;">
+                            <article class="box-contacts" style="width: 17rem;    height: 10rem;">
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-map-marker"></div>
                                     <div class="box-contacts-decor"></div>
@@ -339,11 +339,11 @@
                             </article>
                         </div>
                         <div class="row justify-content-center">
-                            <article class="box-contacts" style="width: 10rem;    height: 10rem;">
+                            <article class="box-contacts" style="width: 17rem;    height: 10rem;">
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-envelope-o"></div>
                                     <div class="box-contacts-decor"></div>
-                                    <p class="box-contacts-link" style="font-size:0.6rem"><a
+                                    <p class="box-contacts-link" style="font-size:0.85rem"><a
                                             href="mailto:info@setimaondaboattrips.com">info@setimaondaboattrips.com</a>
                                     </p>
                                 </div>

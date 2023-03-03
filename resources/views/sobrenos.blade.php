@@ -31,13 +31,15 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
-    .rd-navbar-corporate-contacts p, .rd-navbar-corporate-contacts a {
-    margin-top: 2px;
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 500;
-    letter-spacing: .075em;
-}
+
+    .rd-navbar-corporate-contacts p,
+    .rd-navbar-corporate-contacts a {
+        margin-top: 2px;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: .075em;
+    }
     </style>
 </head>
 
@@ -185,6 +187,27 @@
                 </nav>
             </div>
         </header>
+        <style>
+        @media(max-width: 449px) {
+            .image {
+                display: none;
+            }
+
+            .texto {
+                height: auto !important;
+            }
+        }
+
+        @media(min-width:450px) and (max-width: 730px) {
+            .image {
+                display: none;
+            }
+
+            .texto {
+                height: auto !important;
+            }
+        }
+        </style>
         <!-- Breadcrumbs -->
         <section class="breadcrumbs-custom-inset">
             <div class="breadcrumbs-custom context-dark bg-overlay-60">
@@ -201,11 +224,11 @@
         <!-- Why choose us-->
         <section class="section section-sm section-first bg-default text-md-left" style="margin-top:2rem;">
             <div class="container">
-                <div class="row row-50 justify-content-center align-items-xl-center">
-                    <div class="col-md-10 col-lg-5 col-xl-6"><img style="height:564px;width:460px"
+                <div class="row row-50 justify-content-center align-items-xl-center ">
+                    <div class="col-md-10 col-lg-5 col-xl-6 image"><img style="height:564px;width:460px"
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6">
+                    <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:30rem;">
                         <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">
                             {!!__('messages.why_us')!!}
                         </h2>

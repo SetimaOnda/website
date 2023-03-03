@@ -32,13 +32,15 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
-    .rd-navbar-corporate-contacts p, .rd-navbar-corporate-contacts a {
-    margin-top: 2px;
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 500;
-    letter-spacing: .075em;
-}
+
+    .rd-navbar-corporate-contacts p,
+    .rd-navbar-corporate-contacts a {
+        margin-top: 2px;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: .075em;
+    }
     </style>
 </head>
 
@@ -73,7 +75,7 @@
                     <div class="rd-navbar-aside-outer">
                         <div class="rd-navbar-aside">
                             <!-- RD Navbar Panel-->
-                            <div class="rd-navbar-panel" >
+                            <div class="rd-navbar-panel">
                                 <!-- RD Navbar Toggle-->
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
@@ -102,8 +104,9 @@
                                     <li>
                                         <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                            <div class="unit-body"><a class="link-phone"
-                                                    href="tel:+351 966 940 015">+351 966 940 015</a></div>
+                                            <div class="unit-body"><a style="font-siz:15px !important;"
+                                                    class="link-phone" href="tel:+351 966 940 015">+351 966 940 015</a>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -191,12 +194,14 @@
         <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2"
             data-loop="false" data-autoplay="5000" data-simulate-touch="false" data-nav="false"
             data-direction="vertical" style="min-height:90vh !important">
-            <div class="swiper-wrapper text-left">
+            <div class="swiper-wrapper text-centerS">
 
                 <div class="swiper-slide " style="background-image: url('img/img/home.jpeg');background-size: cover;">
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
                             <div class="row">
+                                <div class="col-md-1">
+                                </div>
                                 <div class="col-md-10">
 
                                     <h2 class="oh font-weight-light"
@@ -210,6 +215,8 @@
                                         style="border-color:white !important;color:white !important" href="#"
                                         data-caption-animate="fadeInLeft"
                                         data-caption-delay="0">{{__('messages.book_button')}}</a>
+                                </div>
+                                <div class="col-md-1">
                                 </div>
                             </div>
                         </div>
@@ -709,8 +716,7 @@
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-location-arrow"></span>
                                                 </div>
-                                                <div class="unit-body"><a class="link-location">PRAIA DOS
-                                                        PESCADORES, 8365-114 ARMAÇÃO DE PÊRA
+                                                <div class="unit-body"><a class="link-location">PRAIA DOS PESCADORES, 8365-114 ARMAÇÃO DE PÊRA
                                                     </a></div>
                                             </div>
                                         </li>
