@@ -57,6 +57,30 @@
             <p>Loading...</p>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" style="text-align:center;">
+                        <h2>{{__('messages.a_preparar')}}<p style="font-size:1rem;"><br>{{__('messages.a_preparar_contacto')}}<a class="text-center" style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a></p></h2>
+                        
+                    </div>
+                    <div class="row" style="text-align:center;">
+                        <h6 class="text-center"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="page">
         <header class="section page-header">
             <!-- RD Navbar-->
@@ -176,7 +200,8 @@
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -241,7 +266,7 @@
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
                                         <a class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}</a>
+                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
@@ -306,14 +331,14 @@
                                     </div>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}</a></div>
+                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a></div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#">{{__('messages.book_button')}}</a></div>
+                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a></div>
                                 </div>
 
                             </div>

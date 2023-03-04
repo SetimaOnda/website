@@ -180,7 +180,8 @@
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -190,6 +191,31 @@
                 </nav>
             </div>
         </header>
+        <div class="modal fade" id="book" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row" style="text-align:center;">
+                            <h2>{{__('messages.a_preparar')}}<p style="font-size:1rem;">
+                                    <br>{{__('messages.a_preparar_contacto')}}<a class="text-center"
+                                        style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a>
+                                </p>
+                            </h2>
+
+                        </div>
+                        <div class="row" style="text-align:center;">
+                            <h6 class="text-center"></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Swiper-->
         <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2"
             data-loop="false" data-autoplay="5000" data-simulate-touch="false" data-nav="false"
@@ -212,8 +238,8 @@
                                         style="font-family:'Cormorant Garamond', serif;">{{__('messages.welcome_desc')}}
                                     </h6>
                                     <a class="box-categories-button button button-default-outline"
-                                        style="border-color:white !important;color:white !important" href="#"
-                                        data-caption-animate="fadeInLeft"
+                                        style="border-color:white !important;color:white !important" data-toggle="modal"
+                                        data-target="#book" href="#" data-caption-animate="fadeInLeft"
                                         data-caption-delay="0">{{__('messages.book_button')}}</a>
                                 </div>
                                 <div class="col-md-1">
@@ -259,7 +285,8 @@
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -271,7 +298,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_250')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -283,7 +311,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -295,7 +324,8 @@
                                         <p class="box-categories-title2">{{__('messages.price_350')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-caption-animate="fadeInLeft"
+                                            href="#" data-toggle="modal" data-target="#book"
+                                            data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
                                 </ul>
@@ -338,8 +368,9 @@
                                         <p style="text-align:justify;">{!!__('messages.about_desc')!!}
                                         </p>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="">{{__('messages.book_button')}}</a><a
+                                                class="button button-secondary button-pipaluk" href=""
+                                                data-toggle="modal"
+                                                data-target="#book">{{__('messages.book_button')}}</a><a
                                                 class="button button-black-outline button-md"
                                                 href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
@@ -375,8 +406,9 @@
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk"
-                                                href="">{{__('messages.book_button')}}</a><a
+                                                class="button button-secondary button-pipaluk" href=""
+                                                data-toggle="modal"
+                                                data-target="#book">{{__('messages.book_button')}}</a><a
                                                 class="button button-black-outline button-md"
                                                 href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
@@ -411,8 +443,8 @@
                                         </div>
                                         <p class="product-big-text" style="text-align: justify;">
                                             {!!__('messages.hot_tour_desc')!!}</p><a
-                                            class="button button-black-outline button-ujarak"
-                                            href="#">{{__('messages.book_button')}}</a>
+                                            class="button button-black-outline button-ujarak" href="#"
+                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
 
                                     </div>
                                 </div>
@@ -716,7 +748,8 @@
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-location-arrow"></span>
                                                 </div>
-                                                <div class="unit-body"><a class="link-location">PRAIA DOS PESCADORES, 8365-114 ARMAÇÃO DE PÊRA
+                                                <div class="unit-body"><a class="link-location">PRAIA DOS PESCADORES,
+                                                        8365-114 ARMAÇÃO DE PÊRA
                                                     </a></div>
                                             </div>
                                         </li>
