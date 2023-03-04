@@ -70,8 +70,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="row" style="text-align:center;">
-                        <h2>{{__('messages.a_preparar')}}<p style="font-size:1rem;"><br>{{__('messages.a_preparar_contacto')}}<a class="text-center" style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a></p></h2>
-                        
+                        <h2>{{__('messages.a_preparar')}}<p style="font-size:1rem;">
+                                <br>{{__('messages.a_preparar_contacto')}}<a class="text-center"
+                                    style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a></p>
+                        </h2>
+
                     </div>
                     <div class="row" style="text-align:center;">
                         <h6 class="text-center"></h6>
@@ -265,8 +268,8 @@
                                     </div>-->
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
-                                        <a class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                        <a class="button button-width-xl-230 button-primary button-pipaluk" href="#"
+                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
@@ -317,6 +320,8 @@
                                         data-toggle="tab">{{__('messages.included')}}</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
                                         href="#tabs-4-2" data-toggle="tab">{{__('messages.other')}}</a></li>
+                                <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
+                                        href="#tabs-4-3" data-toggle="tab">{{__('messages.politica_cancelamento')}}</a></li>
 
                             </ul>
                             <!-- Tab panes-->
@@ -330,15 +335,24 @@
                                         </ul>
                                     </div>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a></div>
+                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
+                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                    </div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"
-                                            href="#" data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a></div>
+                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
+                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tabs-4-3">
+                                    <p style="text-align: justify;"> {!!$tours->politica_cancelamento_texto!!}</p>
+                                    <div class="group-md group-middle"><a
+                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
+                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                    </div>
                                 </div>
 
                             </div>
