@@ -348,7 +348,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-3">
-                                    <p style="text-align: justify;"> {!!$tours->politica_cancelamento_texto!!}</p>
+                                    <p style="text-align: justify;"> {{__('messages.politica_cancelamento_texto')}}</p>
                                     <div class="group-md group-middle"><a
                                             class="button button-width-xl-230 button-primary button-pipaluk" href="#"
                                             data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
