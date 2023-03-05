@@ -86,7 +86,7 @@
                                     data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand-->
                                 <a class="brand1" href="/" style="width: 80%;padding:0.5rem;display:none;"><img
-                                        src="https://setimaondaboattrips.com/img/logo.png" alt=""
+                                        src="https://setimaondaboattrips.com/img/logo.png" alt="Setima Onda Logo tipo"
                                         style="width: 3rem;"></a>
                             </div>
                             <div class="rd-navbar-aside-right rd-navbar-collapse">
@@ -137,7 +137,7 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/logo.png" alt="" style="width:4.8rem" /></a>
+                                                src="img/logo.png" alt="Setima Onda Logo tipo" style="width:4.8rem" /></a>
                                     </div>
 
                                     <li class="rd-nav-item dropdown">
@@ -285,7 +285,7 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="" width="368"
+                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="Tradicional Benagil Cave Tour" width="368"
                                                 height="420" /></a>
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>
@@ -298,7 +298,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="" width="368"
+                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour" width="368"
                                                 height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_250')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
@@ -311,7 +311,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="" width="368"
+                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour" width="368"
                                                 height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
@@ -324,7 +324,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="" width="368"
+                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="Private Benagil Cave Special Tour" width="368"
                                                 height="568" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_350')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
@@ -347,7 +347,7 @@
                 <h3 class="oh-desktop" style="text-align:center;"><span
                         class="d-inline-block wow slideInDown">{{__('messages.about_navbar')}}</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png" alt="" width="556"
+                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png" alt=" Equipa Setima onda" width="556"
                             height="382" />
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
@@ -384,28 +384,28 @@
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="">
+                                                    <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="pratica">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.practice')}}</h5>
                                             </div>
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="">
+                                                    <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="conhecimento">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.knowledge')}}</h5>
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto;">
-                                                    <img style="width:2.8rem;" src="img/img/shield.png" alt="">
+                                                    <img style="width:2.8rem;" src="img/img/shield.png" alt="shield">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.security')}}</h5>
                                             </div>
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="">
+                                                    <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="repouso">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.leisure')}}</h5>
                                             </div>
@@ -438,7 +438,7 @@
                         <article class="product-big">
                             <div class="unit flex-column flex-md-row align-items-md-stretch">
                                 <div class="unit-left"><a class="product-big-figure" href="#"><img
-                                            src="img/home/tour10.png" alt="" width="600" height="366" /></a></div>
+                                            src="img/home/tour10.png" alt="hottour" width="600" height="366" /></a></div>
                                 <div class="unit-body">
                                     <div class="product-big-body" style="    text-align: center;">
                                         <h5 class="product-big-title" style="text-align: center;"><a
@@ -652,72 +652,72 @@
                     data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto1.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto1.png" alt="galeria" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto1.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto1.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto1.png" alt="foto2" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto2.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto2.png" alt="foto3" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto2.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto2.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto2.png" alt="foto3" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto3.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto3.png" alt="foto4" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto3.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto3.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto3.png" alt="foto4" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto4.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto4.png" alt="foto5" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto4.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto4.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto4.png" alt="foto5" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto5.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto5.png" alt="foto6" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto5.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto5.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto5.png" alt="foto6" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto6.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto6.png" alt="foto7" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto6.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto6.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto6.png" alt="foto7" width="270" height="195" /></a>
                         </div>
                     </article>
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto7.png" alt="" width="270"
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto7.png" alt="foto7" width="270"
                                 height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto7.png" data-lightgallery="item"><img
-                                    src="img/img/galeria/foto7.png" alt="" width="270" height="195" /></a>
+                                    src="img/img/galeria/foto7.png" alt="foto7" width="270" height="195" /></a>
                         </div>
                     </article>
                 </div>
@@ -773,7 +773,7 @@
                                             <article class="post post-minimal-2">
                                                 <p class="post-minimal-2-title"><img style="height:4rem;"
                                                         src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                        alt=""></p>
+                                                        alt="Tripadvisor"></p>
 
                                             </article>
                                         </div>
@@ -781,7 +781,7 @@
                                             <article class="post post-minimal-2">
                                                 <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
                                                             src=" https://portugalcleanandsafe.com/assets/badge.png"
-                                                            alt=""></a></p>
+                                                            alt="cleanandsafe"></a></p>
 
                                             </article>
                                         </div>
@@ -790,7 +790,7 @@
 
                                     <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt=""></a></p>
+                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt="reclamações"></a></p>
 
                                     </article>
 
