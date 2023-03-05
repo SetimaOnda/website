@@ -517,7 +517,7 @@
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
     </script>
-    <!--
+ 
     <div id="whatswidget-pre-wrapper" class="">
         <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
             <div id="whatswidget-conversation" class="whatswidget-conversation"
@@ -737,10 +737,7 @@
             opacity: 0.5 !important
         }
         </style>
-    </div> -->
-
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <div class="elfsight-app-ae2d48ee-b505-4355-8700-fa8035647d31"></div>
+    </div> 
 </body>
 
 </html>
