@@ -72,8 +72,7 @@
                     <div class="row" style="text-align:center;">
                         <h2>{{__('messages.a_preparar')}}<p style="font-size:1rem;">
                                 <br>{{__('messages.a_preparar_contacto')}}<a class="text-center"
-                                    style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a>
-                            </p>
+                                    style="color:rgba(1,179,167,0.6);" href="tel:+351961514984">+351961514984</a></p>
                         </h2>
 
                     </div>
@@ -322,8 +321,7 @@
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
                                         href="#tabs-4-2" data-toggle="tab">{{__('messages.other')}}</a></li>
                                 <li class="nav-item" role="presentation"><a style="margin-left:1rem" class="nav-link"
-                                        href="#tabs-4-3" data-toggle="tab">{{__('messages.politica_cancelamento')}}</a>
-                                </li>
+                                        href="#tabs-4-3" data-toggle="tab">{{__('messages.politica_cancelamento')}}</a></li>
 
                             </ul>
                             <!-- Tab panes-->
@@ -561,9 +559,26 @@
                     </div>
                 </div>
             </div>
+            <script id="whatswidget-script" type="text/javascript">
+            document.getElementById("whatswidget-conversation").style.display = "none";
+            document.getElementById("whatswidget-conversation").style.opacity = "0";
+            var button = document.getElementById("whatswidget-button");
+            button.addEventListener("click", openChat);
+            var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer");
+            conversationMessageOuter.addEventListener("click", openChat);
+            var chatOpen = !1;
+
+            function openChat() {
+                0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document
+                    .getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, document
+                    .getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document
+                    .getElementById("whatswidget-conversation").style.opacity = 0, document.getElementById(
+                        "whatswidget-conversation").style.display = "none", chatOpen = !1)
+            }
+            </script>
         </div>
 
-    </div>
+    </div> 
 
 </body>
 
