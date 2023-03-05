@@ -6,6 +6,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta property="og:title" content="Sétima Onda Boat Trips">
     <meta property="og:type" content="tours" />
+    <meta property="og:description" content="Sail with us in the unforgettable experience that is knowing the famous benagil cave and the other wild beaches">
     <meta property="og:image" content="https://setimaondaboattrips.com/img/logo.png">
     <meta property="og:url" content="https://setimaondaboattrips.com">
     <meta name="viewport"
