@@ -481,8 +481,8 @@
                                 </a>
                             </div>-->
                             <div class="col-sm-12 col-md-12 wow fadeInLeft" style="margin-top: -3rem;">
-                                <h2 class="heading-2 oh font-weight-normal wow slideInDown">
-                                    {!!__('messages.know_algarve')!!}</h2>
+                                <h1 class="heading-2 oh font-weight-normal wow slideInDown">
+                                    {!!__('messages.know_algarve')!!}</h1>
                                 <a class="button button-secondary button-pipaluk"
                                     href="https://www.youtube.com/channel/UCFQGgZaHI8a9AnIN-CzBV-g">{{__('messages.see_more_button')}}</a>
 
