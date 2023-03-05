@@ -2,12 +2,17 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-    <title>Home</title>
+    <title>Sétima Onda Boat Trips</title>
     <meta name="format-detection" content="telephone=no">
+    <meta property="og:title" content="Sétima Onda Boat Trips">
+    <meta property="og:type" content="tours" />
+    <meta property="og:image" content="https://setimaondaboattrips.com/img/logo.png">
+    <meta property="og:url" content="https://setimaondaboattrips.com">
     <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
     <!-- Stylesheets-->
     <link
