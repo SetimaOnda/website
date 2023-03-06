@@ -254,7 +254,7 @@
                         {!!__('messages.why_us')!!}</span></h3>
                 <div class="row row-50 justify-content-center align-items-xl-center ">
                     <div class="col-md-10 col-lg-5 col-xl-6 image" style="height:35rem;"><img
-                            style="height:556px;width:382px" src="img/img/galeria/fotosobre.png" alt="" width="519"
+                            style="height:382px;width:556px" src="img/img/galeria/fotosobre.png" alt="" width="519"
                             height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:35rem;">
