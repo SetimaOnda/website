@@ -253,11 +253,11 @@
                 <h3 class="oh-desktop" style="text-align:center;"><span class="d-inline-block wow slideInDown">
                         {!!__('messages.why_us')!!}</span></h3>
                 <div class="row row-50 justify-content-center align-items-xl-center ">
-                    <div class="col-md-10 col-lg-5 col-xl-6 image" style="height:35rem;"><img
+                    <div class="col-md-10 col-lg-5 col-xl-6 image"><img
                             style="height:382px;width:556px" src="img/img/galeria/fotosobre.png" alt="" width="519"
                             height="564" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:35rem;">
+                    <div class="col-md-10 col-lg-7 col-xl-6 texto" >
                         <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">
 
                         </h2>
