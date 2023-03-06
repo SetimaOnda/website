@@ -34,7 +34,7 @@
         .rd-navbar-corporate-contacts p,
         .rd-navbar-corporate-contacts a {
             margin-top: 2px !important;
-            font-size: 10.5px !important;
+            font-size: 10.1px !important;
             line-height: 1.7;
             font-weight: 500 !important;
             letter-spacing: .075em !important;
@@ -46,7 +46,7 @@
         .rd-navbar-corporate-contacts p,
         .rd-navbar-corporate-contacts a {
             margin-top: 2px !important;
-            font-size: 10.5px !important;
+            font-size: 10.1px !important;
             line-height: 1.7;
             font-weight: 500 !important;
             letter-spacing: .075em !important;
