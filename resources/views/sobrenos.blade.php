@@ -254,7 +254,7 @@
                     <div class="col-md-10 col-lg-5 col-xl-6 image"><img style="height:564px;width:460px"
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
-                    <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:30rem;">
+                    <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:37rem;">
                         <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">
                             {!!__('messages.why_us')!!}
                         </h2>
