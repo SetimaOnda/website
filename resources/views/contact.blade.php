@@ -252,7 +252,7 @@
                                             data-bs-target="#staticBackdrop"
                                             class="button button-secondary button-pipaluk">{{__('messages.meeting_button')}}</a>
                                     </div>
-                                    <p style="font-size:0.9rem;">{{__('messages.evaluation')}} 🙂</p>
+                                    <p style="font-size:1rem;">{{__('messages.evaluation')}} 🙂</p>
                                     </p>
 
 
@@ -352,7 +352,7 @@
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-phone"></div>
                                     <div class="box-contacts-decor"></div>
-                                    <p class="box-contacts-link" style="font-size:0.95rem;"><a
+                                    <p class="box-contacts-link" style="font-size:1.1rem;"><a
                                             href="tel:+351 966 940 015">+351 966 940 015</a>
                                     </p>
                                     <!-- <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>-->
