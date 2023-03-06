@@ -4,6 +4,45 @@
 */
 /** @group Base */
 
+@media(max-width: 449px) {
+	.open-datepicker-popup {
+		display: inline-block !important;
+	}
+
+	
+}
+
+@media(min-width:450px) and (max-width: 730px) {
+	.open-datepicker-popup {
+		display: inline-block !important;
+	}
+
+
+}
+  .btn.book-now {
+	background: #fff;
+    border-radius: 0;
+    font-weight: bold;
+    color: #328490;
+    display: inline-block;
+    font-size: 1.2rem;
+    height: 61px;
+    line-height: 50px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(90deg);
+    transform-origin: bottom left;
+    width: 150px;
+	/* Hover styles, 
+	media queries */
+  }
 .ie-panel {
 	display: none;
 	background: #212121;

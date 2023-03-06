@@ -7,7 +7,8 @@
     <meta property="og:title" content="Sétima Onda Boat Trips">
     <meta property="og:type" content="tours" />
     <link rel="canonical" href="https://setimaondaboattrips.com/">
-    <meta name="description" content="Sail with us in the unforgettable experience that is knowing the famous benagil cave and the other wild beaches">
+    <meta name="description"
+        content="Sail with us in the unforgettable experience that is knowing the famous benagil cave and the other wild beaches">
     <meta property="og:image" content="https://setimaondaboattrips.com/img/logo.png">
     <meta property="og:url" content="https://setimaondaboattrips.com">
     <meta name="viewport"
@@ -23,10 +24,11 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    
+
 </head>
 
 <body>
+    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal" data-target="#book" title="Book Now">{{__('messages.book_button')}}</a>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
@@ -114,7 +116,8 @@
                                 <ul class="rd-navbar-nav">
                                     <div class="rd-nav-item">
                                         <!--Brand--><a class="brand" href="/" style="padding:0.5rem;"><img
-                                                src="img/logo.png" alt="Setima Onda Logo tipo" style="width:4.8rem" /></a>
+                                                src="img/logo.png" alt="Setima Onda Logo tipo"
+                                                style="width:4.8rem" /></a>
                                     </div>
 
                                     <li class="rd-nav-item dropdown">
@@ -234,7 +237,7 @@
             <!-- Swiper Pagination-->
         </section>
         <!-- Section Box Categories-->
-   
+
         <section class="section section-lg section-top-1 bg-default">
             <div class="container offset-negative-1">
                 <div class="box-categories cta-box-wrap">
@@ -242,8 +245,8 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/1"><img src="img/img/tour1.png" alt="Tradicional Benagil Cave Tour" width="368"
-                                                height="420" /></a>
+                                    <li><a href="/tours/1"><img src="img/img/tour1.png"
+                                                alt="Tradicional Benagil Cave Tour" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -255,8 +258,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour" width="368"
-                                                height="420" /></a>
+                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
+                                                width="368" height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_250')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -268,8 +271,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour" width="368"
-                                                height="420" /></a>
+                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour"
+                                                width="368" height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -281,8 +284,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/4"><img src="img/img/tour4.png" alt="Private Benagil Cave Special Tour" width="368"
-                                                height="568" /></a>
+                                    <li><a href="/tours/4"><img src="img/img/tour4.png"
+                                                alt="Private Benagil Cave Special Tour" width="368" height="568" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_350')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
@@ -304,8 +307,8 @@
                 <h3 class="oh-desktop" style="text-align:center;"><span
                         class="d-inline-block wow slideInDown">{{__('messages.about_navbar')}}</span></h3>
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png" alt=" Equipa Setima onda" width="556"
-                            height="382" />
+                    <div class="col-lg-6 text-center wow fadeInUp"><img src="img/home/equipa.png"
+                            alt=" Equipa Setima onda" width="556" height="382" />
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
@@ -341,14 +344,16 @@
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:2.5rem;" src="img/img/melhor-pratica.png" alt="pratica">
+                                                    <img style="width:2.5rem;" src="img/img/melhor-pratica.png"
+                                                        alt="pratica">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.practice')}}</h5>
                                             </div>
                                             <div class="col-6 text-center">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/conhecimento.png" alt="conhecimento">
+                                                    <img style="width:3.5rem;" src="img/img/conhecimento.png"
+                                                        alt="conhecimento">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.knowledge')}}</h5>
                                             </div>
@@ -362,7 +367,8 @@
                                             <div class="col-6 text-center" style="margin-top:1.5rem;">
                                                 <div class="shadow"
                                                     style="border-radius:100%; background-color: #64aab3;width:4rem !important;height:4rem !important;padding:0.5rem;margin:auto">
-                                                    <img style="width:3.5rem;" src="img/img/em-repouso.png" alt="repouso">
+                                                    <img style="width:3.5rem;" src="img/img/em-repouso.png"
+                                                        alt="repouso">
                                                 </div>
                                                 <h5 style="margin-top:0.6rem">{{__('messages.leisure')}}</h5>
                                             </div>
@@ -395,7 +401,8 @@
                         <article class="product-big">
                             <div class="unit flex-column flex-md-row align-items-md-stretch">
                                 <div class="unit-left"><a class="product-big-figure" href="#"><img
-                                            src="img/home/tour10.png" alt="hottour" width="600" height="366" /></a></div>
+                                            src="img/home/tour10.png" alt="hottour" width="600" height="366" /></a>
+                                </div>
                                 <div class="unit-body">
                                     <div class="product-big-body" style="    text-align: center;">
                                         <h5 class="product-big-title" style="text-align: center;"><a
@@ -451,7 +458,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <script>
             $(function() {
                 $('.popup-youtube, .popup-vimeo').magnificPopup({
@@ -529,8 +536,8 @@
                     data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary">
-                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto1.png" alt="galeria" width="270"
-                                height="195" />
+                        <div class="thumbnail-mary-figure"><img src="img/img/galeria/foto1.png" alt="galeria"
+                                width="270" height="195" />
                         </div>
                         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60"
                                 href="img/img/galeria/foto1.png" data-lightgallery="item"><img
@@ -667,7 +674,8 @@
 
                                     <article class="post post-minimal-2" style="text-align: end;">
                                         <p class="post-minimal-2-title"><a href="#"><img style="height:4rem;"
-                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}" alt="reclamações"></a></p>
+                                                    src="{{ asset('img/home/livro_reclamacoes.png')}}"
+                                                    alt="reclamações"></a></p>
 
                                     </article>
 
@@ -749,9 +757,9 @@
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=351961514984"
-                        class="whatswidget-cta whatswidget-cta-desktop">Book Here!</a> <a
-                        id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/351961514984"
-                        class="whatswidget-cta whatswidget-cta-mobile" style="all:revert;">Book Here!</a></div>
+                        class="whatswidget-cta whatswidget-cta-desktop">Book Here!</a> <a id="whatswidget-phone-mobile"
+                        target="_blank" href="https://wa.me/351961514984" class="whatswidget-cta whatswidget-cta-mobile"
+                        style="all:revert;">Book Here!</a></div>
             </div>
             <div id="whatswidget-conversation-message-outer" class="whatswidget-conversation-message-outer"
                 style="color: revert; font: revert; font-feature-settings: revert; font-kerning: revert; font-optical-sizing: revert; font-palette: revert; font-synthesis: revert; font-variation-settings: revert; forced-color-adjust: revert; text-orientation: revert; text-rendering: revert; -webkit-font-smoothing: revert; -webkit-locale: revert; -webkit-text-orientation: revert; -webkit-writing-mode: revert; writing-mode: revert; zoom: revert; accent-color: revert; place-content: revert; place-items: revert; place-self: revert; alignment-baseline: revert; animation: revert; app-region: revert; appearance: revert; aspect-ratio: revert; backdrop-filter: revert; backface-visibility: revert; background: revert; background-blend-mode: revert; baseline-shift: revert; block-size: revert; border-block: revert; border: revert; border-radius: revert; border-collapse: revert; border-end-end-radius: revert; border-end-start-radius: revert; border-inline: revert; border-start-end-radius: revert; border-start-start-radius: revert; inset: revert; box-shadow: revert; box-sizing: revert; break-after: revert; break-before: revert; break-inside: revert; buffered-rendering: revert; caption-side: revert; caret-color: revert; clear: revert; clip: revert; clip-path: revert; clip-rule: revert; color-interpolation: revert; color-interpolation-filters: revert; color-rendering: revert; color-scheme: revert; columns: revert; column-fill: revert; gap: revert; column-rule: revert; column-span: revert; contain: revert; contain-intrinsic-block-size: revert; contain-intrinsic-size: revert; contain-intrinsic-inline-size: revert; container: revert; content: revert; content-visibility: revert; counter-increment: revert; counter-reset: revert; counter-set: revert; cursor: revert; cx: revert; cy: revert; d: revert; display: none; dominant-baseline: revert; empty-cells: revert; fill: revert; fill-opacity: revert; fill-rule: revert; filter: revert; flex: revert; flex-flow: revert; float: revert; flood-color: revert; flood-opacity: revert; grid: revert; grid-area: revert; height: revert; hyphenate-character: revert; hyphenate-limit-chars: revert; hyphens: revert; image-orientation: revert; image-rendering: revert; inline-size: revert; inset-block: revert; inset-inline: revert; isolation: revert; letter-spacing: revert; lighting-color: revert; line-break: revert; list-style: revert; margin-block: revert; margin: revert; margin-inline: revert; marker: revert; mask: revert; mask-type: revert; math-depth: revert; math-shift: revert; math-style: revert; max-block-size: revert; max-height: revert; max-inline-size: revert; max-width: revert; min-block-size: revert; min-height: revert; min-inline-size: revert; min-width: revert; mix-blend-mode: revert; object-fit: revert; object-position: revert; object-view-box: revert; offset: revert; opacity: revert; order: revert; origin-trial-test-property: revert; orphans: revert; outline: revert; outline-offset: revert; overflow-anchor: revert; overflow-clip-margin: revert; overflow-wrap: revert; overflow: revert; overscroll-behavior-block: revert; overscroll-behavior-inline: revert; overscroll-behavior: revert; padding-block: revert; padding: revert; padding-inline: revert; page: revert; page-orientation: revert; paint-order: revert; perspective: revert; perspective-origin: revert; pointer-events: revert; position: revert; quotes: revert; r: revert; resize: revert; rotate: revert; ruby-position: revert; rx: revert; ry: revert; scale: revert; scroll-behavior: revert; scroll-margin-block: revert; scroll-margin: revert; scroll-margin-inline: revert; scroll-padding-block: revert; scroll-padding: revert; scroll-padding-inline: revert; scroll-snap-align: revert; scroll-snap-stop: revert; scroll-snap-type: revert; scrollbar-gutter: revert; shape-image-threshold: revert; shape-margin: revert; shape-outside: revert; shape-rendering: revert; size: revert; speak: revert; stop-color: revert; stop-opacity: revert; stroke: revert; stroke-dasharray: revert; stroke-dashoffset: revert; stroke-linecap: revert; stroke-linejoin: revert; stroke-miterlimit: revert; stroke-opacity: revert; stroke-width: revert; tab-size: revert; table-layout: revert; text-align: revert; text-align-last: revert; text-anchor: revert; text-combine-upright: revert; text-decoration: revert; text-decoration-skip-ink: revert; text-emphasis: revert; text-emphasis-position: revert; text-indent: revert; text-overflow: revert; text-shadow: revert; text-size-adjust: revert; text-transform: revert; text-underline-offset: revert; text-underline-position: revert; touch-action: revert; transform: revert; transform-box: revert; transform-origin: revert; transform-style: revert; transition: revert; translate: revert; user-select: revert; vector-effect: revert; vertical-align: revert; visibility: revert; border-spacing: revert; -webkit-box-align: revert; -webkit-box-decoration-break: revert; -webkit-box-direction: revert; -webkit-box-flex: revert; -webkit-box-ordinal-group: revert; -webkit-box-orient: revert; -webkit-box-pack: revert; -webkit-box-reflect: revert; -webkit-highlight: revert; -webkit-line-break: revert; -webkit-line-clamp: revert; -webkit-mask-box-image: revert; -webkit-mask: revert; -webkit-mask-composite: revert; -webkit-print-color-adjust: revert; -webkit-rtl-ordering: revert; -webkit-ruby-position: revert; -webkit-tap-highlight-color: revert; -webkit-text-combine: revert; -webkit-text-decorations-in-effect: revert; -webkit-text-fill-color: revert; -webkit-text-security: revert; -webkit-text-stroke: revert; -webkit-user-drag: revert; -webkit-user-modify: revert; white-space: revert; widows: revert; width: revert; will-change: revert; word-break: revert; word-spacing: revert; x: revert; y: revert; z-index: revert;">
@@ -786,8 +794,8 @@
             }
             </script>
         </div>
-       
-    </div> 
+
+    </div>
 </body>
 
 </html>

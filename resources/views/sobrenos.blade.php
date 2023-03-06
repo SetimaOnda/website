@@ -44,6 +44,8 @@
 </head>
 
 <body>
+    <a class="btn book-now desktop open-datepicker-popup" href="#" title="Book Now">Book Now</a>
+    <div class="scroll"></div>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>

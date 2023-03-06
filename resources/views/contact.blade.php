@@ -44,6 +44,8 @@
 </head>
 
 <body>
+    <a class="btn book-now desktop open-datepicker-popup" href="#" title="Book Now">Book Now</a>
+    <div class="scroll"></div>
     <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
@@ -134,7 +136,7 @@
                                     </li>
                                 </ul>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
-                                style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
+                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
                                     <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
@@ -250,7 +252,8 @@
                                             data-bs-target="#staticBackdrop"
                                             class="button button-secondary button-pipaluk">{{__('messages.meeting_button')}}</a>
                                     </div>
-                                    <p style="font-size:0.9rem;">{{__('messages.evaluation')}} 🙂</p></p>
+                                    <p style="font-size:0.9rem;">{{__('messages.evaluation')}} 🙂</p>
+                                    </p>
 
 
                                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
@@ -349,7 +352,8 @@
                                 <div class="box-contacts-body">
                                     <div class="box-contacts-icon fa-phone"></div>
                                     <div class="box-contacts-decor"></div>
-                                    <p class="box-contacts-link" style="font-size:0.95rem;"><a href="tel:+351 966 940 015">+351 966 940 015</a>
+                                    <p class="box-contacts-link" style="font-size:0.95rem;"><a
+                                            href="tel:+351 966 940 015">+351 966 940 015</a>
                                     </p>
                                     <!-- <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>-->
                                 </div>
