@@ -251,7 +251,7 @@
         <section class="section section-sm section-first bg-default text-md-left" style="margin-top:2rem;">
             <div class="container">
                 <div class="row row-50 justify-content-center align-items-xl-center ">
-                    <div class="col-md-10 col-lg-5 col-xl-6 image"><img style="height:564px;width:460px"
+                    <div class="col-md-10 col-lg-5 col-xl-6 image" style="height:37rem;"><img style="height:564px;width:460px"
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6 texto" style="height:37rem;">
