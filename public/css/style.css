@@ -14982,7 +14982,7 @@ html.tablet .ui-to-top {
 	bottom: -56px;
 	z-index: 1029;
 	width: 270px;
-	padding: 140px 0 81px;
+	padding: 115px 0 81px;
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -15015,7 +15015,6 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-nav {
 	display: block;
 	padding-top: 20px;
-	margin: 30px 0 20px;
 	height: auto;
 	text-align: left;
 	border-top: 1px solid #e1e1e1;
