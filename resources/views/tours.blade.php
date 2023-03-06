@@ -46,7 +46,7 @@
 
 <body>
     <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal"
-        data-target="#book" title="Book Now"> <span class="icon"><img src="img/calendar.png" height="23" width="20"
+        data-target="#book" title="Book Now"> <span class="icon"><img src="{{ asset('img/calendar.png')}}" height="23" width="20"
                 style="padding-bottom:0.3rem ;" alt="Book"></span>{{__('messages.book_button')}}</a>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
