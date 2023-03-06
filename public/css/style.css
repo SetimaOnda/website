@@ -39,7 +39,7 @@
     -o-transform: rotate(-90deg);
     -webkit-transform: rotate(90deg);
     transform-origin: bottom left;
-    width: 150px;
+    width: auto;
 	/* Hover styles, 
 	media queries */
   }
