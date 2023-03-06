@@ -31,14 +31,30 @@
     html.lt-ie-10 .ie-panel {
         display: block;
     }
+    </style>
+     <style>
+    @media(max-width: 449px) {
 
-    .rd-navbar-corporate-contacts p,
-    .rd-navbar-corporate-contacts a {
-        margin-top: 2px;
-        font-size: 13px;
-        line-height: 1;
-        font-weight: 500;
-        letter-spacing: .075em;
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
+    }
+
+    @media(min-width:450px) and (max-width: 730px) {
+
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
     }
     </style>
 </head>
@@ -137,7 +153,7 @@
                                     </li>
                                 </ul>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
-                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
+                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;margin-top: 0.5rem;margin-top: 0.5rem;">
                                     <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"

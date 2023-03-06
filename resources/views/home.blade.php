@@ -28,7 +28,34 @@
 </head>
 
 <body>
-    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal" data-target="#book" title="Book Now"> <span class="icon"><img src="img/calendar.png" height="23" width="20" style="padding-bottom:0.3rem ;" alt="Book"></span>{{__('messages.book_button')}}</a>
+    <style>
+    @media(max-width: 449px) {
+
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
+    }
+
+    @media(min-width:450px) and (max-width: 730px) {
+
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
+    }
+    </style>
+    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal"
+        data-target="#book" title="Book Now"> <span class="icon"><img src="img/calendar.png" height="23" width="20"
+                style="padding-bottom:0.3rem ;" alt="Book"></span>{{__('messages.book_button')}}</a>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
@@ -96,7 +123,7 @@
                                 </ul>
 
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
-                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
+                                    style="margin-top: 0.5rem;display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;margin-top: 0.5rem;">
                                     <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"

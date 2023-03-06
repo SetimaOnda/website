@@ -140,7 +140,7 @@
                                     </li>
                                 </ul>
                                 <ul class="list-inline list-inline-md rd-navbar-corporate-list-social"
-                                    style="display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
+                                    style="margin-top: 0.5rem;display: flex;flex-wrap: wrap;width: 100%;list-style: none;justify-content: center;color:white;">
                                     <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
@@ -306,6 +306,31 @@
             }
         }
         </style>
+         <style>
+    @media(max-width: 449px) {
+
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
+    }
+
+    @media(min-width:450px) and (max-width: 730px) {
+
+        .rd-navbar-corporate-contacts p,
+        .rd-navbar-corporate-contacts a {
+            margin-top: 2px !important;
+            font-size: 10.5px !important;
+            line-height: 1.7;
+            font-weight: 500 !important;
+            letter-spacing: .075em !important;
+        }
+    }
+    </style>
 
         <!-- Why choose us-->
         <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
