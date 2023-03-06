@@ -44,7 +44,8 @@
 </head>
 
 <body>
-    <a class="btn book-now desktop open-datepicker-popup" href="#" title="Book Now">Book Now</a>
+    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal"
+        data-target="#book" title="Book Now">{{__('messages.book_button')}}</a>
     <div class="scroll"></div>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
