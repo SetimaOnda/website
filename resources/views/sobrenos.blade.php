@@ -32,7 +32,7 @@
         display: block;
     }
     </style>
-     <style>
+    <style>
     @media(max-width: 449px) {
 
         .rd-navbar-corporate-contacts p,
@@ -532,7 +532,8 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <article class="post post-minimal-2">
+                                            <article class="post post-minimal-2" style="text-align: center !important;
+		padding-left: 2rem !important;">
                                                 <p class="post-minimal-2-title"><img style="height:4rem;"
                                                         src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
                                                         alt=""></p>
@@ -540,7 +541,8 @@
                                             </article>
                                         </div>
                                         <div class="col">
-                                            <article class="post post-minimal-2">
+                                            <article class="post post-minimal-2" style="text-align: center !important;
+		padding-left: 1rem !important;">
                                                 <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
                                                             src=" https://portugalcleanandsafe.com/assets/badge.png"
                                                             alt=""></a></p>
