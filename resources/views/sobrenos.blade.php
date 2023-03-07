@@ -277,7 +277,7 @@
                             src="img/img/galeria/fotosobre.png" alt="" width="519" height="564" />
                     </div>
                     <div class="col-md-10 col-lg-7 col-xl-6 texto">
-                        <h2 class="text-spacing-25 font-weight-normal " style="margin-bottom:2rem;">
+                        <h2 class="text-spacing-25 font-weight-normal " >
 
                         </h2>
                         <!-- Bootstrap tabs-->
