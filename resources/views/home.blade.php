@@ -283,11 +283,12 @@
                                     </li>
                                 </ul>
                             </div>
+                            
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
                                                 width="368" height="420" /></a>
-                                        <p class="box-categories-title2">{{__('messages.price_250')}}</p>
+                                        @if( Config::get('app.locale') == 'es') <p class="box-categories-title2" style="bottom: 67% !important;">{{__('messages.price_250')}}</p>  @else <p class="box-categories-title2">{{__('messages.price_250')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-toggle="modal" data-target="#book"
@@ -313,7 +314,7 @@
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/4"><img src="img/img/tour4.png"
                                                 alt="Private Benagil Cave Special Tour" width="368" height="568" /></a>
-                                        <p class="box-categories-title2">{{__('messages.price_350')}}</p>
+                                                @if( Config::get('app.locale') == 'es') <p class="box-categories-title2" style="bottom: 67% !important;">{{__('messages.price_350')}}</p>  @else <p class="box-categories-title2">{{__('messages.price_350')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-toggle="modal" data-target="#book"
