@@ -283,12 +283,14 @@
                                     </li>
                                 </ul>
                             </div>
-                            
+
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
                                                 width="368" height="420" /></a>
-                                        @if( Config::get('app.locale') == 'es') <p class="box-categories-title2" style="bottom: 67% !important;">{{__('messages.price_250')}}</p>  @else <p class="box-categories-title2">{{__('messages.price_250')}}</p> @endif
+                                        @if( Config::get('app.locale') == 'es') <p class="box-categories-title2"
+                                            style="bottom: 67% !important;">{{__('messages.price_250')}}</p> @else <p
+                                            class="box-categories-title2">{{__('messages.price_250')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-toggle="modal" data-target="#book"
@@ -314,7 +316,9 @@
                                 <ul class="list-marked-2 box-categories-list">
                                     <li><a href="/tours/4"><img src="img/img/tour4.png"
                                                 alt="Private Benagil Cave Special Tour" width="368" height="568" /></a>
-                                                @if( Config::get('app.locale') == 'es') <p class="box-categories-title2" style="bottom: 67% !important;">{{__('messages.price_350')}}</p>  @else <p class="box-categories-title2">{{__('messages.price_350')}}</p> @endif
+                                        @if( Config::get('app.locale') == 'es') <p class="box-categories-title2"
+                                            style="bottom: 67% !important;">{{__('messages.price_350')}}</p> @else <p
+                                            class="box-categories-title2">{{__('messages.price_350')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
                                             href="#" data-toggle="modal" data-target="#book"
@@ -682,15 +686,17 @@
 
                                     <div class="row">
                                         <div class="col">
-                                            <article class="post post-minimal-2">
+                                            <article class="post post-minimal-2" style="text-align: center !important;
+		padding-left: 2rem !important;">
                                                 <p class="post-minimal-2-title"><img style="height:4rem;"
                                                         src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                        alt="Tripadvisor"></p>
+                                                        alt=""></p>
 
                                             </article>
                                         </div>
                                         <div class="col">
-                                            <article class="post post-minimal-2">
+                                            <article class="post post-minimal-2" style="text-align: center !important;
+		padding-left: 1rem !important;">
                                                 <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
                                                             src=" https://portugalcleanandsafe.com/assets/badge.png"
                                                             alt="cleanandsafe"></a></p>
