@@ -22,7 +22,7 @@
   .btn.book-now {
 	background: #328490;
     border-radius: 0px 0px 10px 15px;
-    font-weight: bold;
+    
     color: #fff;
     display: inline-block;
     font-size: 1.2rem;
@@ -15064,9 +15064,11 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-nav-link {
 	display: block;
-	padding: 9px 56px 9px 18px;
+	padding: 9px 18px 9px 18px;
 }
-
+.nav-item{
+	display: inline-flex !important;
+}
 .rd-navbar-fixed li.opened > .rd-navbar-dropdown {
 	padding: 4px 0 0;
 }
@@ -15541,6 +15543,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-sidebar .rd-nav-item {
+	text-align: center !important;
 	position: relative;
 	display: block;
 	padding: 19px 30px 19px 40px;
@@ -15548,6 +15551,7 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-sidebar .rd-nav-item.active .rd-nav-link {
 	color: #01b3a7;
+	text-align: center !important;
 }
 
 .rd-navbar-sidebar .rd-nav-item .rd-nav-link,
