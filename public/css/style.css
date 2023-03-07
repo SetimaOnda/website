@@ -15066,6 +15066,9 @@ html.tablet .ui-to-top {
 	display: block;
 	padding: 9px 18px 9px 18px;
 }
+.rd-nav-item{
+	text-align: center !important;
+}
 .nav-item{
 	display: inline-flex !important;
 }
