@@ -272,7 +272,7 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/1"><img src="img/img/tour1.png"
+                                    <li><a href="/tours/Tradicional Benagil Cave Tour"><img src="img/img/tour1.png"
                                                 alt="Tradicional Benagil Cave Tour" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>

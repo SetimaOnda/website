@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('/sobre-nos', function () {
     return view('sobrenos');
 });
-Route::get('/tours/{id}', [App\Http\Controllers\PageController::class, 'tours'])->name('tours');
+Route::get('/tours/{nome}', [App\Http\Controllers\PageController::class, 'tours'])->name('tours');
 Route::get('/estabelecimento/ec4863a7-ba7e-437b-9886-37fa7dbd6ea3', [App\Http\Controllers\PageController::class, 'estabelecimento'])->name('estabelecimento');
 Route::get('/contactoy', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 Route::get('/contact', function () {
