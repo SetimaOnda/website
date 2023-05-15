@@ -130,13 +130,17 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
+                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
+                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
+                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
+                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
@@ -158,10 +162,59 @@
             </div>
         </header>
         <!-- RD Google Map-->
-        <div class="container" style="text-align:left; margin-top:3rem;margin-bottom:3rem;" >
-<h2><span style="color: rgb(68, 68, 68);">Política Privacidade</span></h2><p><span style="color: rgb(68, 68, 68);">A sua privacidade é importante para nós. É política do Sétima Onda respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="https://www.setimaondaboattrips.com">Sétima Onda</a>, e outros sites que possuímos e operamos.</span></p><p><span style="color: rgb(68, 68, 68);">Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</span></p><p><span style="color: rgb(68, 68, 68);">Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</span></p><p><span style="color: rgb(68, 68, 68);">Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</span></p><p><span style="color: rgb(68, 68, 68);">O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas&nbsp;</span><a href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank" style="background-color: transparent; color: rgb(68, 68, 68);">políticas de privacidade</a><span style="color: rgb(68, 68, 68);">.</span></p><p><span style="color: rgb(68, 68, 68);">Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</span></p><p><span style="color: rgb(68, 68, 68);">O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</span></p><p><span style="color: rgb(68, 68, 68);"></span></p><h3><span style="color: rgb(68, 68, 68);">Compromisso do Usuário</span></h3><p><span style="color: rgb(68, 68, 68);">O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Sétima Onda oferece no site e com caráter enunciativo, mas não limitativo:</span></p><ul><li><span style="color: rgb(68, 68, 68);">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</span></li><li><span style="color: rgb(68, 68, 68);">B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, </span><span style="color: rgb(33, 37, 41);"><a href='https://apostasonline.guru/bet365-apostas/' style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>bet</a></span><span style="color: rgb(68, 68, 68);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</span></li><li><span style="color: rgb(68, 68, 68);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Sétima Onda, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</span></li></ul><h3><span style="color: rgb(68, 68, 68);">Mais informações</span></h3><p><span style="color: rgb(68, 68, 68);">Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</span></p><p><span style="color: rgb(68, 68, 68);">Esta política é efetiva a partir de&nbsp;4 February 2023 02:55</span></p>
+        <div class="container" style="text-align:left; margin-top:3rem;margin-bottom:3rem;">
+            <h2><span style="color: rgb(68, 68, 68);">Política Privacidade</span></h2>
+            <p><span style="color: rgb(68, 68, 68);">A sua privacidade é importante para nós. É política do Sétima Onda
+                    respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a
+                        href="https://www.setimaondaboattrips.com">Sétima Onda</a>, e outros sites que possuímos e
+                    operamos.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">Solicitamos informações pessoais apenas quando realmente precisamos
+                    delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e
+                    consentimento. Também informamos por que estamos coletando e como será usado.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">Apenas retemos as informações coletadas pelo tempo necessário para
+                    fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente
+                    aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não
+                    autorizados.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">Não compartilhamos informações de identificação pessoal
+                    publicamente ou com terceiros, exceto quando exigido por lei.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">O nosso site pode ter links para sites externos que não são
+                    operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e
+                    não podemos aceitar responsabilidade por suas respectivas&nbsp;</span><a
+                    href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank"
+                    style="background-color: transparent; color: rgb(68, 68, 68);">políticas de privacidade</a><span
+                    style="color: rgb(68, 68, 68);">.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">Você é livre para recusar a nossa solicitação de informações
+                    pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">O uso continuado de nosso site será considerado como aceitação de
+                    nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre
+                    como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</span></p>
+            <p><span style="color: rgb(68, 68, 68);"></span></p>
+            <h3><span style="color: rgb(68, 68, 68);">Compromisso do Usuário</span></h3>
+            <p><span style="color: rgb(68, 68, 68);">O usuário se compromete a fazer uso adequado dos conteúdos e da
+                    informação que o Sétima Onda oferece no site e com caráter enunciativo, mas não limitativo:</span>
+            </p>
+            <ul>
+                <li><span style="color: rgb(68, 68, 68);">A) Não se envolver em atividades que sejam ilegais ou
+                        contrárias à boa fé a à ordem pública;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">B) Não difundir propaganda ou conteúdo de natureza racista,
+                        xenofóbica, </span><span style="color: rgb(33, 37, 41);"><a
+                            href='https://apostasonline.guru/bet365-apostas/'
+                            style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>bet</a></span><span
+                        style="color: rgb(68, 68, 68);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao
+                        terrorismo ou contra os direitos humanos;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos
+                        (softwares) do Sétima Onda, de seus fornecedores ou terceiros, para introduzir ou disseminar
+                        vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de
+                        causar danos anteriormente mencionados.</span></li>
+            </ul>
+            <h3><span style="color: rgb(68, 68, 68);">Mais informações</span></h3>
+            <p><span style="color: rgb(68, 68, 68);">Esperemos que esteja esclarecido e, como mencionado anteriormente,
+                    se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os
+                    cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</span></p>
+            <p><span style="color: rgb(68, 68, 68);">Esta política é efetiva a partir de&nbsp;4 February 2023
+                    02:55</span></p>
 
-    </div> 
+        </div>
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">
@@ -175,7 +228,8 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -209,24 +263,29 @@
                                                     src="img/home/livro_reclamacoes.png" alt=""></a></p>
 
                                     </article>
-                                    <div class="row"> 
-                                    <div class="col">    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
+                                    <div class="row">
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                        alt=""></p>
 
-                                    </article> </div>
-                                    <div class="col"> <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
-                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
+                                            </article>
+                                        </div>
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                            src=" https://portugalcleanandsafe.com/assets/badge.png"
+                                                            alt=""></a></p>
 
-                                    </article></div>
-                                    
+                                            </article>
+                                        </div>
+
                                     </div>
-                                   
-                                   
+
+
                                     <!-- Post Minimal 2-->
-                                 
+
                                 </div>
                             </div>
                         </div>
@@ -234,10 +293,14 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo
+                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
+                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
+                                        Covid19.
 
-<br><br>RNAAT nº: 73/2023 </p>
-                                   
+                                        <br><br>RNAAT nº: 73/2023
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -250,7 +313,7 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                <li><a class=" icon fa fa-instagram"
+                                    <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
                                             href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
@@ -262,7 +325,8 @@
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat
+                                    Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>
@@ -295,7 +359,8 @@
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
                     style="all:revert;"> <span style="all:revert;">Se tens alguma questão, precisas de ajuda ou
-                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span></div>
+                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span>
+                </div>
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=351926461342"
