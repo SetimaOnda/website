@@ -286,7 +286,7 @@
 
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/2"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
+                                    <li><a href="/tours/Private Benagil Cave Tour"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
                                                 width="368" height="420" /></a>
                                         @if( Config::get('app.locale') == 'es') <p class="box-categories-title2"
                                             style="bottom: 67% !important;">{{__('messages.price_250')}}</p> @else <p
@@ -301,7 +301,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/3"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour"
+                                    <li><a href="/tours/Sunset Benagil Cave Tour"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour"
                                                 width="368" height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/4"><img src="img/img/tour4.png"
+                                    <li><a href="/tours/Private Benagil Cave Special Tour"><img src="img/img/tour4.png"
                                                 alt="Private Benagil Cave Special Tour" width="368" height="568" /></a>
                                         @if( Config::get('app.locale') == 'es') <p class="box-categories-title2"
                                             style="bottom: 67% !important;">{{__('messages.price_350')}}</p> @else <p
