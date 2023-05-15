@@ -197,7 +197,7 @@
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -282,7 +282,7 @@
                                         <h5 class="box-categories-title">{{__('messages.trad_tour')}}</h5>
                                         <p class="box-categories-title2">{{__('messages.price_25')}}</p>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/items/451755/?full-items=yes&flow=928805"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -298,7 +298,7 @@
                                             class="box-categories-title2">{{__('messages.price_250')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/items/451761/?full-items=yes&flow=928805"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -311,7 +311,7 @@
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/items/451766/calendar/2023/07/?flow=928805&full-items=yes"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -326,7 +326,7 @@
                                             class="box-categories-title2">{{__('messages.price_350')}}</p> @endif
                                         <h5 class="box-categories-title">{{__('messages.priv_special')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/items/451790/?full-items=yes&flow=928805"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -370,9 +370,7 @@
                                         <p style="text-align:justify;">{!!__('messages.about_desc')!!}
                                         </p>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk" href=""
-                                                data-toggle="modal"
-                                                data-target="#book">{{__('messages.book_button')}}</a><a
+                                                class="button button-secondary button-pipaluk" href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a><a
                                                 class="button button-black-outline button-md"
                                                 href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
@@ -411,9 +409,7 @@
                                             </div>
                                         </div>
                                         <div class="group-md group-middle"><a
-                                                class="button button-secondary button-pipaluk" href=""
-                                                data-toggle="modal"
-                                                data-target="#book">{{__('messages.book_button')}}</a><a
+                                                class="button button-secondary button-pipaluk" href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a><a
                                                 class="button button-black-outline button-md"
                                                 href="/sobre-nos">{{__('messages.read_more_button')}}</a></div>
                                     </div>
@@ -449,8 +445,7 @@
                                         </div>
                                         <p class="product-big-text" style="text-align: justify;">
                                             {!!__('messages.hot_tour_desc')!!}</p><a
-                                            class="button button-black-outline button-ujarak" href="#"
-                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                            class="button button-black-outline button-ujarak" href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
 
                                     </div>
                                 </div>
