@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('css/fonts.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6053511b-ae92-47f1-8fb4-c035901a89ae" data-blockingmode="auto" type="text/javascript"></script>
     <style>
     .ie-panel {
         display: none;

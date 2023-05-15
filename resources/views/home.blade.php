@@ -4,18 +4,19 @@
 <head>
     <title>Sétima Onda Boat Trips</title>
     <meta name="format-detection" content="telephone=no">
-    <meta property="og:title" content="Sétima Onda Boat Trips">
+    <meta property="og:title"
+        content="Sétima Onda | Boat Trips in the Algarve | Benagil Cave tours | Private Boat Tours">
     <meta property="og:type" content="tours" />
     <link rel="canonical" href="https://setimaondaboattrips.com/">
     <meta name="description"
-        content="Sail with us in the unforgettable experience that is knowing the famous benagil cave and the other wild beaches">
+        content="Experience the wonders of Benagil Cave with our guided tour from Armação de Pêra. Discover hidden and wild beaches on our boat trip and explore the secrets of this stunning sea cave. Book now for an unforgettable adventure in the Algarve.">
     <meta property="og:image" content="https://setimaondaboattrips.com/img/logo.png">
     <meta property="og:url" content="https://setimaondaboattrips.com">
     <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6053511b-ae92-47f1-8fb4-c035901a89ae" data-blockingmode="auto" type="text/javascript"></script>
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
     <!-- Stylesheets-->
     <link
@@ -155,13 +156,17 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a></li>
+                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a></li>
+                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link"
@@ -286,8 +291,8 @@
 
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/Private Benagil Cave Tour"><img src="img/img/tour2.png" alt="Private Benagil Cave Tour"
-                                                width="368" height="420" /></a>
+                                    <li><a href="/tours/Private Benagil Cave Tour"><img src="img/img/tour2.png"
+                                                alt="Private Benagil Cave Tour" width="368" height="420" /></a>
                                         @if( Config::get('app.locale') == 'es') <p class="box-categories-title2"
                                             style="bottom: 67% !important;">{{__('messages.price_250')}}</p> @else <p
                                             class="box-categories-title2">{{__('messages.price_250')}}</p> @endif
@@ -301,8 +306,8 @@
                             </div>
                             <div class="col-md-3 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
-                                    <li><a href="/tours/Sunset Benagil Cave Tour"><img src="img/img/tour3.png" alt="Sunset Benagil Cave Tour"
-                                                width="368" height="420" /></a>
+                                    <li><a href="/tours/Sunset Benagil Cave Tour"><img src="img/img/tour3.png"
+                                                alt="Sunset Benagil Cave Tour" width="368" height="420" /></a>
                                         <p class="box-categories-title2">{{__('messages.price_30')}}</p>
                                         <h5 class="box-categories-title">{{__('messages.sunset_tour')}}</h5>
                                         <a class="box-categories-button button button-default-outline button-ujarak"
