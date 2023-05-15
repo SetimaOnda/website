@@ -130,13 +130,17 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">Tour tradicional da Gruta de Benagil</a></li>
+                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">Tour privado da Gruta de Benagil</a></li>
+                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">Tour Pôr-do-sol na Gruta de Benagil</a></li>
+                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">Tour privado especial da Gruta de Benagil</a></li>
+                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="/sobre-nos">Sobre nós</a>
@@ -158,9 +162,75 @@
             </div>
         </header>
         <!-- RD Google Map-->
-<div class="container" style="text-align:left; margin-top:3rem;margin-bottom:3rem;" >
-<h2><span style="color: rgb(68, 68, 68);">1. Termos </span></h2><p><span style="color: rgb(68, 68, 68);">Ao acessar ao site <a href="https://www.setimaondaboattrips.com">Sétima Onda</a>, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</span></p><h2><span style="color: rgb(68, 68, 68);">2. Uso de Licença</span></h2><p><span style="color: rgb(68, 68, 68);">É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site Sétima Onda , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode:&nbsp;</span></p><ol><li><span style="color: rgb(68, 68, 68);">modificar ou copiar os materiais;&nbsp;</span></li><li><span style="color: rgb(68, 68, 68);">usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);&nbsp;</span></li><li><span style="color: rgb(68, 68, 68);">tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Sétima Onda;&nbsp;</span></li><li><span style="color: rgb(68, 68, 68);">remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou&nbsp;</span></li><li><span style="color: rgb(68, 68, 68);">transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.</span></li></ol><p><span style="color: rgb(68, 68, 68);">Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Sétima Onda a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou impresso.</span></p><h2><span style="color: rgb(68, 68, 68);">3. Isenção de responsabilidade</span></h2><ol><li><span style="color: rgb(68, 68, 68);">Os materiais no site da Sétima Onda são fornecidos 'como estão'. Sétima Onda não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.</span></li><li><span style="color: rgb(68, 68, 68);">Além disso, o Sétima Onda não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ​​ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.</span></li></ol><h2><span style="color: rgb(68, 68, 68);">4. Limitações</span></h2><p><span style="color: rgb(68, 68, 68);">Em nenhum caso o Sétima Onda ou seus fornecedores serão responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em Sétima Onda, mesmo que Sétima Onda ou um representante autorizado da Sétima Onda tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem não se aplicar a você.</span></p><h2><span style="color: rgb(68, 68, 68);">5. Precisão dos materiais</span></h2><p><span style="color: rgb(68, 68, 68);">Os materiais exibidos no site da Sétima Onda podem incluir erros técnicos, tipográficos ou fotográficos. Sétima Onda não garante que qualquer material em seu site seja preciso, completo ou atual. Sétima Onda pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. No entanto, Sétima Onda não se compromete a atualizar os materiais.</span></p><h2><span style="color: rgb(68, 68, 68);">6. Links</span></h2><p><span style="color: rgb(68, 68, 68);">O Sétima Onda não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por Sétima Onda do site. O uso de qualquer site vinculado é por conta e risco do usuário.</span></p><p><br></p><h3><span style="color: rgb(68, 68, 68);">Modificações</span></h3><p><span style="color: rgb(68, 68, 68);">O Sétima Onda pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço.</span></p><h3><span style="color: rgb(68, 68, 68);">Lei aplicável</span></h3><p><span style="color: rgb(68, 68, 68);">Estes termos e condições são regidos e interpretados de acordo com as leis do Sétima Onda e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.</span></p>
-</div>
+        <div class="container" style="text-align:left; margin-top:3rem;margin-bottom:3rem;">
+            <h2><span style="color: rgb(68, 68, 68);">1. Termos </span></h2>
+            <p><span style="color: rgb(68, 68, 68);">Ao acessar ao site <a
+                        href="https://www.setimaondaboattrips.com">Sétima Onda</a>, concorda em cumprir estes termos de
+                    serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de
+                    todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de
+                    usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos
+                    autorais e marcas comerciais aplicáveis.</span></p>
+            <h2><span style="color: rgb(68, 68, 68);">2. Uso de Licença</span></h2>
+            <p><span style="color: rgb(68, 68, 68);">É concedida permissão para baixar temporariamente uma cópia dos
+                    materiais (informações ou software) no site Sétima Onda , apenas para visualização transitória
+                    pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob
+                    esta licença, você não pode:&nbsp;</span></p>
+            <ol>
+                <li><span style="color: rgb(68, 68, 68);">modificar ou copiar os materiais;&nbsp;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">usar os materiais para qualquer finalidade comercial ou para
+                        exibição pública (comercial ou não comercial);&nbsp;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">tentar descompilar ou fazer engenharia reversa de qualquer
+                        software contido no site Sétima Onda;&nbsp;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">remover quaisquer direitos autorais ou outras notações de
+                        propriedade dos materiais; ou&nbsp;</span></li>
+                <li><span style="color: rgb(68, 68, 68);">transferir os materiais para outra pessoa ou 'espelhe' os
+                        materiais em qualquer outro servidor.</span></li>
+            </ol>
+            <p><span style="color: rgb(68, 68, 68);">Esta licença será automaticamente rescindida se você violar alguma
+                    dessas restrições e poderá ser rescindida por Sétima Onda a qualquer momento. Ao encerrar a
+                    visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais
+                    baixados em sua posse, seja em formato eletrónico ou impresso.</span></p>
+            <h2><span style="color: rgb(68, 68, 68);">3. Isenção de responsabilidade</span></h2>
+            <ol>
+                <li><span style="color: rgb(68, 68, 68);">Os materiais no site da Sétima Onda são fornecidos 'como
+                        estão'. Sétima Onda não oferece garantias, expressas ou implícitas, e, por este meio, isenta e
+                        nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de
+                        comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou
+                        outra violação de direitos.</span></li>
+                <li><span style="color: rgb(68, 68, 68);">Além disso, o Sétima Onda não garante ou faz qualquer
+                        representação relativa à precisão, aos resultados prováveis ​​ou à confiabilidade do uso dos
+                        materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a
+                        este site.</span></li>
+            </ol>
+            <h2><span style="color: rgb(68, 68, 68);">4. Limitações</span></h2>
+            <p><span style="color: rgb(68, 68, 68);">Em nenhum caso o Sétima Onda ou seus fornecedores serão
+                    responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou
+                    devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em
+                    Sétima Onda, mesmo que Sétima Onda ou um representante autorizado da Sétima Onda tenha sido
+                    notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não
+                    permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos
+                    conseqüentes ou incidentais, essas limitações podem não se aplicar a você.</span></p>
+            <h2><span style="color: rgb(68, 68, 68);">5. Precisão dos materiais</span></h2>
+            <p><span style="color: rgb(68, 68, 68);">Os materiais exibidos no site da Sétima Onda podem incluir erros
+                    técnicos, tipográficos ou fotográficos. Sétima Onda não garante que qualquer material em seu site
+                    seja preciso, completo ou atual. Sétima Onda pode fazer alterações nos materiais contidos em seu
+                    site a qualquer momento, sem aviso prévio. No entanto, Sétima Onda não se compromete a atualizar os
+                    materiais.</span></p>
+            <h2><span style="color: rgb(68, 68, 68);">6. Links</span></h2>
+            <p><span style="color: rgb(68, 68, 68);">O Sétima Onda não analisou todos os sites vinculados ao seu site e
+                    não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica
+                    endosso por Sétima Onda do site. O uso de qualquer site vinculado é por conta e risco do
+                    usuário.</span></p>
+            <p><br></p>
+            <h3><span style="color: rgb(68, 68, 68);">Modificações</span></h3>
+            <p><span style="color: rgb(68, 68, 68);">O Sétima Onda pode revisar estes termos de serviço do site a
+                    qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão
+                    atual desses termos de serviço.</span></p>
+            <h3><span style="color: rgb(68, 68, 68);">Lei aplicável</span></h3>
+            <p><span style="color: rgb(68, 68, 68);">Estes termos e condições são regidos e interpretados de acordo com
+                    as leis do Sétima Onda e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais
+                    naquele estado ou localidade.</span></p>
+        </div>
         <!-- Page Footer-->
         <footer class="section footer-corporate context-dark">
             <div class="footer-corporate-inset">
@@ -174,7 +244,8 @@
                                         <li>
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                <div class="unit-body"><a class="link-phone" href="tel:+351966940015">+351 966 940 015 </a></div>
+                                                <div class="unit-body"><a class="link-phone"
+                                                        href="tel:+351966940015">+351 966 940 015 </a></div>
                                             </div>
                                         </li>
                                         <li>
@@ -208,24 +279,29 @@
                                                     src="img/home/livro_reclamacoes.png" alt=""></a></p>
 
                                     </article>
-                                    <div class="row"> 
-                                    <div class="col">    <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><img style="height:4rem;"
-                                                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-                                                alt=""></p>
+                                    <div class="row">
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><img style="height:4rem;"
+                                                        src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                        alt=""></p>
 
-                                    </article> </div>
-                                    <div class="col"> <article class="post post-minimal-2">
-                                        <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
-                                                    src=" https://portugalcleanandsafe.com/assets/badge.png" alt=""></a></p>
+                                            </article>
+                                        </div>
+                                        <div class="col">
+                                            <article class="post post-minimal-2">
+                                                <p class="post-minimal-2-title"><a href="#"><img style="height:3.5rem;"
+                                                            src=" https://portugalcleanandsafe.com/assets/badge.png"
+                                                            alt=""></a></p>
 
-                                    </article></div>
-                                    
+                                            </article>
+                                        </div>
+
                                     </div>
-                                   
-                                   
+
+
                                     <!-- Post Minimal 2-->
-                                 
+
                                 </div>
                             </div>
                         </div>
@@ -233,10 +309,14 @@
                             <div class="oh-desktop">
                                 <div class="wow slideInLeft" data-wow-delay="0s">
                                     <h6 class="text-spacing-100 text-uppercase"></h6>
-                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o cumprimento dos padrões de segurança recomendados para mitigar o efeito da Covid19.
+                                    <p> A Sétima Onda Boats Trips é certificada pelo Turismo de Portugal com o selo
+                                        Clean & Safe, assumindo o compromisso de garantir a todos os que nos visitam o
+                                        cumprimento dos padrões de segurança recomendados para mitigar o efeito da
+                                        Covid19.
 
-<br><br>RNAAT nº: 73/2023 </p>
-                                   
+                                        <br><br>RNAAT nº: 73/2023
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -249,7 +329,7 @@
                         <div class="col-sm-6 col-md-3 text-sm-right text-md-center">
                             <div>
                                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                                <li><a class=" icon fa fa-instagram"
+                                    <li><a class=" icon fa fa-instagram"
                                             href="http://instagram.com/setimaondaboattrips"></a></li>
                                     <li><a class="icon fa fa-facebook"
                                             href="https://pt-pt.facebook.com/setimaondaboat"></a></li>
@@ -261,7 +341,8 @@
                         <div class="col-sm-6 col-md-3 order-sm-first">
                             <!-- Rights-->
                             <p class="rights">Copyright<span>&copy;&nbsp;</span><span
-                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat Trips</span>.
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Sétima Onda Boat
+                                    Trips</span>.
                                 <br>All Rights Reserved.
                             </p>
                         </div>
@@ -294,7 +375,8 @@
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
                     style="all:revert;"> <span style="all:revert;">Se tens alguma questão, precisas de ajuda ou
-                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span></div>
+                        simplesmente queres deixar um comentário, fica à vontade para nos deixar uma mensagem!</span>
+                </div>
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=351926461342"
