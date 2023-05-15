@@ -155,13 +155,13 @@
                                         <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/1">{{__('messages.trad_tour')}}</a></li>
+                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/2">{{__('messages.priv_tour')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/3">{{__('messages.sunset_tour')}}</a></li>
+                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a></li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/4">{{__('messages.priv_special')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link"
