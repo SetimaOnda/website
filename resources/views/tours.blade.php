@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('css/fonts.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6053511b-ae92-47f1-8fb4-c035901a89ae" data-blockingmode="auto" type="text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6053511b-ae92-47f1-8fb4-c035901a89ae"
+        data-blockingmode="auto" type="text/javascript"></script>
     <style>
     .ie-panel {
         display: none;
@@ -45,8 +46,9 @@
 </head>
 
 <body>
-    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal"
-        data-target="#book" title="Book Now"> <span class="icon"><img src="{{ asset('img/calendar.png')}}" height="23" width="20"
+    <a class="btn book-now desktop open-datepicker-popup" style="display:none;"
+        href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes" title="Book Now"> <span
+            class="icon"><img src="{{ asset('img/calendar.png')}}" height="23" width="20"
                 style="padding-bottom:0.3rem ;" alt="Book"></span>{{__('messages.book_button')}}</a>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
@@ -169,13 +171,17 @@
                                         <ul class="dropdown-menu rd-megamenu-list active"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a></li>
+                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a></li>
+                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
+                                            </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a></li>
+                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link"
@@ -207,7 +213,7 @@
                                 </div>
                                 <ul style="list-style: none;justify-content: flex-end;">
                                     <li class="rd-nav-item"> <a class="button button-default-outline button-ujarak"
-                                            href="#" data-toggle="modal" data-target="#book"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes"
                                             data-caption-animate="fadeInLeft"
                                             data-caption-delay="0">{{__('messages.book_button')}}</a>
                                     </li>
@@ -272,8 +278,8 @@
                                     </div>-->
                                     <div class="group-md group-middle"
                                         style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-top:2rem;">
-                                        <a class="button button-width-xl-230 button-primary button-pipaluk" href="#"
-                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                        <a class="button button-width-xl-230 button-primary button-pipaluk"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
@@ -306,31 +312,31 @@
             }
         }
         </style>
-         <style>
-    @media(max-width: 449px) {
+        <style>
+        @media(max-width: 449px) {
 
-        .rd-navbar-corporate-contacts p,
-        .rd-navbar-corporate-contacts a {
-            margin-top: 2px !important;
-            font-size: 10.1px !important;
-            line-height: 1.7;
-            font-weight: 500 !important;
-            letter-spacing: .075em !important;
+            .rd-navbar-corporate-contacts p,
+            .rd-navbar-corporate-contacts a {
+                margin-top: 2px !important;
+                font-size: 10.1px !important;
+                line-height: 1.7;
+                font-weight: 500 !important;
+                letter-spacing: .075em !important;
+            }
         }
-    }
 
-    @media(min-width:450px) and (max-width: 730px) {
+        @media(min-width:450px) and (max-width: 730px) {
 
-        .rd-navbar-corporate-contacts p,
-        .rd-navbar-corporate-contacts a {
-            margin-top: 2px !important;
-            font-size: 10.1px !important;
-            line-height: 1.7;
-            font-weight: 500 !important;
-            letter-spacing: .075em !important;
+            .rd-navbar-corporate-contacts p,
+            .rd-navbar-corporate-contacts a {
+                margin-top: 2px !important;
+                font-size: 10.1px !important;
+                line-height: 1.7;
+                font-weight: 500 !important;
+                letter-spacing: .075em !important;
+            }
         }
-    }
-    </style>
+        </style>
 
         <!-- Why choose us-->
         <section class="section section-sm section-first bg-default text-md-left" style="padding-top: 0px;">
@@ -365,23 +371,21 @@
                                         </ul>
                                     </div>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
-                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                            class="button button-width-xl-230 button-primary button-pipaluk"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
 
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
-                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                            class="button button-width-xl-230 button-primary button-pipaluk"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-3">
                                     <p style="text-align: justify;"> {{__('messages.politica_cancelamento_texto')}}</p>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk" href="#"
-                                            data-toggle="modal" data-target="#book">{{__('messages.book_button')}}</a>
+                                            class="button button-width-xl-230 button-primary button-pipaluk"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
                                 </div>
 
