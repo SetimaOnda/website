@@ -54,8 +54,7 @@
         }
     }
     </style>
-    <a class="btn book-now desktop open-datepicker-popup" style="display:none;" href="#" data-toggle="modal"
-        data-target="#book" title="Book Now"> <span class="icon"><img src="img/calendar.png" height="23" width="20"
+    <a class="btn book-now desktop open-datepicker-popup" style="display:none;"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes" title="Book Now"> <span class="icon"><img src="img/calendar.png" height="23" width="20"
                 style="padding-bottom:0.3rem ;" alt="Book"></span>{{__('messages.book_button')}}</a>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
                 src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
@@ -255,8 +254,7 @@
                                         style="font-family:'Cormorant Garamond', serif;">{{__('messages.welcome_desc')}}
                                     </h6>
                                     <a class="box-categories-button button button-default-outline"
-                                        style="border-color:white !important;color:white !important" data-toggle="modal"
-                                        data-target="#book" href="#" data-caption-animate="fadeInLeft"
+                                        style="border-color:white !important;color:white !important"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes" data-caption-animate="fadeInLeft"
                                         data-caption-delay="0">{{__('messages.book_button')}}</a>
                                 </div>
                                 <div class="col-md-1">
