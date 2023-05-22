@@ -161,7 +161,7 @@
                                                     href="/tours/Private-Benagil-Cave-Tour">{{__('messages.priv_tour')}}</a>
                                             </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
+                                                    href="/tours/Sunset-Benagil-Cave-Tour">{{__('messages.sunset_tour')}}</a>
                                             </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
                                                     href="/tours/Private-Benagil-Cave-Special-Tour">{{__('messages.priv_special')}}</a>
