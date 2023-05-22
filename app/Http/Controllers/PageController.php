@@ -15,7 +15,7 @@ use Location;
 class PageController extends Controller
 {
     public function tours($nome){
-        $id=Tour::where('nome',$nome)->first()->id;
+        $id=Tour::where('nome_url',$nome)->first()->id;
         if(strcmp(session()->get('applocale'),"en")==0){
         $image1= Image::where('id_tour',$id)->where('ordem',1)->first();
         $image2= Image::where('id_tour',$id)->where('ordem',2)->first();
