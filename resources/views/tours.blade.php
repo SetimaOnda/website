@@ -168,19 +168,19 @@
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             {{__('messages.tours_navbar')}}
                                         </a>
-                                        <ul class="dropdown-menu rd-megamenu-list active"
+                                        <ul class="dropdown-menu rd-megamenu-list"
                                             style="background-color:#162e44 !important;width:16rem;">
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Tradicional Benagil Cave Tour">{{__('messages.trad_tour')}}</a>
+                                                    href="/tours/Tradicional-Benagil-Cave-Tour">{{__('messages.trad_tour')}}</a>
                                             </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Tour">{{__('messages.priv_tour')}}</a>
+                                                    href="/tours/Private-Benagil-Cave-Tour">{{__('messages.priv_tour')}}</a>
                                             </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
                                                     href="/tours/Sunset Benagil Cave Tour">{{__('messages.sunset_tour')}}</a>
                                             </li>
                                             <li><a style="color:white !important" class="rd-dropdown-item"
-                                                    href="/tours/Private Benagil Cave Special Tour">{{__('messages.priv_special')}}</a>
+                                                    href="/tours/Private-Benagil-Cave-Special-Tour">{{__('messages.priv_special')}}</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -379,13 +379,15 @@
                                 <div class="tab-pane fade" id="tabs-4-2">
                                     <p style="text-align: justify;"> {!!$tours->other_things!!}</p>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
+                                            class="button button-width-xl-230 button-primary button-pipaluk"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tabs-4-3">
                                     <p style="text-align: justify;"> {{__('messages.politica_cancelamento_texto')}}</p>
                                     <div class="group-md group-middle"><a
-                                            class="button button-width-xl-230 button-primary button-pipaluk"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
+                                            class="button button-width-xl-230 button-primary button-pipaluk"
+                                            href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes">{{__('messages.book_button')}}</a>
                                     </div>
                                 </div>
 
