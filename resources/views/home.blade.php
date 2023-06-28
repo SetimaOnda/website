@@ -261,7 +261,7 @@
             data-direction="vertical" style="min-height:90vh !important">
             <div class="swiper-wrapper text-centerS">
 
-                <div class="swiper-slide " style="background-image: url('img/img/home.jpeg');background-size: cover;">
+                <div class="swiper-slide " style="background-image: url('img/img/homepage.jpg');background-size: cover;">
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
                             <div class="row">
