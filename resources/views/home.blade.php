@@ -277,7 +277,7 @@
                                         style="font-family:'Cormorant Garamond', serif;">{{__('messages.welcome_desc')}}
                                     </h6>
                                     <a class="box-categories-button button button-default-outline"
-                                        style="border-color:white !important;color:white !important"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes" data-caption-animate="fadeInLeft"
+                                        style="border-color:white !important;color:white !important; background-color: #01b3a7 !important;"  href="https://fareharbor.com/embeds/book/setimaondaboattrips/?full-items=yes" data-caption-animate="fadeInLeft"
                                         data-caption-delay="0">{{__('messages.book_button')}}</a>
                                 </div>
                                 <div class="col-md-1">
